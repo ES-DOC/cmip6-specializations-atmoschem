@@ -67,7 +67,7 @@ DETAILS['timestep_framework'] = {
         ('split_operator_physical_timestep', 'int', '0.1',
             'Timestep for physics and chemistry (in seconds).'),
         ('split_operator_alternate_order', 'bool', '1.1',
-            ''),
+            'TO DO'),
         ('integrated_timestep', 'int', '1.1',
             'Timestep for the atmospheric chemistry model (in seconds)'),
         ('integrated_scheme_type', 'ENUM:integrated_scheme_types', '1.1',
@@ -157,23 +157,6 @@ DETAILS['tuning_applied'] = {
     }
 
 # --------------------------------------------------------------------
-# SUB-PROCESS: CONSERVATION PROPERTIES: Details of methodology needed to conserve variables between processes
-# --------------------------------------------------------------------
-DETAILS['conservation'] = {
-    'description': 'Conservation in the ocean component',
-    'properties': [
-        ('description', 'str', '1.1', 'Brief description of conservation methodology'),
-        ('scheme', 'ENUM:conservation_props_types', '1.N',
-            'Properties conserved in the ocean by the numerical schemes'),
-        ('consistency_properties', 'str','0.1',
-            'Any additional consistency properties (energy conversion, pressure gradient discretisation, ...)?'),
-        ('corrected_conserved_prognostic_variables', 'str', '0.1', # Can we constrains these variable
-             "Set of variables which are conserved by *more* than the numerical scheme alone."),
-    ],
-}
-
-
-# --------------------------------------------------------------------
 # KEY PROPERTIES: ENUMERATIONS
 # --------------------------------------------------------------------
 ENUMERATIONS = OrderedDict()
@@ -198,3 +181,26 @@ ENUMERATIONS['prognostic_vars_types'] = {
     ]
 }
 
+ENUMERATIONS['timestepping_methods'] = {
+    'description': 'Mathematical method deployed to solve teh evolution of a given variable',
+    'is_open': True,
+    'members': [
+        ('Operator splitting', None),
+        ('Integrated', None),
+    ]
+}
+     
+ENUMERATIONS['integrated_scheme_types'] = {
+    'description': 'Specify the type of timestep scheme',
+    'is_open': True,
+    'members': [
+        ('Explicit', None),
+        ('Implicit', None),
+        ('Semi-implicit', None),
+        ('Semi-analytic', None),
+        ('Impact solver', None),
+        ('Back Euler', None),
+        ('Newton Raphson', None),
+        ('Rosenbrock', None),
+    ]
+}

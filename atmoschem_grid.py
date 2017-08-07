@@ -26,10 +26,10 @@ AUTHORS = 'Eric Guilyardi'
 # --------------------------------------------------------------------
 QC_STATUS = ' David Hassell'
 
-## --------------------------------------------------------------------
-## DESCRIPTION: Short description of the specialization.
-## --------------------------------------------------------------------
-#DESCRIPTION = 'Ocean grid'
+# --------------------------------------------------------------------
+# DESCRIPTION: Short description of the specialization.
+# --------------------------------------------------------------------
+DESCRIPTION = 'Atmospheric chemistry grid'
 #
 ## --------------------------------------------------------------------
 ## DISCRETISATION: Description of the numerics of the discretisation.

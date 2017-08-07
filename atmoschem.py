@@ -55,8 +55,8 @@ KEY_PROPERTIES = 'atmoschem_key_properties'
 # PROCESSES: Simulated processes
 # --------------------------------------------------------------------
 PROCESSES = [
-#    'atmoschem_transport',
-#    'atmoschem_emissions_concentrations',
+    'atmoschem_transport',
+    'atmoschem_emissions_concentrations',
 #    'atmoschem_gas_phase_chemistry',
 #    'atmoschem_stratospheric_heterogeneous_chemistry',
 #    'atmoschem_tropospheric_heterogeneous_chemistry',
