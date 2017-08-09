@@ -238,6 +238,10 @@
     <td class="prop-cardinality">0.N</td>
     <td class="prop-typeof"><select><option>enum</option><option title="Prescribed (climatology)">Prescribed (climatology)</option><option title="Prescribe (spatially uniform)">Prescribe (spatially uniform)</option><option title="Interactive">Interactive</option></select></td>
 </tr><tr>
+    <td class="prop-name">Surface Emissions --&gt; Sources</td>
+    <td class="prop-cardinality">0.N</td>
+    <td class="prop-typeof"><select><option>enum</option><option title="Vegetation">Vegetation</option><option title="Bare ground">Bare ground</option><option title="Sea surface">Sea surface</option><option title="Anthropogenic">Anthropogenic</option></select></td>
+</tr><tr>
     <td class="prop-name">Surface Emissions --&gt; Prescribed Climatology</td>
     <td class="prop-cardinality">0.1</td>
     <td class="prop-typeof"><select><option>enum</option><option title="Constant">Constant</option><option title="Interannual">Interannual</option><option title="Annual">Annual</option><option title="Monthly">Monthly</option><option title="Daily">Daily</option></select></td>
@@ -254,25 +258,21 @@
     <td class="prop-cardinality">0.1</td>
     <td class="prop-typeof">str</td>
 </tr><tr>
-    <td class="prop-name">Surface Emissions --&gt; Method Characteristics</td>
-    <td class="prop-cardinality">0.1</td>
-    <td class="prop-typeof">str</td>
-</tr><tr>
     <td class="prop-name">Surface Emissions --&gt; Other Emitted Species</td>
     <td class="prop-cardinality">0.1</td>
     <td class="prop-typeof">str</td>
 </tr><tr>
-    <td class="prop-name">Surface Emissions --&gt; Method Characteristics</td>
+    <td class="prop-name">Surface Emissions --&gt; Other Method Characteristics</td>
     <td class="prop-cardinality">0.1</td>
     <td class="prop-typeof">str</td>
-</tr><tr>
-    <td class="prop-name">Surface Emissions --&gt; Sources</td>
-    <td class="prop-cardinality">0.N</td>
-    <td class="prop-typeof"><select><option>enum</option><option title="Vegetation">Vegetation</option><option title="Bare ground">Bare ground</option><option title="Sea surface">Sea surface</option><option title="Anthropogenic">Anthropogenic</option></select></td>
 </tr><tr>
     <td class="prop-name">Atmospheric Emissions --&gt; Method</td>
     <td class="prop-cardinality">0.N</td>
     <td class="prop-typeof"><select><option>enum</option><option title="Prescribed (climatology)">Prescribed (climatology)</option><option title="Prescribe (spatially uniform)">Prescribe (spatially uniform)</option><option title="Interactive">Interactive</option></select></td>
+</tr><tr>
+    <td class="prop-name">Atmospheric Emissions --&gt; Sources</td>
+    <td class="prop-cardinality">0.N</td>
+    <td class="prop-typeof"><select><option>enum</option><option title="Aircraft">Aircraft</option><option title="Biomass burning">Biomass burning</option><option title="Lightning">Lightning</option><option title="Volcanos">Volcanos</option></select></td>
 </tr><tr>
     <td class="prop-name">Atmospheric Emissions --&gt; Prescribed Climatology</td>
     <td class="prop-cardinality">0.1</td>
@@ -290,21 +290,13 @@
     <td class="prop-cardinality">0.1</td>
     <td class="prop-typeof">str</td>
 </tr><tr>
-    <td class="prop-name">Atmospheric Emissions --&gt; Method Characteristics</td>
-    <td class="prop-cardinality">0.1</td>
-    <td class="prop-typeof">str</td>
-</tr><tr>
     <td class="prop-name">Atmospheric Emissions --&gt; Other Emitted Species</td>
     <td class="prop-cardinality">0.1</td>
     <td class="prop-typeof">str</td>
 </tr><tr>
-    <td class="prop-name">Atmospheric Emissions --&gt; Method Characteristics</td>
+    <td class="prop-name">Atmospheric Emissions --&gt; Other Method Characteristics</td>
     <td class="prop-cardinality">0.1</td>
     <td class="prop-typeof">str</td>
-</tr><tr>
-    <td class="prop-name">Atmospheric Emissions --&gt; Sources</td>
-    <td class="prop-cardinality">0.N</td>
-    <td class="prop-typeof"><select><option>enum</option><option title="Aircraft">Aircraft</option><option title="Biomass burning">Biomass burning</option><option title="Lightning">Lightning</option><option title="Volcanos">Volcanos</option></select></td>
 </tr><tr>
     <td class="prop-name">Concentrations --&gt; Prescribed Lower Boundary</td>
     <td class="prop-cardinality">0.1</td>

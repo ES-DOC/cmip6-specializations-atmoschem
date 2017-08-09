@@ -68,6 +68,8 @@ DETAILS['atmospheric_emissions'] = {
     'properties': [
         ('method', 'ENUM:emissions_methods', '0.N',
             'Method used to define the chemical species emitted in the atmosphere (several methods allowed because the different species may not use the same method).'),
+        ('sources', 'ENUM:atmospheric_source_types', '0.N',
+             'Sources of chemical species emitted in the atmosphere that are taken into account in the emissions scheme.'),
         ('prescribed_climatology', 'ENUM:prescribed_climatology_type', '0.1',
             'Specify the climatology type for chemical emissions prescribed in the atmosphere.'),
         ('prescribed_climatology_emitted_species', 'str', '0.1',
@@ -76,15 +78,10 @@ DETAILS['atmospheric_emissions'] = {
              'List of chemical species emitted in the atmosphere and prescribed as spatially uniform'),
         ('interactive_emitted_species', 'str', '0.1',
              'List of chemical species emitted in the atmosphere and specified via an interactive method'),
-        ('method_characteristics', 'str', '0.1',
-             'Characteristics of the method used for chemical emissions in the atmosphere'),
         ('other_emitted_species', 'str', '0.1',
              'List of chemical species emitted in the atmosphere and specified via an "other method"'),
-        ('method_characteristics', 'str', '0.1',
+        ('other_method_characteristics', 'str', '0.1',
              'Characteristics of the "other method" used for chemical emissions in the atmosphere'),
-        ('sources', 'ENUM:atmospheric_source_types', '0.N',
-             'Sources of chemical species emitted in the atmosphere that are taken into account in the emissions scheme.'),
-        
     ],
 }
 

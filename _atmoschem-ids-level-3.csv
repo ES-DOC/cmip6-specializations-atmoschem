@@ -41,23 +41,21 @@ cmip6.atmoschem.transport.turbulence.dimensions, Atmoschem > Transport > Turbule
 cmip6.atmoschem.transport.turbulence.coupling_with_chemical_reactivity, Atmoschem > Transport > Turbulence > Coupling With Chemical Reactivity, property
 , , 
 cmip6.atmoschem.emissions_concentrations.surface_emissions.method, Atmoschem > Emissions Concentrations > Surface Emissions > Method, property
+cmip6.atmoschem.emissions_concentrations.surface_emissions.sources, Atmoschem > Emissions Concentrations > Surface Emissions > Sources, property
 cmip6.atmoschem.emissions_concentrations.surface_emissions.prescribed_climatology, Atmoschem > Emissions Concentrations > Surface Emissions > Prescribed Climatology, property
 cmip6.atmoschem.emissions_concentrations.surface_emissions.prescribed_climatology_emitted_species, Atmoschem > Emissions Concentrations > Surface Emissions > Prescribed Climatology Emitted Species, property
 cmip6.atmoschem.emissions_concentrations.surface_emissions.prescribed_spatially_uniform_emitted_species, Atmoschem > Emissions Concentrations > Surface Emissions > Prescribed Spatially Uniform Emitted Species, property
 cmip6.atmoschem.emissions_concentrations.surface_emissions.interactive_emitted_species, Atmoschem > Emissions Concentrations > Surface Emissions > Interactive Emitted Species, property
-cmip6.atmoschem.emissions_concentrations.surface_emissions.method_characteristics, Atmoschem > Emissions Concentrations > Surface Emissions > Method Characteristics, property
 cmip6.atmoschem.emissions_concentrations.surface_emissions.other_emitted_species, Atmoschem > Emissions Concentrations > Surface Emissions > Other Emitted Species, property
-cmip6.atmoschem.emissions_concentrations.surface_emissions.method_characteristics, Atmoschem > Emissions Concentrations > Surface Emissions > Method Characteristics, property
-cmip6.atmoschem.emissions_concentrations.surface_emissions.sources, Atmoschem > Emissions Concentrations > Surface Emissions > Sources, property
+cmip6.atmoschem.emissions_concentrations.surface_emissions.other_method_characteristics, Atmoschem > Emissions Concentrations > Surface Emissions > Other Method Characteristics, property
 cmip6.atmoschem.emissions_concentrations.atmospheric_emissions.method, Atmoschem > Emissions Concentrations > Atmospheric Emissions > Method, property
+cmip6.atmoschem.emissions_concentrations.atmospheric_emissions.sources, Atmoschem > Emissions Concentrations > Atmospheric Emissions > Sources, property
 cmip6.atmoschem.emissions_concentrations.atmospheric_emissions.prescribed_climatology, Atmoschem > Emissions Concentrations > Atmospheric Emissions > Prescribed Climatology, property
 cmip6.atmoschem.emissions_concentrations.atmospheric_emissions.prescribed_climatology_emitted_species, Atmoschem > Emissions Concentrations > Atmospheric Emissions > Prescribed Climatology Emitted Species, property
 cmip6.atmoschem.emissions_concentrations.atmospheric_emissions.prescribed_spatially_uniform_emitted_species, Atmoschem > Emissions Concentrations > Atmospheric Emissions > Prescribed Spatially Uniform Emitted Species, property
 cmip6.atmoschem.emissions_concentrations.atmospheric_emissions.interactive_emitted_species, Atmoschem > Emissions Concentrations > Atmospheric Emissions > Interactive Emitted Species, property
-cmip6.atmoschem.emissions_concentrations.atmospheric_emissions.method_characteristics, Atmoschem > Emissions Concentrations > Atmospheric Emissions > Method Characteristics, property
 cmip6.atmoschem.emissions_concentrations.atmospheric_emissions.other_emitted_species, Atmoschem > Emissions Concentrations > Atmospheric Emissions > Other Emitted Species, property
-cmip6.atmoschem.emissions_concentrations.atmospheric_emissions.method_characteristics, Atmoschem > Emissions Concentrations > Atmospheric Emissions > Method Characteristics, property
-cmip6.atmoschem.emissions_concentrations.atmospheric_emissions.sources, Atmoschem > Emissions Concentrations > Atmospheric Emissions > Sources, property
+cmip6.atmoschem.emissions_concentrations.atmospheric_emissions.other_method_characteristics, Atmoschem > Emissions Concentrations > Atmospheric Emissions > Other Method Characteristics, property
 cmip6.atmoschem.emissions_concentrations.concentrations.prescribed_lower_boundary, Atmoschem > Emissions Concentrations > Concentrations > Prescribed Lower Boundary, property
 cmip6.atmoschem.emissions_concentrations.concentrations.prescribed_upper_boundary, Atmoschem > Emissions Concentrations > Concentrations > Prescribed Upper Boundary, property
 , , 
