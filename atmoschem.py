@@ -42,14 +42,14 @@ CHANGE_HISTORY = [
 DESCRIPTION = 'Atmospheric chemistry realm'
 
 # --------------------------------------------------------------------
-# GRID: The grid used to layout the variables
-# --------------------------------------------------------------------
-GRID = 'atmoschem_grid'
-
-# --------------------------------------------------------------------
 # KEY PROPERTIES: Key properties (differing from defaults (grid, timestep etc))
 # --------------------------------------------------------------------
 KEY_PROPERTIES = 'atmoschem_key_properties'
+
+# --------------------------------------------------------------------
+# GRID: The grid used to layout the variables
+# --------------------------------------------------------------------
+GRID = 'atmoschem_grid'
 
 # --------------------------------------------------------------------
 # PROCESSES: Simulated processes
