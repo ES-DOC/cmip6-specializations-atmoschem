@@ -9,7 +9,7 @@
   <head />
   <body>
     <dl>
-        <dt><b>Version</b></dt><dd>0.1.0</dd><dt><b>Date</b></dt><dd>2017-08-04</dd><dt><b>Person</b></dt><dd>Initialised from CMIP5</dd><dt><b>Comment</b></dt><dd>Charlotte Pascoe (NCAS), David Hassell (NCAS)</dd>
+        <dt><b>Version</b></dt><dd>0.1.0</dd><dt><b>Date</b></dt><dd>2017-08-04</dd><dt><b>Person</b></dt><dd>Charlotte Pascoe (NCAS), David Hassell (NCAS)</dd><dt><b>Comment</b></dt><dd>Initialised from CMIP5</dd>
     </dl>
   </body>
 </html></richcontent></node></node><node FOLDED="true" POSITION="left" STYLE="bubble" TEXT="LEGEND"><node BACKGROUND_COLOR="#FFFFFF" COLOR="#000000" STYLE="bubble" TEXT="enum-choice"><richcontent TYPE="NOTE"><html>
