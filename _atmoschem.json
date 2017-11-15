@@ -8,147 +8,76 @@
             "label": "Transport", 
             "description": "Atmospheric chemistry transport", 
             "id": "cmip6.atmoschem.transport", 
-            "contact": "Charlotee Pascoe, David Hassell", 
+            "contact": "David Hassell", 
             "properties": [
                 {
-                    "label": "Scheme", 
-                    "description": "Type of atmospheric chemistry transport scheme", 
-                    "id": "cmip6.atmoschem.transport.scheme", 
+                    "label": "Overview", 
+                    "description": "General overview of transport implementation", 
+                    "id": "cmip6.atmoschem.transport.overview", 
                     "cardinality": "1.1", 
-                    "type": "enum", 
-                    "enum": {
-                        "label": "Transport Scheme Types", 
-                        "description": "Type of atmospheric chemistry transport scheme", 
-                        "isOpen": false, 
-                        "choices": [
-                            {
-                                "label": "Eulerian", 
-                                "description": null
-                            }, 
-                            {
-                                "label": "Semi-lagrangian", 
-                                "description": null
-                            }, 
-                            {
-                                "label": "Eulerian and semi-lagrangian", 
-                                "description": null
-                            }, 
-                            {
-                                "label": "Lagrangian", 
-                                "description": null
-                            }
-                        ]
-                    }, 
+                    "type": "str", 
                     "uiOrdinal": 1
                 }, 
                 {
-                    "label": "Mass Conservation", 
-                    "description": "Method used to ensure mass conservation", 
-                    "id": "cmip6.atmoschem.transport.mass_conservation", 
-                    "cardinality": "1.N", 
-                    "type": "enum", 
-                    "enum": {
-                        "label": "Mass Conservation Methods", 
-                        "description": "Method used to ensure mass conservation", 
-                        "isOpen": true, 
-                        "choices": [
-                            {
-                                "label": "Mass adjustment", 
-                                "description": null
-                            }, 
-                            {
-                                "label": "Concentrations positivity", 
-                                "description": null
-                            }, 
-                            {
-                                "label": "Gradients monotonicity", 
-                                "description": null
-                            }
-                        ]
-                    }, 
+                    "label": "Use Atmospheric Transport", 
+                    "description": "Is transport handled by the atmosphere, rather than within atmospheric cehmistry?", 
+                    "id": "cmip6.atmoschem.transport.use_atmospheric_transport", 
+                    "cardinality": "1.1", 
+                    "type": "bool", 
                     "uiOrdinal": 2
-                }, 
-                {
-                    "label": "Convection", 
-                    "description": "Transport by convection", 
-                    "id": "cmip6.atmoschem.transport.convection", 
-                    "cardinality": "1.N", 
-                    "type": "enum", 
-                    "enum": {
-                        "label": "Convection Types", 
-                        "description": "Transport by convection", 
-                        "isOpen": true, 
-                        "choices": [
-                            {
-                                "label": "Convective fluxes connected to tracers", 
-                                "description": null
-                            }, 
-                            {
-                                "label": "Vertical velocities connected to tracers", 
-                                "description": null
-                            }
-                        ]
-                    }, 
-                    "uiOrdinal": 3
                 }
-            ], 
+            ]
+        }, 
+        {
+            "label": "Emissions Concentrations", 
+            "description": "Atmospheric chemistry emissions", 
+            "id": "cmip6.atmoschem.emissions_concentrations", 
+            "contact": "David Hassell", 
             "subProcesses": [
                 {
-                    "label": "Turbulence", 
-                    "description": "Properties of lateral physics for momentum in ocean", 
-                    "id": "cmip6.atmoschem.transport.turbulence", 
-                    "contact": "Charlotee Pascoe, David Hassell", 
+                    "label": "Surface Emissions", 
+                    "description": "", 
+                    "id": "cmip6.atmoschem.emissions_concentrations.surface_emissions", 
+                    "contact": "David Hassell", 
                     "properties": [
                         {
-                            "label": "Dimensions", 
-                            "description": "Dimension of the turbulence scheme in chemistry transport", 
-                            "id": "cmip6.atmoschem.transport.turbulence.dimensions", 
-                            "cardinality": "1.1", 
+                            "label": "Sources", 
+                            "description": "Sources of the chemical species emitted at the surface that are taken into account in the emissions scheme", 
+                            "id": "cmip6.atmoschem.emissions_concentrations.surface_emissions.sources", 
+                            "cardinality": "0.N", 
                             "type": "enum", 
                             "enum": {
-                                "label": "Turbulence Dimensions", 
-                                "description": "TDimension of the turbulence scheme in chemistry transport", 
+                                "label": "Surface Source Types", 
+                                "description": "Sources of the chemical species emitted at the surface that are taken into account in the emissions scheme", 
                                 "isOpen": true, 
                                 "choices": [
                                     {
-                                        "label": "2D", 
-                                        "description": "Two-dimensional"
+                                        "label": "Vegetation", 
+                                        "description": null
                                     }, 
                                     {
-                                        "label": "3D", 
-                                        "description": "Three-dimensional"
+                                        "label": "Soil", 
+                                        "description": null
+                                    }, 
+                                    {
+                                        "label": "Sea surface", 
+                                        "description": null
+                                    }, 
+                                    {
+                                        "label": "Anthropogenic", 
+                                        "description": null
+                                    }, 
+                                    {
+                                        "label": "Biomass burning", 
+                                        "description": null
                                     }
                                 ]
                             }, 
                             "uiOrdinal": 1
                         }, 
                         {
-                            "label": "Coupling With Chemical Reactivity", 
-                            "description": "Is the chemistry transport scheme turbulence coupled with chemical reactivity?", 
-                            "id": "cmip6.atmoschem.transport.turbulence.coupling_with_chemical_reactivity", 
-                            "cardinality": "1.1", 
-                            "type": "bool", 
-                            "uiOrdinal": 2
-                        }
-                    ]
-                }
-            ]
-        }, 
-        {
-            "label": "Emissions Concentrations", 
-            "description": "Atmospheric chemistry transport", 
-            "id": "cmip6.atmoschem.emissions_concentrations", 
-            "contact": "Charlotte Pascoe, David Hassell", 
-            "subProcesses": [
-                {
-                    "label": "Surface Emissions", 
-                    "description": "TO DO", 
-                    "id": "cmip6.atmoschem.emissions_concentrations.surface_emissions", 
-                    "contact": "Charlotte Pascoe, David Hassell", 
-                    "properties": [
-                        {
                             "label": "Method", 
-                            "description": "Method used to define chemical species emitted at the surface (several methods allowed because the different species may not use the same method).", 
+                            "description": "Methods used to define chemical species emitted at the surface (several methods allowed because the different species may not use the same method).", 
                             "id": "cmip6.atmoschem.emissions_concentrations.surface_emissions.method", 
                             "cardinality": "0.N", 
                             "type": "enum", 
@@ -171,81 +100,15 @@
                                     }
                                 ]
                             }, 
-                            "uiOrdinal": 1
-                        }, 
-                        {
-                            "label": "Sources", 
-                            "description": "Sources of the chemical species emitted at the surface that are taken into account in the emissions scheme", 
-                            "id": "cmip6.atmoschem.emissions_concentrations.surface_emissions.sources", 
-                            "cardinality": "0.N", 
-                            "type": "enum", 
-                            "enum": {
-                                "label": "Surface Source Types", 
-                                "description": "Sources of the chemical species emitted at the surface that are taken into account in the emissions scheme", 
-                                "isOpen": true, 
-                                "choices": [
-                                    {
-                                        "label": "Vegetation", 
-                                        "description": null
-                                    }, 
-                                    {
-                                        "label": "Bare ground", 
-                                        "description": null
-                                    }, 
-                                    {
-                                        "label": "Sea surface", 
-                                        "description": null
-                                    }, 
-                                    {
-                                        "label": "Anthropogenic", 
-                                        "description": null
-                                    }
-                                ]
-                            }, 
                             "uiOrdinal": 2
                         }, 
                         {
-                            "label": "Prescribed Climatology", 
-                            "description": "Specify the climatology type for chemical emissions prescribed at the surface", 
-                            "id": "cmip6.atmoschem.emissions_concentrations.surface_emissions.prescribed_climatology", 
-                            "cardinality": "0.1", 
-                            "type": "enum", 
-                            "enum": {
-                                "label": "Prescribed Climatology Type", 
-                                "description": "Specify the climatology type for chemical emissions", 
-                                "isOpen": false, 
-                                "choices": [
-                                    {
-                                        "label": "Constant", 
-                                        "description": null
-                                    }, 
-                                    {
-                                        "label": "Interannual", 
-                                        "description": null
-                                    }, 
-                                    {
-                                        "label": "Annual", 
-                                        "description": null
-                                    }, 
-                                    {
-                                        "label": "Monthly", 
-                                        "description": null
-                                    }, 
-                                    {
-                                        "label": "Daily", 
-                                        "description": null
-                                    }
-                                ]
-                            }, 
-                            "uiOrdinal": 3
-                        }, 
-                        {
                             "label": "Prescribed Climatology Emitted Species", 
-                            "description": "List of chemical species emitted at the surface and prescribed via a climatology", 
+                            "description": "List of chemical species emitted at the surface and prescribed via a climatology, and the nature of the climatology (E.g. CO (monthly), C2H6 (constant))", 
                             "id": "cmip6.atmoschem.emissions_concentrations.surface_emissions.prescribed_climatology_emitted_species", 
                             "cardinality": "0.1", 
                             "type": "str", 
-                            "uiOrdinal": 4
+                            "uiOrdinal": 3
                         }, 
                         {
                             "label": "Prescribed Spatially Uniform Emitted Species", 
@@ -253,7 +116,7 @@
                             "id": "cmip6.atmoschem.emissions_concentrations.surface_emissions.prescribed_spatially_uniform_emitted_species", 
                             "cardinality": "0.1", 
                             "type": "str", 
-                            "uiOrdinal": 5
+                            "uiOrdinal": 4
                         }, 
                         {
                             "label": "Interactive Emitted Species", 
@@ -261,23 +124,15 @@
                             "id": "cmip6.atmoschem.emissions_concentrations.surface_emissions.interactive_emitted_species", 
                             "cardinality": "0.1", 
                             "type": "str", 
-                            "uiOrdinal": 6
+                            "uiOrdinal": 5
                         }, 
                         {
                             "label": "Other Emitted Species", 
-                            "description": "List of chemical species emitted at the surface and specified via an \"other method\"", 
+                            "description": "List of chemical species emitted at the surface and specified via any other method", 
                             "id": "cmip6.atmoschem.emissions_concentrations.surface_emissions.other_emitted_species", 
                             "cardinality": "0.1", 
                             "type": "str", 
-                            "uiOrdinal": 7
-                        }, 
-                        {
-                            "label": "Other Method Characteristics", 
-                            "description": "Characteristics of the \"other method\" used for chemical emissions at the surface", 
-                            "id": "cmip6.atmoschem.emissions_concentrations.surface_emissions.other_method_characteristics", 
-                            "cardinality": "0.1", 
-                            "type": "str", 
-                            "uiOrdinal": 8
+                            "uiOrdinal": 6
                         }
                     ]
                 }, 
@@ -285,35 +140,8 @@
                     "label": "Atmospheric Emissions", 
                     "description": "TO DO", 
                     "id": "cmip6.atmoschem.emissions_concentrations.atmospheric_emissions", 
-                    "contact": "Charlotte Pascoe, David Hassell", 
+                    "contact": "David Hassell", 
                     "properties": [
-                        {
-                            "label": "Method", 
-                            "description": "Method used to define the chemical species emitted in the atmosphere (several methods allowed because the different species may not use the same method).", 
-                            "id": "cmip6.atmoschem.emissions_concentrations.atmospheric_emissions.method", 
-                            "cardinality": "0.N", 
-                            "type": "enum", 
-                            "enum": {
-                                "label": "Emissions Methods", 
-                                "description": "Method used to define chemical species emitted (several methods allowed because the different species may not use the same method).", 
-                                "isOpen": true, 
-                                "choices": [
-                                    {
-                                        "label": "Prescribed (climatology)", 
-                                        "description": null
-                                    }, 
-                                    {
-                                        "label": "Prescribe (spatially uniform)", 
-                                        "description": null
-                                    }, 
-                                    {
-                                        "label": "Interactive", 
-                                        "description": null
-                                    }
-                                ]
-                            }, 
-                            "uiOrdinal": 1
-                        }, 
                         {
                             "label": "Sources", 
                             "description": "Sources of chemical species emitted in the atmosphere that are taken into account in the emissions scheme.", 
@@ -343,50 +171,42 @@
                                     }
                                 ]
                             }, 
-                            "uiOrdinal": 2
+                            "uiOrdinal": 1
                         }, 
                         {
-                            "label": "Prescribed Climatology", 
-                            "description": "Specify the climatology type for chemical emissions prescribed in the atmosphere.", 
-                            "id": "cmip6.atmoschem.emissions_concentrations.atmospheric_emissions.prescribed_climatology", 
-                            "cardinality": "0.1", 
+                            "label": "Method", 
+                            "description": "Methods used to define the chemical species emitted in the atmosphere (several methods allowed because the different species may not use the same method).", 
+                            "id": "cmip6.atmoschem.emissions_concentrations.atmospheric_emissions.method", 
+                            "cardinality": "0.N", 
                             "type": "enum", 
                             "enum": {
-                                "label": "Prescribed Climatology Type", 
-                                "description": "Specify the climatology type for chemical emissions", 
-                                "isOpen": false, 
+                                "label": "Emissions Methods", 
+                                "description": "Method used to define chemical species emitted (several methods allowed because the different species may not use the same method).", 
+                                "isOpen": true, 
                                 "choices": [
                                     {
-                                        "label": "Constant", 
+                                        "label": "Prescribed (climatology)", 
                                         "description": null
                                     }, 
                                     {
-                                        "label": "Interannual", 
+                                        "label": "Prescribe (spatially uniform)", 
                                         "description": null
                                     }, 
                                     {
-                                        "label": "Annual", 
-                                        "description": null
-                                    }, 
-                                    {
-                                        "label": "Monthly", 
-                                        "description": null
-                                    }, 
-                                    {
-                                        "label": "Daily", 
+                                        "label": "Interactive", 
                                         "description": null
                                     }
                                 ]
                             }, 
-                            "uiOrdinal": 3
+                            "uiOrdinal": 2
                         }, 
                         {
                             "label": "Prescribed Climatology Emitted Species", 
-                            "description": "List of chemical species emitted in the atmosphere and prescribed via a climatology", 
+                            "description": "List of chemical species emitted in the atmosphere and prescribed via a climatology (E.g. CO (monthly), C2H6 (constant))", 
                             "id": "cmip6.atmoschem.emissions_concentrations.atmospheric_emissions.prescribed_climatology_emitted_species", 
                             "cardinality": "0.1", 
                             "type": "str", 
-                            "uiOrdinal": 4
+                            "uiOrdinal": 3
                         }, 
                         {
                             "label": "Prescribed Spatially Uniform Emitted Species", 
@@ -394,7 +214,7 @@
                             "id": "cmip6.atmoschem.emissions_concentrations.atmospheric_emissions.prescribed_spatially_uniform_emitted_species", 
                             "cardinality": "0.1", 
                             "type": "str", 
-                            "uiOrdinal": 5
+                            "uiOrdinal": 4
                         }, 
                         {
                             "label": "Interactive Emitted Species", 
@@ -402,7 +222,7 @@
                             "id": "cmip6.atmoschem.emissions_concentrations.atmospheric_emissions.interactive_emitted_species", 
                             "cardinality": "0.1", 
                             "type": "str", 
-                            "uiOrdinal": 6
+                            "uiOrdinal": 5
                         }, 
                         {
                             "label": "Other Emitted Species", 
@@ -410,15 +230,7 @@
                             "id": "cmip6.atmoschem.emissions_concentrations.atmospheric_emissions.other_emitted_species", 
                             "cardinality": "0.1", 
                             "type": "str", 
-                            "uiOrdinal": 7
-                        }, 
-                        {
-                            "label": "Other Method Characteristics", 
-                            "description": "Characteristics of the \"other method\" used for chemical emissions in the atmosphere", 
-                            "id": "cmip6.atmoschem.emissions_concentrations.atmospheric_emissions.other_method_characteristics", 
-                            "cardinality": "0.1", 
-                            "type": "str", 
-                            "uiOrdinal": 8
+                            "uiOrdinal": 6
                         }
                     ]
                 }, 
@@ -426,7 +238,7 @@
                     "label": "Concentrations", 
                     "description": "TO DO", 
                     "id": "cmip6.atmoschem.emissions_concentrations.concentrations", 
-                    "contact": "Charlotte Pascoe, David Hassell", 
+                    "contact": "David Hassell", 
                     "properties": [
                         {
                             "label": "Prescribed Lower Boundary", 
@@ -454,6 +266,14 @@
             "id": "cmip6.atmoschem.gas_phase_chemistry", 
             "contact": "Charlotte Pascoe, David Hassell", 
             "properties": [
+                {
+                    "label": "Overview", 
+                    "description": "Overview gas phase atmospheric chemistry", 
+                    "id": "cmip6.atmoschem.gas_phase_chemistry.overview", 
+                    "cardinality": "1.1", 
+                    "type": "str", 
+                    "uiOrdinal": 1
+                }, 
                 {
                     "label": "Species", 
                     "description": "Species included in the gas phase chemistry scheme.", 
@@ -503,7 +323,7 @@
                             }
                         ]
                     }, 
-                    "uiOrdinal": 1
+                    "uiOrdinal": 2
                 }, 
                 {
                     "label": "Number Of Bimolecular Reactions", 
@@ -511,7 +331,7 @@
                     "id": "cmip6.atmoschem.gas_phase_chemistry.number_of_bimolecular_reactions", 
                     "cardinality": "1.1", 
                     "type": "int", 
-                    "uiOrdinal": 2
+                    "uiOrdinal": 3
                 }, 
                 {
                     "label": "Number Of Termolecular Reactions", 
@@ -519,7 +339,23 @@
                     "id": "cmip6.atmoschem.gas_phase_chemistry.number_of_termolecular_reactions", 
                     "cardinality": "1.1", 
                     "type": "int", 
-                    "uiOrdinal": 3
+                    "uiOrdinal": 4
+                }, 
+                {
+                    "label": "Number Of Tropospheric Heterogenous Reactions", 
+                    "description": "The number of reactions in the tropospheric heterogeneous chemistry scheme.", 
+                    "id": "cmip6.atmoschem.gas_phase_chemistry.number_of_tropospheric_heterogenous_reactions", 
+                    "cardinality": "1.1", 
+                    "type": "int", 
+                    "uiOrdinal": 5
+                }, 
+                {
+                    "label": "Number Of Stratospheric Heterogenous Reactions", 
+                    "description": "The number of reactions in the stratospheric heterogeneous chemistry scheme.", 
+                    "id": "cmip6.atmoschem.gas_phase_chemistry.number_of_stratospheric_heterogenous_reactions", 
+                    "cardinality": "1.1", 
+                    "type": "int", 
+                    "uiOrdinal": 6
                 }, 
                 {
                     "label": "Number Of Advected Species", 
@@ -527,7 +363,7 @@
                     "id": "cmip6.atmoschem.gas_phase_chemistry.number_of_advected_species", 
                     "cardinality": "1.1", 
                     "type": "int", 
-                    "uiOrdinal": 4
+                    "uiOrdinal": 7
                 }, 
                 {
                     "label": "Number Of Steady State Species", 
@@ -535,88 +371,31 @@
                     "id": "cmip6.atmoschem.gas_phase_chemistry.number_of_steady_state_species", 
                     "cardinality": "1.1", 
                     "type": "int", 
-                    "uiOrdinal": 5
-                }
-            ], 
-            "subProcesses": [
+                    "uiOrdinal": 8
+                }, 
                 {
-                    "label": "Dry Deposition", 
-                    "description": "Dry deposition describes the dry processes by which gaseous species deposit themselves on solid surfaces thus decreasing their concentration in the air.", 
-                    "id": "cmip6.atmoschem.gas_phase_chemistry.dry_deposition", 
-                    "contact": "Charlotte Pascoe, David Hassell", 
-                    "properties": [
-                        {
-                            "label": "Interactive", 
-                            "description": "Is dry deposition interactive (as opposed to prescribed)?", 
-                            "id": "cmip6.atmoschem.gas_phase_chemistry.dry_deposition.interactive", 
-                            "cardinality": "1.1", 
-                            "type": "bool", 
-                            "uiOrdinal": 1
-                        }
-                    ]
+                    "label": "Interactive Dry Deposition", 
+                    "description": "Is dry deposition interactive (as opposed to prescribed)? Dry deposition describes the dry processes by which gaseous species deposit themselves on solid surfaces thus decreasing their concentration in the air.", 
+                    "id": "cmip6.atmoschem.gas_phase_chemistry.interactive_dry_deposition", 
+                    "cardinality": "1.1", 
+                    "type": "bool", 
+                    "uiOrdinal": 9
                 }, 
                 {
                     "label": "Wet Deposition", 
-                    "description": "Wet deposition describes the moist processes by which gaseous species deposit themselves on solid surfaces thus decreasing their concentration in the air.", 
+                    "description": "Is wet deposition included? Wet deposition describes the moist processes by which gaseous species deposit themselves on solid surfaces thus decreasing their concentration in the air.", 
                     "id": "cmip6.atmoschem.gas_phase_chemistry.wet_deposition", 
-                    "contact": "Charlotte Pascoe, David Hassell", 
-                    "properties": [
-                        {
-                            "label": "Included", 
-                            "description": "Is wet deposition included?", 
-                            "id": "cmip6.atmoschem.gas_phase_chemistry.wet_deposition.included", 
-                            "cardinality": "1.1", 
-                            "type": "bool", 
-                            "uiOrdinal": 1
-                        }
-                    ]
+                    "cardinality": "1.1", 
+                    "type": "bool", 
+                    "uiOrdinal": 10
                 }, 
                 {
-                    "label": "Oxidation", 
-                    "description": "Oxidation describes the loss of electrons or an increase in oxidation state by a molecule.", 
-                    "id": "cmip6.atmoschem.gas_phase_chemistry.oxidation", 
-                    "contact": "Charlotte Pascoe, David Hassell", 
-                    "properties": [
-                        {
-                            "label": "Included", 
-                            "description": "Is wet oxidation included?", 
-                            "id": "cmip6.atmoschem.gas_phase_chemistry.oxidation.included", 
-                            "cardinality": "1.1", 
-                            "type": "bool", 
-                            "uiOrdinal": 1
-                        }
-                    ]
-                }, 
-                {
-                    "label": "Washout Rainout", 
-                    "description": "Downward transport of soluble chemistry species in clouds.", 
-                    "id": "cmip6.atmoschem.gas_phase_chemistry.washout_rainout", 
-                    "contact": "Charlotte Pascoe, David Hassell", 
-                    "properties": [
-                        {
-                            "label": "Methods", 
-                            "description": "Methods of downward transport of soluble chemistry species in clouds.", 
-                            "id": "cmip6.atmoschem.gas_phase_chemistry.washout_rainout.methods", 
-                            "cardinality": "0.N", 
-                            "type": "enum", 
-                            "enum": {
-                                "label": "Washout Methods", 
-                                "description": "Methods of downward transport of soluble chemistry species in clouds.", 
-                                "isOpen": false, 
-                                "choices": [
-                                    {
-                                        "label": "In-cloud scavenging", 
-                                        "description": null
-                                    }, 
-                                    {
-                                        "label": "Below-cloud scavenging", 
-                                        "description": null
-                                    }
-                                ]
-                            }, 
-                            "uiOrdinal": 1
-                        }
-                    ]
+                    "label": "Wet Oxidation", 
+                    "description": "Is wet oxidation included? Oxidation describes the loss of electrons or an increase in oxidation state by a molecule", 
+                    "id": "cmip6.atmoschem.gas_phase_chemistry.wet_oxidation", 
+                    "cardinality": "1.1", 
+                    "type": "bool", 
+                    "uiOrdinal": 11
                 }
             ]
         }, 
@@ -626,6 +405,14 @@
             "id": "cmip6.atmoschem.stratospheric_heterogeneous_chemistry", 
             "contact": "Charlotte Pascoe, David Hassell", 
             "properties": [
+                {
+                    "label": "Overview", 
+                    "description": "Overview stratospheric heterogenous atmospheric chemistry", 
+                    "id": "cmip6.atmoschem.stratospheric_heterogeneous_chemistry.overview", 
+                    "cardinality": "1.1", 
+                    "type": "str", 
+                    "uiOrdinal": 1
+                }, 
                 {
                     "label": "Gas Phase Species", 
                     "description": "Gas phase species included in the stratospheric heterogeneous chemistry scheme.", 
@@ -651,7 +438,7 @@
                             }
                         ]
                     }, 
-                    "uiOrdinal": 1
+                    "uiOrdinal": 2
                 }, 
                 {
                     "label": "Aerosol Species", 
@@ -686,14 +473,6 @@
                             }
                         ]
                     }, 
-                    "uiOrdinal": 2
-                }, 
-                {
-                    "label": "Number Of Reactions", 
-                    "description": "The number of reactions in the stratospheric heterogeneous chemistry scheme.", 
-                    "id": "cmip6.atmoschem.stratospheric_heterogeneous_chemistry.number_of_reactions", 
-                    "cardinality": "1.1", 
-                    "type": "int", 
                     "uiOrdinal": 3
                 }, 
                 {
@@ -750,17 +529,25 @@
         }, 
         {
             "label": "Tropospheric Heterogeneous Chemistry", 
-            "description": "Atmospheric chemistry startospheric heterogeneous chemistry", 
+            "description": "Atmospheric chemistry tropospheric heterogeneous chemistry", 
             "id": "cmip6.atmoschem.tropospheric_heterogeneous_chemistry", 
-            "contact": "Charlotte Pascoe, David Hassell", 
+            "contact": "David Hassell", 
             "properties": [
+                {
+                    "label": "Overview", 
+                    "description": "Overview tropospheric heterogenous atmospheric chemistry", 
+                    "id": "cmip6.atmoschem.tropospheric_heterogeneous_chemistry.overview", 
+                    "cardinality": "1.1", 
+                    "type": "str", 
+                    "uiOrdinal": 1
+                }, 
                 {
                     "label": "Gas Phase Species", 
                     "description": "List of gas phase species included in the tropospheric heterogeneous chemistry scheme.", 
                     "id": "cmip6.atmoschem.tropospheric_heterogeneous_chemistry.gas_phase_species", 
                     "cardinality": "0.1", 
                     "type": "str", 
-                    "uiOrdinal": 1
+                    "uiOrdinal": 2
                 }, 
                 {
                     "label": "Aerosol Species", 
@@ -815,23 +602,7 @@
                             }
                         ]
                     }, 
-                    "uiOrdinal": 2
-                }, 
-                {
-                    "label": "Number Of Reactions", 
-                    "description": "The number of reactions in the tropospheric heterogeneous chemistry scheme.", 
-                    "id": "cmip6.atmoschem.tropospheric_heterogeneous_chemistry.number_of_reactions", 
-                    "cardinality": "1.1", 
-                    "type": "int", 
                     "uiOrdinal": 3
-                }, 
-                {
-                    "label": "Number Of Advected Species", 
-                    "description": "The number of advected species in the tropospheric heterogeneous chemistry scheme.", 
-                    "id": "cmip6.atmoschem.tropospheric_heterogeneous_chemistry.number_of_advected_species", 
-                    "cardinality": "1.1", 
-                    "type": "int", 
-                    "uiOrdinal": 4
                 }, 
                 {
                     "label": "Number Of Steady State Species", 
@@ -839,7 +610,7 @@
                     "id": "cmip6.atmoschem.tropospheric_heterogeneous_chemistry.number_of_steady_state_species", 
                     "cardinality": "1.1", 
                     "type": "int", 
-                    "uiOrdinal": 5
+                    "uiOrdinal": 4
                 }
             ], 
             "subProcesses": [
@@ -847,7 +618,7 @@
                     "label": "Dry Deposition", 
                     "description": "Dry deposition describes the dry processes by which species deposit themselves on solid surfaces thus decreasing their concentration in the air.", 
                     "id": "cmip6.atmoschem.tropospheric_heterogeneous_chemistry.dry_deposition", 
-                    "contact": "Charlotte Pascoe, David Hassell", 
+                    "contact": "David Hassell", 
                     "properties": [
                         {
                             "label": "Interactive", 
@@ -860,57 +631,10 @@
                     ]
                 }, 
                 {
-                    "label": "Wet Deposition", 
-                    "description": "Wet deposition describes the moist processes by which species deposit themselves on solid surfaces thus decreasing their concentration in the air.", 
-                    "id": "cmip6.atmoschem.tropospheric_heterogeneous_chemistry.wet_deposition", 
-                    "contact": "Charlotte Pascoe, David Hassell", 
-                    "properties": [
-                        {
-                            "label": "Included", 
-                            "description": "Is wet deposition is included or not?", 
-                            "id": "cmip6.atmoschem.tropospheric_heterogeneous_chemistry.wet_deposition.included", 
-                            "cardinality": "1.1", 
-                            "type": "bool", 
-                            "uiOrdinal": 1
-                        }
-                    ]
-                }, 
-                {
-                    "label": "Washout Rainout", 
-                    "description": "Downward transport of soluble chemistry species in clouds.", 
-                    "id": "cmip6.atmoschem.tropospheric_heterogeneous_chemistry.washout_rainout", 
-                    "contact": "Charlotte Pascoe, David Hassell", 
-                    "properties": [
-                        {
-                            "label": "Methods", 
-                            "description": "Methods of downward transport of soluble chemistry species in clouds.", 
-                            "id": "cmip6.atmoschem.tropospheric_heterogeneous_chemistry.washout_rainout.methods", 
-                            "cardinality": "0.N", 
-                            "type": "enum", 
-                            "enum": {
-                                "label": "Washout Methods", 
-                                "description": "Methods of downward transport of soluble chemistry species in clouds.", 
-                                "isOpen": false, 
-                                "choices": [
-                                    {
-                                        "label": "In-cloud scavenging", 
-                                        "description": null
-                                    }, 
-                                    {
-                                        "label": "Below-cloud scavenging", 
-                                        "description": null
-                                    }
-                                ]
-                            }, 
-                            "uiOrdinal": 1
-                        }
-                    ]
-                }, 
-                {
                     "label": "Coagulation", 
                     "description": "Coagulation is a process by which aerosol particles grow.", 
                     "id": "cmip6.atmoschem.tropospheric_heterogeneous_chemistry.coagulation", 
-                    "contact": "Charlotte Pascoe, David Hassell", 
+                    "contact": "David Hassell", 
                     "properties": [
                         {
                             "label": "Included", 
@@ -937,14 +661,6 @@
                     "cardinality": "1.1", 
                     "type": "int", 
                     "uiOrdinal": 1
-                }, 
-                {
-                    "label": "Number Of Species", 
-                    "description": "The number of species in the photo-chemistry scheme.", 
-                    "id": "cmip6.atmoschem.photo_chemistry.number_of_species", 
-                    "cardinality": "1.1", 
-                    "type": "int", 
-                    "uiOrdinal": 2
                 }
             ], 
             "subProcesses": [
@@ -982,58 +698,12 @@
                             "uiOrdinal": 1
                         }, 
                         {
-                            "label": "Online Processes", 
-                            "description": "Processes included in the photolysis scheme.", 
-                            "id": "cmip6.atmoschem.photo_chemistry.photolysis.online_processes", 
-                            "cardinality": "0.N", 
-                            "type": "enum", 
-                            "enum": {
-                                "label": "Online Processes", 
-                                "description": "Processes included in the photolysis scheme.", 
-                                "isOpen": false, 
-                                "choices": [
-                                    {
-                                        "label": "Scattering", 
-                                        "description": null
-                                    }, 
-                                    {
-                                        "label": "Radiative transfer", 
-                                        "description": null
-                                    }, 
-                                    {
-                                        "label": "Spectral resolution", 
-                                        "description": null
-                                    }, 
-                                    {
-                                        "label": "Impact of clouds", 
-                                        "description": null
-                                    }
-                                ]
-                            }, 
+                            "label": "Environmental Conditions", 
+                            "description": "Describe any environmental conditions taken into account by the photolysis scheme (e.g. whether pressure- and temperature-sensitive cross-sections and quantum yields in the photolysis calculations are modified to reflect the modelled conditions.)", 
+                            "id": "cmip6.atmoschem.photo_chemistry.photolysis.environmental_conditions", 
+                            "cardinality": "0.1", 
+                            "type": "str", 
                             "uiOrdinal": 2
-                        }, 
-                        {
-                            "label": "Reaction Data", 
-                            "description": "Reaction information taken into account by the photolysis scheme.", 
-                            "id": "cmip6.atmoschem.photo_chemistry.photolysis.reaction_data", 
-                            "cardinality": "0.N", 
-                            "type": "enum", 
-                            "enum": {
-                                "label": "Reaction Data", 
-                                "description": "Reaction information taken into account by the photolysis scheme.", 
-                                "isOpen": false, 
-                                "choices": [
-                                    {
-                                        "label": "Updated reaction absorptio cross sections", 
-                                        "description": null
-                                    }, 
-                                    {
-                                        "label": "Updated reaction quantum yields", 
-                                        "description": null
-                                    }
-                                ]
-                            }, 
-                            "uiOrdinal": 3
                         }
                     ]
                 }
@@ -1044,7 +714,25 @@
         "label": "Grid", 
         "description": "Atmospheric chemistry grid", 
         "id": "cmip6.atmoschem.grid", 
-        "contact": "Charlotte Pascoe, David Hassell"
+        "contact": "David Hassell", 
+        "properties": [
+            {
+                "label": "Overview", 
+                "description": "Describe the general structure of the atmopsheric chemistry grid", 
+                "id": "cmip6.atmoschem.grid.overview", 
+                "cardinality": "1.1", 
+                "type": "str", 
+                "uiOrdinal": 1
+            }, 
+            {
+                "label": "Matches Atmosphere Grid", 
+                "description": " Does the atmospheric chemistry grid match the atmosphere grid?", 
+                "id": "cmip6.atmoschem.grid.matches_atmosphere_grid", 
+                "cardinality": "1.1", 
+                "type": "bool", 
+                "uiOrdinal": 2
+            }
+        ]
     }, 
     "keyProperties": {
         "label": "Key Properties", 
