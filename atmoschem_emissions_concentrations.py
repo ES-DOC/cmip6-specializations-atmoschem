@@ -34,6 +34,13 @@ DESCRIPTION = 'Atmospheric chemistry emissions'
 # --------------------------------------------------------------------
 # PROCESS: top level
 # --------------------------------------------------------------------
+DETAILS['toplevel'] = {
+    'description': '',
+    'properties': [
+        ('overview', 'str', '1.1',
+             'Overview atmospheric chemistry emissions'), 
+    ]
+}
 
 # --------------------------------------------------------------------
 # SUB-PROCESS: Surface emissions
@@ -44,7 +51,7 @@ DETAILS['surface_emissions'] = {
         ('sources', 'ENUM:surface_source_types', '0.N',
              'Sources of the chemical species emitted at the surface that are taken into account in the emissions scheme'),
         ('method', 'ENUM:emissions_methods', '0.N',
-            'Methods used to define chemical species emitted at the surface (several methods allowed because the different species may not use the same method).'),
+            'Methods used to define chemical species emitted directly into model layers above the surface (several methods allowed because the different species may not use the same method).'),
         ('prescribed_climatology_emitted_species', 'str', '0.1',
              'List of chemical species emitted at the surface and prescribed via a climatology, and the nature of the climatology (E.g. CO (monthly), C2H6 (constant))'),
         ('prescribed_spatially_uniform_emitted_species', 'str', '0.1',
@@ -133,7 +140,7 @@ ENUMERATIONS['emissions_methods'] = {
     'is_open': True,
     'members':[
         ('Prescribed (climatology)', None),
-        ('Prescribe (spatially uniform)', None),
+        ('Prescribed (spatially uniform)', None),
         ('Interactive', None),
     ]
 }

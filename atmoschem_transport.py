@@ -41,8 +41,10 @@ DETAILS['toplevel'] = {
             'General overview of transport implementation'),
         ('use_atmospheric_transport', 'bool', '1.1',
             'Is transport handled by the atmosphere, rather than within atmospheric cehmistry?'),      
-        ]
-    }
+        ('transport_details', 'str', '0.1',
+             'If transport is handled within the atmospheric chemistry scheme, describe it.'),
+    ]
+}
 
 # --------------------------------------------------------------------
 # ENUMERATIONS

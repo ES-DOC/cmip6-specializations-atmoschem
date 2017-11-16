@@ -3,7 +3,6 @@ cmip6.atmoschem, Atmoschem, realm
 , , 
 cmip6.atmoschem.key_properties, Atmoschem > Key Properties, keyprops
 cmip6.atmoschem.key_properties.timestep_framework, Atmoschem > Key Properties > Timestep Framework, subprocess
-cmip6.atmoschem.key_properties.meteorological_forcings, Atmoschem > Key Properties > Meteorological Forcings, subprocess
 cmip6.atmoschem.key_properties.resolution, Atmoschem > Key Properties > Resolution, subprocess
 cmip6.atmoschem.key_properties.tuning_applied, Atmoschem > Key Properties > Tuning Applied, subprocess
 , , 
@@ -19,12 +18,8 @@ cmip6.atmoschem.emissions_concentrations.concentrations, Atmoschem > Emissions C
 cmip6.atmoschem.gas_phase_chemistry, Atmoschem > Gas Phase Chemistry, process
 , , 
 cmip6.atmoschem.stratospheric_heterogeneous_chemistry, Atmoschem > Stratospheric Heterogeneous Chemistry, process
-cmip6.atmoschem.stratospheric_heterogeneous_chemistry.sedimentation, Atmoschem > Stratospheric Heterogeneous Chemistry > Sedimentation, subprocess
-cmip6.atmoschem.stratospheric_heterogeneous_chemistry.coagulation, Atmoschem > Stratospheric Heterogeneous Chemistry > Coagulation, subprocess
 , , 
 cmip6.atmoschem.tropospheric_heterogeneous_chemistry, Atmoschem > Tropospheric Heterogeneous Chemistry, process
-cmip6.atmoschem.tropospheric_heterogeneous_chemistry.dry_deposition, Atmoschem > Tropospheric Heterogeneous Chemistry > Dry Deposition, subprocess
-cmip6.atmoschem.tropospheric_heterogeneous_chemistry.coagulation, Atmoschem > Tropospheric Heterogeneous Chemistry > Coagulation, subprocess
 , , 
 cmip6.atmoschem.photo_chemistry, Atmoschem > Photo Chemistry, process
 cmip6.atmoschem.photo_chemistry.photolysis, Atmoschem > Photo Chemistry > Photolysis, subprocess

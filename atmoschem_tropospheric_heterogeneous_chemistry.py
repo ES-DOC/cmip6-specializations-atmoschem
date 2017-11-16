@@ -45,27 +45,9 @@ DETAILS['toplevel'] = {
             'Aerosol species included in the tropospheric heterogeneous chemistry scheme.'),
         ('number_of_steady_state_species', 'int', '1.1',
              'The number of steady state species in the tropospheric heterogeneous chemistry scheme.'),
-    ],
-}
-
-# --------------------------------------------------------------------
-# SUB-PROCESS: Dry deposition
-# --------------------------------------------------------------------
-DETAILS['dry_deposition'] = {
-    'description': 'Dry deposition describes the dry processes by which species deposit themselves on solid surfaces thus decreasing their concentration in the air.',
-    'properties': [
-        ('interactive', 'bool', '1.1',
-         'Is dry deposition interactive (as opposed to prescribed)?'),
-    ],
-}
-
-# --------------------------------------------------------------------
-# SUB-PROCESS: Coagulation
-# --------------------------------------------------------------------
-DETAILS['coagulation'] = {
-    'description': 'Coagulation is a process by which aerosol particles grow.',
-    'properties': [
-        ('included', 'bool', '1.1',
+        ('interactive_dry_deposition', 'bool', '1.1',
+            'Is dry deposition interactive (as opposed to prescribed)? Dry deposition describes the dry processes by which gaseous species deposit themselves on solid surfaces thus decreasing their concentration in the air.'),  
+        ('coagulation', 'bool', '1.1',
             'Is coagulation is included in the tropospheric heterogeneous chemistry scheme or not?'),       
     ],
 }
@@ -73,15 +55,6 @@ DETAILS['coagulation'] = {
 # --------------------------------------------------------------------
 # ENUMERATIONS
 # --------------------------------------------------------------------
-ENUMERATIONS['washout_methods'] = {
-    'description': 'Methods of downward transport of soluble chemistry species in clouds.',
-    'is_open': False,
-    'members': [
-        ('In-cloud scavenging', None),
-        ('Below-cloud scavenging', None),
-    ]
-}
-    
 ENUMERATIONS['aerosol_species'] = {
     'description': 'Aerosol species included in the stratospheric heterogeneous chemistry scheme',
     'is_open': False,

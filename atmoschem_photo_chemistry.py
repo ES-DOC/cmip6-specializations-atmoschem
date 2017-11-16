@@ -35,8 +35,10 @@ DESCRIPTION = 'Atmospheric chemistry photo chemistry'
 # PROCESS: top level
 # --------------------------------------------------------------------
 DETAILS['toplevel'] = {
-    'description': 'TO DO',
+    'description': '',
     'properties': [
+        ('overview', 'str', '1.1',
+             'Overview atmospheric photo chemistry'), 
         ('number_of_reactions', 'int', '1.1',
              'The number of reactions in the photo-chemistry scheme.'),
     ],
