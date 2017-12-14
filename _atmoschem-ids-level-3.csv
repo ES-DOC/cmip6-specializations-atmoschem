@@ -6,6 +6,9 @@ cmip6.atmoschem.key_properties.prognostic_variables_form, Atmoschem > Key Proper
 cmip6.atmoschem.key_properties.number_of_tracers, Atmoschem > Key Properties > Number Of Tracers, property
 cmip6.atmoschem.key_properties.family_approach, Atmoschem > Key Properties > Family Approach, property
 cmip6.atmoschem.key_properties.coupling_with_chemical_reactivity, Atmoschem > Key Properties > Coupling With Chemical Reactivity, property
+cmip6.atmoschem.key_properties.software_properties.repository, Atmoschem > Key Properties > Software Properties > Repository, property
+cmip6.atmoschem.key_properties.software_properties.code_version, Atmoschem > Key Properties > Software Properties > Code Version, property
+cmip6.atmoschem.key_properties.software_properties.code_languages, Atmoschem > Key Properties > Software Properties > Code Languages, property
 cmip6.atmoschem.key_properties.timestep_framework.method, Atmoschem > Key Properties > Timestep Framework > Method, property
 cmip6.atmoschem.key_properties.timestep_framework.split_operator_advection_timestep, Atmoschem > Key Properties > Timestep Framework > Split Operator Advection Timestep, property
 cmip6.atmoschem.key_properties.timestep_framework.split_operator_physical_timestep, Atmoschem > Key Properties > Timestep Framework > Split Operator Physical Timestep, property
