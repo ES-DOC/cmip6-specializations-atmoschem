@@ -1874,6 +1874,13 @@
         <dt><b>Priority</b></dt><dd>1</dd>
     </dl>
   </body>
+</html></richcontent></node><node BACKGROUND_COLOR="#FFFFFF" COLOR="#000000" STYLE="bubble" TEXT="cmip6.atmoschem.transport.use_atmospheric_transport"><richcontent TYPE="NOTE"><html>
+  <head />
+  <body>
+    <dl>
+        <dt><b>Priority</b></dt><dd>1</dd>
+    </dl>
+  </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#FFFFFF" COLOR="#000000" STYLE="bubble" TEXT="cmip6.atmoschem.emissions_concentrations.surface_emissions.sources"><richcontent TYPE="NOTE"><html>
   <head />
   <body>
