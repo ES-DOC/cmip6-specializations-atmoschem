@@ -32,7 +32,7 @@ QC_STATUS = 'draft'
 DESCRIPTION = 'Atmospheric chemistry grid'
 
 DETAILS['toplevel'] = {
-    'description': 'Type of discretisation scheme in ocean',
+    'description': 'Type of grid in the atmopsheric chemistry scheme',
     'properties': [
         ('overview', 'str', '1.1',
             'Describe the general structure of the atmopsheric chemistry grid'),
