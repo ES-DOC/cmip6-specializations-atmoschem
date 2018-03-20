@@ -1,6 +1,14 @@
 cmip6-id, cmip6-label, cmip6-type
-cmip6.atmoschem.key_properties.model_overview, Atmoschem > Key Properties > Model Overview, property
-cmip6.atmoschem.key_properties.model_name, Atmoschem > Key Properties > Model Name, property
+cmip6.atmoschem.grid.overview, Atmoschem > Grid > Overview, property
+cmip6.atmoschem.grid.matches_atmosphere_grid, Atmoschem > Grid > Matches Atmosphere Grid, property
+cmip6.atmoschem.grid.resolution.name, Atmoschem > Grid > Resolution > Name, property
+cmip6.atmoschem.grid.resolution.canonical_horizontal_resolution, Atmoschem > Grid > Resolution > Canonical Horizontal Resolution, property
+cmip6.atmoschem.grid.resolution.number_of_horizontal_gridpoints, Atmoschem > Grid > Resolution > Number Of Horizontal Gridpoints, property
+cmip6.atmoschem.grid.resolution.number_of_vertical_levels, Atmoschem > Grid > Resolution > Number Of Vertical Levels, property
+cmip6.atmoschem.grid.resolution.is_adaptive_grid, Atmoschem > Grid > Resolution > Is Adaptive Grid, property
+, , 
+cmip6.atmoschem.key_properties.name, Atmoschem > Key Properties > Name, property
+cmip6.atmoschem.key_properties.overview, Atmoschem > Key Properties > Overview, property
 cmip6.atmoschem.key_properties.chemistry_scheme_scope, Atmoschem > Key Properties > Chemistry Scheme Scope, property
 cmip6.atmoschem.key_properties.basic_approximations, Atmoschem > Key Properties > Basic Approximations, property
 cmip6.atmoschem.key_properties.prognostic_variables_form, Atmoschem > Key Properties > Prognostic Variables Form, property
@@ -32,18 +40,12 @@ cmip6.atmoschem.key_properties.tuning_applied.global_mean_metrics_used, Atmosche
 cmip6.atmoschem.key_properties.tuning_applied.regional_metrics_used, Atmoschem > Key Properties > Tuning Applied > Regional Metrics Used, property
 cmip6.atmoschem.key_properties.tuning_applied.trend_metrics_used, Atmoschem > Key Properties > Tuning Applied > Trend Metrics Used, property
 , , 
-cmip6.atmoschem.grid.overview, Atmoschem > Grid > Overview, property
-cmip6.atmoschem.grid.matches_atmosphere_grid, Atmoschem > Grid > Matches Atmosphere Grid, property
-cmip6.atmoschem.grid.resolution.name, Atmoschem > Grid > Resolution > Name, property
-cmip6.atmoschem.grid.resolution.canonical_horizontal_resolution, Atmoschem > Grid > Resolution > Canonical Horizontal Resolution, property
-cmip6.atmoschem.grid.resolution.number_of_horizontal_gridpoints, Atmoschem > Grid > Resolution > Number Of Horizontal Gridpoints, property
-cmip6.atmoschem.grid.resolution.number_of_vertical_levels, Atmoschem > Grid > Resolution > Number Of Vertical Levels, property
-cmip6.atmoschem.grid.resolution.is_adaptive_grid, Atmoschem > Grid > Resolution > Is Adaptive Grid, property
-, , 
+cmip6.atmoschem.transport.name, Atmoschem > Transport > Name, property
 cmip6.atmoschem.transport.overview, Atmoschem > Transport > Overview, property
 cmip6.atmoschem.transport.use_atmospheric_transport, Atmoschem > Transport > Use Atmospheric Transport, property
 cmip6.atmoschem.transport.transport_details, Atmoschem > Transport > Transport Details, property
 , , 
+cmip6.atmoschem.emissions_concentrations.name, Atmoschem > Emissions Concentrations > Name, property
 cmip6.atmoschem.emissions_concentrations.overview, Atmoschem > Emissions Concentrations > Overview, property
 cmip6.atmoschem.emissions_concentrations.surface_emissions.sources, Atmoschem > Emissions Concentrations > Surface Emissions > Sources, property
 cmip6.atmoschem.emissions_concentrations.surface_emissions.method, Atmoschem > Emissions Concentrations > Surface Emissions > Method, property
@@ -60,6 +62,7 @@ cmip6.atmoschem.emissions_concentrations.atmospheric_emissions.other_emitted_spe
 cmip6.atmoschem.emissions_concentrations.concentrations.prescribed_lower_boundary, Atmoschem > Emissions Concentrations > Concentrations > Prescribed Lower Boundary, property
 cmip6.atmoschem.emissions_concentrations.concentrations.prescribed_upper_boundary, Atmoschem > Emissions Concentrations > Concentrations > Prescribed Upper Boundary, property
 , , 
+cmip6.atmoschem.gas_phase_chemistry.name, Atmoschem > Gas Phase Chemistry > Name, property
 cmip6.atmoschem.gas_phase_chemistry.overview, Atmoschem > Gas Phase Chemistry > Overview, property
 cmip6.atmoschem.gas_phase_chemistry.species, Atmoschem > Gas Phase Chemistry > Species, property
 cmip6.atmoschem.gas_phase_chemistry.number_of_bimolecular_reactions, Atmoschem > Gas Phase Chemistry > Number Of Bimolecular Reactions, property
@@ -72,6 +75,7 @@ cmip6.atmoschem.gas_phase_chemistry.interactive_dry_deposition, Atmoschem > Gas 
 cmip6.atmoschem.gas_phase_chemistry.wet_deposition, Atmoschem > Gas Phase Chemistry > Wet Deposition, property
 cmip6.atmoschem.gas_phase_chemistry.wet_oxidation, Atmoschem > Gas Phase Chemistry > Wet Oxidation, property
 , , 
+cmip6.atmoschem.stratospheric_heterogeneous_chemistry.name, Atmoschem > Stratospheric Heterogeneous Chemistry > Name, property
 cmip6.atmoschem.stratospheric_heterogeneous_chemistry.overview, Atmoschem > Stratospheric Heterogeneous Chemistry > Overview, property
 cmip6.atmoschem.stratospheric_heterogeneous_chemistry.gas_phase_species, Atmoschem > Stratospheric Heterogeneous Chemistry > Gas Phase Species, property
 cmip6.atmoschem.stratospheric_heterogeneous_chemistry.aerosol_species, Atmoschem > Stratospheric Heterogeneous Chemistry > Aerosol Species, property
@@ -79,6 +83,7 @@ cmip6.atmoschem.stratospheric_heterogeneous_chemistry.number_of_steady_state_spe
 cmip6.atmoschem.stratospheric_heterogeneous_chemistry.sedimentation, Atmoschem > Stratospheric Heterogeneous Chemistry > Sedimentation, property
 cmip6.atmoschem.stratospheric_heterogeneous_chemistry.coagulation, Atmoschem > Stratospheric Heterogeneous Chemistry > Coagulation, property
 , , 
+cmip6.atmoschem.tropospheric_heterogeneous_chemistry.name, Atmoschem > Tropospheric Heterogeneous Chemistry > Name, property
 cmip6.atmoschem.tropospheric_heterogeneous_chemistry.overview, Atmoschem > Tropospheric Heterogeneous Chemistry > Overview, property
 cmip6.atmoschem.tropospheric_heterogeneous_chemistry.gas_phase_species, Atmoschem > Tropospheric Heterogeneous Chemistry > Gas Phase Species, property
 cmip6.atmoschem.tropospheric_heterogeneous_chemistry.aerosol_species, Atmoschem > Tropospheric Heterogeneous Chemistry > Aerosol Species, property
@@ -86,6 +91,7 @@ cmip6.atmoschem.tropospheric_heterogeneous_chemistry.number_of_steady_state_spec
 cmip6.atmoschem.tropospheric_heterogeneous_chemistry.interactive_dry_deposition, Atmoschem > Tropospheric Heterogeneous Chemistry > Interactive Dry Deposition, property
 cmip6.atmoschem.tropospheric_heterogeneous_chemistry.coagulation, Atmoschem > Tropospheric Heterogeneous Chemistry > Coagulation, property
 , , 
+cmip6.atmoschem.photo_chemistry.name, Atmoschem > Photo Chemistry > Name, property
 cmip6.atmoschem.photo_chemistry.overview, Atmoschem > Photo Chemistry > Overview, property
 cmip6.atmoschem.photo_chemistry.number_of_reactions, Atmoschem > Photo Chemistry > Number Of Reactions, property
 cmip6.atmoschem.photo_chemistry.photolysis.method, Atmoschem > Photo Chemistry > Photolysis > Method, property

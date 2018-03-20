@@ -2,7 +2,7 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Atmospheric chemistry realm</dd><dt><b>QC status</b></dt><dd>draft</dd><dt><b>Contact</b></dt><dd>Charlotte Pascoe, David Hassell</dd><dt><b>Authors</b></dt><dd>David Hassell</dd><dt><b>Contributors</b></dt><dd>CMIP5 version + Bill Collins (URead)</dd>
+        <dt><b>Description</b></dt><dd>Atmospheric chemistry</dd><dt><b>QC status</b></dt><dd>None</dd><dt><b>Contact</b></dt><dd>None</dd><dt><b>Authors</b></dt><dd>Charlotte Pascoe, David Hassell</dd><dt><b>Contributors</b></dt><dd>CMIP5 version + Bill Collins (URead)</dd>
     </dl>
   </body>
 </html></richcontent><node FOLDED="true" POSITION="left" STYLE="bubble" TEXT="CHANGE HISTORY"><node STYLE="bubble" TEXT="0.1.0"><richcontent TYPE="NOTE"><html>
@@ -75,39 +75,151 @@
         <dt><b>Description</b></dt><dd>A sub-process simulated within a realm process.</dd>
     </dl>
   </body>
-</html></richcontent></node></node><node FOLDED="true" POSITION="left" STYLE="bubble" TEXT="DETAILS INHERITED FROM CIM"><node BACKGROUND_COLOR="#ccccff" COLOR="#000000" STYLE="bubble" TEXT="grid"><node BACKGROUND_COLOR="#ccccff" COLOR="#000000" STYLE="bubble" TEXT="citations" /><node BACKGROUND_COLOR="#ccccff" COLOR="#000000" STYLE="bubble" TEXT="keywords" /><node BACKGROUND_COLOR="#ccccff" COLOR="#000000" STYLE="bubble" TEXT="overview" /><node BACKGROUND_COLOR="#ccccff" COLOR="#000000" STYLE="bubble" TEXT="responsible_parties" /></node><node BACKGROUND_COLOR="#ffff66" COLOR="#000000" STYLE="bubble" TEXT="keyprops"><node BACKGROUND_COLOR="#ffff66" COLOR="#000000" STYLE="bubble" TEXT="citations" /><node BACKGROUND_COLOR="#ffff66" COLOR="#000000" STYLE="bubble" TEXT="keywords" /><node BACKGROUND_COLOR="#ffff66" COLOR="#000000" STYLE="bubble" TEXT="overview" /><node BACKGROUND_COLOR="#ffff66" COLOR="#000000" STYLE="bubble" TEXT="responsible_parties" /></node><node BACKGROUND_COLOR="#FFFFFF" COLOR="#000000" STYLE="bubble" TEXT="process"><node BACKGROUND_COLOR="#FFFFFF" COLOR="#000000" STYLE="bubble" TEXT="citations" /><node BACKGROUND_COLOR="#FFFFFF" COLOR="#000000" STYLE="bubble" TEXT="keywords" /><node BACKGROUND_COLOR="#FFFFFF" COLOR="#000000" STYLE="bubble" TEXT="overview" /><node BACKGROUND_COLOR="#FFFFFF" COLOR="#000000" STYLE="bubble" TEXT="responsible_parties" /></node><node BACKGROUND_COLOR="#66cc00" COLOR="#000000" STYLE="bubble" TEXT="realm"><node BACKGROUND_COLOR="#66cc00" COLOR="#000000" STYLE="bubble" TEXT="canonical_name" /><node BACKGROUND_COLOR="#66cc00" COLOR="#000000" STYLE="bubble" TEXT="citations" /><node BACKGROUND_COLOR="#66cc00" COLOR="#000000" STYLE="bubble" TEXT="keywords" /><node BACKGROUND_COLOR="#66cc00" COLOR="#000000" STYLE="bubble" TEXT="overview" /><node BACKGROUND_COLOR="#66cc00" COLOR="#000000" STYLE="bubble" TEXT="responsible_parties" /></node><node BACKGROUND_COLOR="#ACF0F2" COLOR="#000000" STYLE="bubble" TEXT="subprocess"><node BACKGROUND_COLOR="#ACF0F2" COLOR="#000000" STYLE="bubble" TEXT="citations" /><node BACKGROUND_COLOR="#ACF0F2" COLOR="#000000" STYLE="bubble" TEXT="keywords" /><node BACKGROUND_COLOR="#ACF0F2" COLOR="#000000" STYLE="bubble" TEXT="overview" /><node BACKGROUND_COLOR="#ACF0F2" COLOR="#000000" STYLE="bubble" TEXT="responsible_parties" /></node></node><node BACKGROUND_COLOR="#ffff66" COLOR="#000000" FOLDED="false" STYLE="bubble" TEXT="key_properties"><font BOLD="True" NAME="courier" SIZE="12" /><richcontent TYPE="NOTE"><html>
+</html></richcontent></node></node><node FOLDED="true" POSITION="left" STYLE="bubble" TEXT="DETAILS INHERITED FROM CIM"><node BACKGROUND_COLOR="#ccccff" COLOR="#000000" STYLE="bubble" TEXT="grid"><node BACKGROUND_COLOR="#ccccff" COLOR="#000000" STYLE="bubble" TEXT="citations" /><node BACKGROUND_COLOR="#ccccff" COLOR="#000000" STYLE="bubble" TEXT="keywords" /><node BACKGROUND_COLOR="#ccccff" COLOR="#000000" STYLE="bubble" TEXT="overview" /><node BACKGROUND_COLOR="#ccccff" COLOR="#000000" STYLE="bubble" TEXT="responsible_parties" /></node><node BACKGROUND_COLOR="#ffff66" COLOR="#000000" STYLE="bubble" TEXT="keyprops"><node BACKGROUND_COLOR="#ffff66" COLOR="#000000" STYLE="bubble" TEXT="citations" /><node BACKGROUND_COLOR="#ffff66" COLOR="#000000" STYLE="bubble" TEXT="keywords" /><node BACKGROUND_COLOR="#ffff66" COLOR="#000000" STYLE="bubble" TEXT="overview" /><node BACKGROUND_COLOR="#ffff66" COLOR="#000000" STYLE="bubble" TEXT="responsible_parties" /></node><node BACKGROUND_COLOR="#FFFFFF" COLOR="#000000" STYLE="bubble" TEXT="process"><node BACKGROUND_COLOR="#FFFFFF" COLOR="#000000" STYLE="bubble" TEXT="citations" /><node BACKGROUND_COLOR="#FFFFFF" COLOR="#000000" STYLE="bubble" TEXT="keywords" /><node BACKGROUND_COLOR="#FFFFFF" COLOR="#000000" STYLE="bubble" TEXT="overview" /><node BACKGROUND_COLOR="#FFFFFF" COLOR="#000000" STYLE="bubble" TEXT="responsible_parties" /></node><node BACKGROUND_COLOR="#66cc00" COLOR="#000000" STYLE="bubble" TEXT="realm"><node BACKGROUND_COLOR="#66cc00" COLOR="#000000" STYLE="bubble" TEXT="canonical_name" /><node BACKGROUND_COLOR="#66cc00" COLOR="#000000" STYLE="bubble" TEXT="citations" /><node BACKGROUND_COLOR="#66cc00" COLOR="#000000" STYLE="bubble" TEXT="keywords" /><node BACKGROUND_COLOR="#66cc00" COLOR="#000000" STYLE="bubble" TEXT="overview" /><node BACKGROUND_COLOR="#66cc00" COLOR="#000000" STYLE="bubble" TEXT="responsible_parties" /></node><node BACKGROUND_COLOR="#ACF0F2" COLOR="#000000" STYLE="bubble" TEXT="subprocess"><node BACKGROUND_COLOR="#ACF0F2" COLOR="#000000" STYLE="bubble" TEXT="citations" /><node BACKGROUND_COLOR="#ACF0F2" COLOR="#000000" STYLE="bubble" TEXT="keywords" /><node BACKGROUND_COLOR="#ACF0F2" COLOR="#000000" STYLE="bubble" TEXT="overview" /><node BACKGROUND_COLOR="#ACF0F2" COLOR="#000000" STYLE="bubble" TEXT="responsible_parties" /></node></node><node BACKGROUND_COLOR="#ccccff" COLOR="#000000" FOLDED="false" STYLE="bubble" TEXT="grid"><font BOLD="True" NAME="courier" SIZE="12" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Key properties of the atmospheric chemistry</dd><dt><b>QC status</b></dt><dd>draft</dd><dt><b>Contact</b></dt><dd>Charlotte Pascoe, David Hassell</dd><dt><b>Authors</b></dt><dd>David Hassell</dd><dt><b>Contributors</b></dt><dd>CMIP5 version + Bill Collins (URead)</dd>
+        <dt><b>Description</b></dt><dd>Atmospheric chemistry grid</dd><dt><b>QC status</b></dt><dd>None</dd><dt><b>Contact</b></dt><dd>None</dd><dt><b>Authors</b></dt><dd>None</dd><dt><b>Contributors</b></dt><dd>CMIP5 version + Bill Collins (URead)</dd>
     </dl>
   </body>
-</html></richcontent><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="model_overview"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
+</html></richcontent><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="overview"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Overview of atmospheric chemistry model.</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.key_properties.model_overview</dd>
-    </dl>
-  </body>
-</html></richcontent><richcontent TYPE="NOTE"><html>
-  <head />
-  <body>
-    <dl>
-        <dt><b>Description</b></dt><dd>Overview of atmospheric chemistry model.</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.key_properties.model_overview</dd>
-    </dl>
-  </body>
-</html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="model_name"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
-  <head />
-  <body>
-    <dl>
-        <dt><b>Description</b></dt><dd>Name of atmospheric chemistry model code.</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.key_properties.model_name</dd>
+        <dt><b>Description</b></dt><dd>Overview of grid in atmoschem model.</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.grid.overview</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Name of atmospheric chemistry model code.</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.key_properties.model_name</dd>
+        <dt><b>Description</b></dt><dd>Overview of grid in atmoschem model.</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.grid.overview</dd>
+    </dl>
+  </body>
+</html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="matches_atmosphere_grid"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
+  <head />
+  <body>
+    <dl>
+        <dt><b>Description</b></dt><dd>Does the atmospheric chemistry grid match the atmosphere grid?</dd><dt><b>Type</b></dt><dd>bool</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.grid.matches_atmosphere_grid</dd>
+    </dl>
+  </body>
+</html></richcontent><richcontent TYPE="NOTE"><html>
+  <head />
+  <body>
+    <dl>
+        <dt><b>Description</b></dt><dd>Does the atmospheric chemistry grid match the atmosphere grid?</dd><dt><b>Type</b></dt><dd>bool</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.grid.matches_atmosphere_grid</dd>
+    </dl>
+  </body>
+</html></richcontent></node><node BACKGROUND_COLOR="#ACF0F2" COLOR="#000000" FOLDED="false" STYLE="bubble" TEXT="resolution"><font BOLD="True" NAME="courier" SIZE="12" /><richcontent TYPE="NOTE"><html>
+  <head />
+  <body>
+    <dl>
+        <dt><b>Description</b></dt><dd>Resolution in the atmospheric chemistry grid</dd><dt><b>QC status</b></dt><dd>None</dd><dt><b>Contact</b></dt><dd>None</dd><dt><b>Authors</b></dt><dd>None</dd><dt><b>Contributors</b></dt><dd>CMIP5 version + Bill Collins (URead)</dd>
+    </dl>
+  </body>
+</html></richcontent><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="name"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
+  <head />
+  <body>
+    <dl>
+        <dt><b>Description</b></dt><dd>This is a string usually used by the modelling group to describe the resolution of this grid, e.g. ORCA025, N512L180, T512L70 etc.</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.grid.resolution.name</dd>
+    </dl>
+  </body>
+</html></richcontent><richcontent TYPE="NOTE"><html>
+  <head />
+  <body>
+    <dl>
+        <dt><b>Description</b></dt><dd>This is a string usually used by the modelling group to describe the resolution of this grid, e.g. ORCA025, N512L180, T512L70 etc.</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.grid.resolution.name</dd>
+    </dl>
+  </body>
+</html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="canonical_horizontal_resolution"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
+  <head />
+  <body>
+    <dl>
+        <dt><b>Description</b></dt><dd>Expression quoted for gross comparisons of resolution, eg. 50km or 0.1 degrees etc.</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.grid.resolution.canonical_horizontal_resolution</dd>
+    </dl>
+  </body>
+</html></richcontent><richcontent TYPE="NOTE"><html>
+  <head />
+  <body>
+    <dl>
+        <dt><b>Description</b></dt><dd>Expression quoted for gross comparisons of resolution, eg. 50km or 0.1 degrees etc.</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.grid.resolution.canonical_horizontal_resolution</dd>
+    </dl>
+  </body>
+</html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="number_of_horizontal_gridpoints"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
+  <head />
+  <body>
+    <dl>
+        <dt><b>Description</b></dt><dd>Total number of horizontal (XY) points (or degrees of freedom) on computational grid.</dd><dt><b>Type</b></dt><dd>int</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.grid.resolution.number_of_horizontal_gridpoints</dd>
+    </dl>
+  </body>
+</html></richcontent><richcontent TYPE="NOTE"><html>
+  <head />
+  <body>
+    <dl>
+        <dt><b>Description</b></dt><dd>Total number of horizontal (XY) points (or degrees of freedom) on computational grid.</dd><dt><b>Type</b></dt><dd>int</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.grid.resolution.number_of_horizontal_gridpoints</dd>
+    </dl>
+  </body>
+</html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="number_of_vertical_levels"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
+  <head />
+  <body>
+    <dl>
+        <dt><b>Description</b></dt><dd>Number of vertical levels resolved on computational grid.</dd><dt><b>Type</b></dt><dd>int</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.grid.resolution.number_of_vertical_levels</dd>
+    </dl>
+  </body>
+</html></richcontent><richcontent TYPE="NOTE"><html>
+  <head />
+  <body>
+    <dl>
+        <dt><b>Description</b></dt><dd>Number of vertical levels resolved on computational grid.</dd><dt><b>Type</b></dt><dd>int</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.grid.resolution.number_of_vertical_levels</dd>
+    </dl>
+  </body>
+</html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="is_adaptive_grid"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
+  <head />
+  <body>
+    <dl>
+        <dt><b>Description</b></dt><dd>Default is False. Set true if grid resolution changes during execution.</dd><dt><b>Type</b></dt><dd>bool</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.grid.resolution.is_adaptive_grid</dd>
+    </dl>
+  </body>
+</html></richcontent><richcontent TYPE="NOTE"><html>
+  <head />
+  <body>
+    <dl>
+        <dt><b>Description</b></dt><dd>Default is False. Set true if grid resolution changes during execution.</dd><dt><b>Type</b></dt><dd>bool</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.grid.resolution.is_adaptive_grid</dd>
+    </dl>
+  </body>
+</html></richcontent></node></node></node><node BACKGROUND_COLOR="#ffff66" COLOR="#000000" FOLDED="false" STYLE="bubble" TEXT="key_properties"><font BOLD="True" NAME="courier" SIZE="12" /><richcontent TYPE="NOTE"><html>
+  <head />
+  <body>
+    <dl>
+        <dt><b>Description</b></dt><dd>Key properties of the atmospheric chemistry</dd><dt><b>QC status</b></dt><dd>None</dd><dt><b>Contact</b></dt><dd>None</dd><dt><b>Authors</b></dt><dd>None</dd><dt><b>Contributors</b></dt><dd>CMIP5 version + Bill Collins (URead)</dd>
+    </dl>
+  </body>
+</html></richcontent><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="name"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
+  <head />
+  <body>
+    <dl>
+        <dt><b>Description</b></dt><dd>Name of atmoschem model code</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.key_properties.name</dd>
+    </dl>
+  </body>
+</html></richcontent><richcontent TYPE="NOTE"><html>
+  <head />
+  <body>
+    <dl>
+        <dt><b>Description</b></dt><dd>Name of atmoschem model code</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.key_properties.name</dd>
+    </dl>
+  </body>
+</html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="overview"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
+  <head />
+  <body>
+    <dl>
+        <dt><b>Description</b></dt><dd>Overview of atmoschem model.</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.key_properties.overview</dd>
+    </dl>
+  </body>
+</html></richcontent><richcontent TYPE="NOTE"><html>
+  <head />
+  <body>
+    <dl>
+        <dt><b>Description</b></dt><dd>Overview of atmoschem model.</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.key_properties.overview</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="chemistry_scheme_scope"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
@@ -289,7 +401,7 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Timestepping in the atmospheric chemistry model</dd><dt><b>QC status</b></dt><dd>draft</dd><dt><b>Contact</b></dt><dd>Charlotte Pascoe, David Hassell</dd><dt><b>Authors</b></dt><dd>David Hassell</dd><dt><b>Contributors</b></dt><dd>CMIP5 version + Bill Collins (URead)</dd>
+        <dt><b>Description</b></dt><dd>Timestepping in the atmospheric chemistry model</dd><dt><b>QC status</b></dt><dd>None</dd><dt><b>Contact</b></dt><dd>None</dd><dt><b>Authors</b></dt><dd>None</dd><dt><b>Contributors</b></dt><dd>CMIP5 version + Bill Collins (URead)</dd>
     </dl>
   </body>
 </html></richcontent><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="method"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
@@ -611,7 +723,7 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Tuning methodology for atmospheric chemistry component</dd><dt><b>QC status</b></dt><dd>draft</dd><dt><b>Contact</b></dt><dd>Charlotte Pascoe, David Hassell</dd><dt><b>Authors</b></dt><dd>David Hassell</dd><dt><b>Contributors</b></dt><dd>CMIP5 version + Bill Collins (URead)</dd>
+        <dt><b>Description</b></dt><dd>Tuning methodology for atmospheric chemistry component</dd><dt><b>QC status</b></dt><dd>None</dd><dt><b>Contact</b></dt><dd>None</dd><dt><b>Authors</b></dt><dd>None</dd><dt><b>Contributors</b></dt><dd>CMIP5 version + Bill Collins (URead)</dd>
     </dl>
   </body>
 </html></richcontent><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="description"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
@@ -670,144 +782,46 @@
         <dt><b>Description</b></dt><dd>List observed trend metrics used in tuning model/component</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.key_properties.tuning_applied.trend_metrics_used</dd>
     </dl>
   </body>
-</html></richcontent></node></node></node><node BACKGROUND_COLOR="#ccccff" COLOR="#000000" FOLDED="false" STYLE="bubble" TEXT="grid"><font BOLD="True" NAME="courier" SIZE="12" /><richcontent TYPE="NOTE"><html>
+</html></richcontent></node></node></node><node BACKGROUND_COLOR="#FFFFFF" COLOR="#000000" FOLDED="false" STYLE="bubble" TEXT="transport"><font BOLD="True" NAME="courier" SIZE="12" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Atmospheric chemistry grid</dd><dt><b>QC status</b></dt><dd>draft</dd><dt><b>Contact</b></dt><dd>David Hassell</dd><dt><b>Authors</b></dt><dd>David Hassell</dd><dt><b>Contributors</b></dt><dd>CMIP5 version + Bill Collins (URead)</dd>
-    </dl>
-  </body>
-</html></richcontent><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="overview"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
-  <head />
-  <body>
-    <dl>
-        <dt><b>Description</b></dt><dd>Describe the general structure of the atmopsheric chemistry grid</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.grid.overview</dd>
+        <dt><b>Description</b></dt><dd>Atmospheric chemistry transport</dd><dt><b>QC status</b></dt><dd>None</dd><dt><b>Contact</b></dt><dd>None</dd><dt><b>Authors</b></dt><dd>None</dd><dt><b>Contributors</b></dt><dd>CMIP5 version + Bill Collins (URead)</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe the general structure of the atmopsheric chemistry grid</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.grid.overview</dd>
-    </dl>
-  </body>
-</html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="matches_atmosphere_grid"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
-  <head />
-  <body>
-    <dl>
-        <dt><b>Description</b></dt><dd> Does the atmospheric chemistry grid match the atmosphere grid?</dd><dt><b>Type</b></dt><dd>bool</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.grid.matches_atmosphere_grid</dd>
-    </dl>
-  </body>
-</html></richcontent><richcontent TYPE="NOTE"><html>
-  <head />
-  <body>
-    <dl>
-        <dt><b>Description</b></dt><dd> Does the atmospheric chemistry grid match the atmosphere grid?</dd><dt><b>Type</b></dt><dd>bool</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.grid.matches_atmosphere_grid</dd>
-    </dl>
-  </body>
-</html></richcontent></node><node BACKGROUND_COLOR="#ACF0F2" COLOR="#000000" FOLDED="false" STYLE="bubble" TEXT="resolution"><font BOLD="True" NAME="courier" SIZE="12" /><richcontent TYPE="NOTE"><html>
-  <head />
-  <body>
-    <dl>
-        <dt><b>Description</b></dt><dd>Resolution in the atmospheric chemistry grid</dd><dt><b>QC status</b></dt><dd>draft</dd><dt><b>Contact</b></dt><dd>David Hassell</dd><dt><b>Authors</b></dt><dd>David Hassell</dd><dt><b>Contributors</b></dt><dd>CMIP5 version + Bill Collins (URead)</dd>
+        <dt><b>Description</b></dt><dd>Atmospheric chemistry transport</dd><dt><b>QC status</b></dt><dd>None</dd><dt><b>Contact</b></dt><dd>None</dd><dt><b>Authors</b></dt><dd>None</dd><dt><b>Contributors</b></dt><dd>CMIP5 version + Bill Collins (URead)</dd>
     </dl>
   </body>
 </html></richcontent><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="name"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>This is a string usually used by the modelling group to describe the resolution of this grid, e.g. ORCA025, N512L180, T512L70 etc.</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.grid.resolution.name</dd>
+        <dt><b>Description</b></dt><dd>Commonly used name for the transport in atmoschem model.</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.transport.name</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>This is a string usually used by the modelling group to describe the resolution of this grid, e.g. ORCA025, N512L180, T512L70 etc.</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.grid.resolution.name</dd>
+        <dt><b>Description</b></dt><dd>Commonly used name for the transport in atmoschem model.</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.transport.name</dd>
     </dl>
   </body>
-</html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="canonical_horizontal_resolution"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
+</html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="overview"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Expression quoted for gross comparisons of resolution, eg. 50km or 0.1 degrees etc.</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.grid.resolution.canonical_horizontal_resolution</dd>
-    </dl>
-  </body>
-</html></richcontent><richcontent TYPE="NOTE"><html>
-  <head />
-  <body>
-    <dl>
-        <dt><b>Description</b></dt><dd>Expression quoted for gross comparisons of resolution, eg. 50km or 0.1 degrees etc.</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.grid.resolution.canonical_horizontal_resolution</dd>
-    </dl>
-  </body>
-</html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="number_of_horizontal_gridpoints"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
-  <head />
-  <body>
-    <dl>
-        <dt><b>Description</b></dt><dd>Total number of horizontal (XY) points (or degrees of freedom) on computational grid.</dd><dt><b>Type</b></dt><dd>int</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.grid.resolution.number_of_horizontal_gridpoints</dd>
+        <dt><b>Description</b></dt><dd>Overview of atmospheric chemistry transport in atmoschem model.</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.transport.overview</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Total number of horizontal (XY) points (or degrees of freedom) on computational grid.</dd><dt><b>Type</b></dt><dd>int</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.grid.resolution.number_of_horizontal_gridpoints</dd>
-    </dl>
-  </body>
-</html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="number_of_vertical_levels"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
-  <head />
-  <body>
-    <dl>
-        <dt><b>Description</b></dt><dd>Number of vertical levels resolved on computational grid.</dd><dt><b>Type</b></dt><dd>int</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.grid.resolution.number_of_vertical_levels</dd>
-    </dl>
-  </body>
-</html></richcontent><richcontent TYPE="NOTE"><html>
-  <head />
-  <body>
-    <dl>
-        <dt><b>Description</b></dt><dd>Number of vertical levels resolved on computational grid.</dd><dt><b>Type</b></dt><dd>int</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.grid.resolution.number_of_vertical_levels</dd>
-    </dl>
-  </body>
-</html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="is_adaptive_grid"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
-  <head />
-  <body>
-    <dl>
-        <dt><b>Description</b></dt><dd>Default is False. Set true if grid resolution changes during execution.</dd><dt><b>Type</b></dt><dd>bool</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.grid.resolution.is_adaptive_grid</dd>
-    </dl>
-  </body>
-</html></richcontent><richcontent TYPE="NOTE"><html>
-  <head />
-  <body>
-    <dl>
-        <dt><b>Description</b></dt><dd>Default is False. Set true if grid resolution changes during execution.</dd><dt><b>Type</b></dt><dd>bool</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.grid.resolution.is_adaptive_grid</dd>
-    </dl>
-  </body>
-</html></richcontent></node></node></node><node BACKGROUND_COLOR="#FFFFFF" COLOR="#000000" FOLDED="false" STYLE="bubble" TEXT="transport"><font BOLD="True" NAME="courier" SIZE="12" /><richcontent TYPE="NOTE"><html>
-  <head />
-  <body>
-    <dl>
-        <dt><b>Description</b></dt><dd>Atmospheric chemistry transport</dd><dt><b>QC status</b></dt><dd>draft</dd><dt><b>Contact</b></dt><dd>David Hassell</dd><dt><b>Authors</b></dt><dd>David Hassell</dd><dt><b>Contributors</b></dt><dd>CMIP5 version + Bill Collins (URead)</dd>
-    </dl>
-  </body>
-</html></richcontent><richcontent TYPE="NOTE"><html>
-  <head />
-  <body>
-    <dl>
-        <dt><b>Description</b></dt><dd>Atmospheric chemistry transport</dd><dt><b>QC status</b></dt><dd>draft</dd><dt><b>Contact</b></dt><dd>David Hassell</dd><dt><b>Authors</b></dt><dd>David Hassell</dd><dt><b>Contributors</b></dt><dd>CMIP5 version + Bill Collins (URead)</dd>
-    </dl>
-  </body>
-</html></richcontent><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="overview"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
-  <head />
-  <body>
-    <dl>
-        <dt><b>Description</b></dt><dd>General overview of transport implementation</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.transport.overview</dd>
-    </dl>
-  </body>
-</html></richcontent><richcontent TYPE="NOTE"><html>
-  <head />
-  <body>
-    <dl>
-        <dt><b>Description</b></dt><dd>General overview of transport implementation</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.transport.overview</dd>
+        <dt><b>Description</b></dt><dd>Overview of atmospheric chemistry transport in atmoschem model.</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.transport.overview</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="use_atmospheric_transport"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
@@ -842,35 +856,49 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Atmospheric chemistry emissions</dd><dt><b>QC status</b></dt><dd>draft</dd><dt><b>Contact</b></dt><dd>David Hassell</dd><dt><b>Authors</b></dt><dd>David Hassell</dd><dt><b>Contributors</b></dt><dd>CMIP5 version + Bill Collins (URead)</dd>
+        <dt><b>Description</b></dt><dd>Atmospheric chemistry emissions</dd><dt><b>QC status</b></dt><dd>None</dd><dt><b>Contact</b></dt><dd>None</dd><dt><b>Authors</b></dt><dd>None</dd><dt><b>Contributors</b></dt><dd>CMIP5 version + Bill Collins (URead)</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Atmospheric chemistry emissions</dd><dt><b>QC status</b></dt><dd>draft</dd><dt><b>Contact</b></dt><dd>David Hassell</dd><dt><b>Authors</b></dt><dd>David Hassell</dd><dt><b>Contributors</b></dt><dd>CMIP5 version + Bill Collins (URead)</dd>
+        <dt><b>Description</b></dt><dd>Atmospheric chemistry emissions</dd><dt><b>QC status</b></dt><dd>None</dd><dt><b>Contact</b></dt><dd>None</dd><dt><b>Authors</b></dt><dd>None</dd><dt><b>Contributors</b></dt><dd>CMIP5 version + Bill Collins (URead)</dd>
     </dl>
   </body>
-</html></richcontent><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="overview"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
+</html></richcontent><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="name"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Overview atmospheric chemistry emissions</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.emissions_concentrations.overview</dd>
+        <dt><b>Description</b></dt><dd>Commonly used name for the emissions concentrations in atmoschem model.</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.emissions_concentrations.name</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Overview atmospheric chemistry emissions</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.emissions_concentrations.overview</dd>
+        <dt><b>Description</b></dt><dd>Commonly used name for the emissions concentrations in atmoschem model.</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.emissions_concentrations.name</dd>
+    </dl>
+  </body>
+</html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="overview"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
+  <head />
+  <body>
+    <dl>
+        <dt><b>Description</b></dt><dd>Overview of atmospheric chemistry emissions in atmoschem model.</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.emissions_concentrations.overview</dd>
+    </dl>
+  </body>
+</html></richcontent><richcontent TYPE="NOTE"><html>
+  <head />
+  <body>
+    <dl>
+        <dt><b>Description</b></dt><dd>Overview of atmospheric chemistry emissions in atmoschem model.</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.emissions_concentrations.overview</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#ACF0F2" COLOR="#000000" FOLDED="false" STYLE="bubble" TEXT="surface_emissions"><font BOLD="True" NAME="courier" SIZE="12" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd /><dt><b>QC status</b></dt><dd>draft</dd><dt><b>Contact</b></dt><dd>David Hassell</dd><dt><b>Authors</b></dt><dd>David Hassell</dd><dt><b>Contributors</b></dt><dd>CMIP5 version + Bill Collins (URead)</dd>
+        <dt><b>Description</b></dt><dd /><dt><b>QC status</b></dt><dd>None</dd><dt><b>Contact</b></dt><dd>None</dd><dt><b>Authors</b></dt><dd>None</dd><dt><b>Contributors</b></dt><dd>CMIP5 version + Bill Collins (URead)</dd>
     </dl>
   </body>
 </html></richcontent><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="sources"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
@@ -1024,7 +1052,7 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>TO DO</dd><dt><b>QC status</b></dt><dd>draft</dd><dt><b>Contact</b></dt><dd>David Hassell</dd><dt><b>Authors</b></dt><dd>David Hassell</dd><dt><b>Contributors</b></dt><dd>CMIP5 version + Bill Collins (URead)</dd>
+        <dt><b>Description</b></dt><dd>TO DO</dd><dt><b>QC status</b></dt><dd>None</dd><dt><b>Contact</b></dt><dd>None</dd><dt><b>Authors</b></dt><dd>None</dd><dt><b>Contributors</b></dt><dd>CMIP5 version + Bill Collins (URead)</dd>
     </dl>
   </body>
 </html></richcontent><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="sources"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
@@ -1171,7 +1199,7 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>TO DO</dd><dt><b>QC status</b></dt><dd>draft</dd><dt><b>Contact</b></dt><dd>David Hassell</dd><dt><b>Authors</b></dt><dd>David Hassell</dd><dt><b>Contributors</b></dt><dd>CMIP5 version + Bill Collins (URead)</dd>
+        <dt><b>Description</b></dt><dd>TO DO</dd><dt><b>QC status</b></dt><dd>None</dd><dt><b>Contact</b></dt><dd>None</dd><dt><b>Authors</b></dt><dd>None</dd><dt><b>Contributors</b></dt><dd>CMIP5 version + Bill Collins (URead)</dd>
     </dl>
   </body>
 </html></richcontent><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="prescribed_lower_boundary"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
@@ -1206,28 +1234,42 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Atmospheric chemistry transport</dd><dt><b>QC status</b></dt><dd>draft</dd><dt><b>Contact</b></dt><dd>Charlotte Pascoe, David Hassell</dd><dt><b>Authors</b></dt><dd>David Hassell</dd><dt><b>Contributors</b></dt><dd>CMIP5 version + Bill Collins (URead)</dd>
+        <dt><b>Description</b></dt><dd>Atmospheric gas phase chemistry transport</dd><dt><b>QC status</b></dt><dd>None</dd><dt><b>Contact</b></dt><dd>None</dd><dt><b>Authors</b></dt><dd>None</dd><dt><b>Contributors</b></dt><dd>CMIP5 version + Bill Collins (URead)</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Atmospheric chemistry transport</dd><dt><b>QC status</b></dt><dd>draft</dd><dt><b>Contact</b></dt><dd>Charlotte Pascoe, David Hassell</dd><dt><b>Authors</b></dt><dd>David Hassell</dd><dt><b>Contributors</b></dt><dd>CMIP5 version + Bill Collins (URead)</dd>
+        <dt><b>Description</b></dt><dd>Atmospheric gas phase chemistry transport</dd><dt><b>QC status</b></dt><dd>None</dd><dt><b>Contact</b></dt><dd>None</dd><dt><b>Authors</b></dt><dd>None</dd><dt><b>Contributors</b></dt><dd>CMIP5 version + Bill Collins (URead)</dd>
     </dl>
   </body>
-</html></richcontent><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="overview"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
+</html></richcontent><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="name"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Overview gas phase atmospheric chemistry</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.gas_phase_chemistry.overview</dd>
+        <dt><b>Description</b></dt><dd>Commonly used name for the gas phase chemistry in atmoschem model.</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.gas_phase_chemistry.name</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Overview gas phase atmospheric chemistry</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.gas_phase_chemistry.overview</dd>
+        <dt><b>Description</b></dt><dd>Commonly used name for the gas phase chemistry in atmoschem model.</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.gas_phase_chemistry.name</dd>
+    </dl>
+  </body>
+</html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="overview"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
+  <head />
+  <body>
+    <dl>
+        <dt><b>Description</b></dt><dd>Overview of atmospheric gas phase chemistry transport in atmoschem model.</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.gas_phase_chemistry.overview</dd>
+    </dl>
+  </body>
+</html></richcontent><richcontent TYPE="NOTE"><html>
+  <head />
+  <body>
+    <dl>
+        <dt><b>Description</b></dt><dd>Overview of atmospheric gas phase chemistry transport in atmoschem model.</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.gas_phase_chemistry.overview</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="species"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
@@ -1437,28 +1479,42 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Atmospheric chemistry startospheric heterogeneous chemistry</dd><dt><b>QC status</b></dt><dd>draft</dd><dt><b>Contact</b></dt><dd>Charlotte Pascoe, David Hassell</dd><dt><b>Authors</b></dt><dd>David Hassell</dd><dt><b>Contributors</b></dt><dd>CMIP5 version + Bill Collins (URead)</dd>
+        <dt><b>Description</b></dt><dd>Atmospheric chemistry startospheric heterogeneous chemistry</dd><dt><b>QC status</b></dt><dd>None</dd><dt><b>Contact</b></dt><dd>None</dd><dt><b>Authors</b></dt><dd>None</dd><dt><b>Contributors</b></dt><dd>CMIP5 version + Bill Collins (URead)</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Atmospheric chemistry startospheric heterogeneous chemistry</dd><dt><b>QC status</b></dt><dd>draft</dd><dt><b>Contact</b></dt><dd>Charlotte Pascoe, David Hassell</dd><dt><b>Authors</b></dt><dd>David Hassell</dd><dt><b>Contributors</b></dt><dd>CMIP5 version + Bill Collins (URead)</dd>
+        <dt><b>Description</b></dt><dd>Atmospheric chemistry startospheric heterogeneous chemistry</dd><dt><b>QC status</b></dt><dd>None</dd><dt><b>Contact</b></dt><dd>None</dd><dt><b>Authors</b></dt><dd>None</dd><dt><b>Contributors</b></dt><dd>CMIP5 version + Bill Collins (URead)</dd>
     </dl>
   </body>
-</html></richcontent><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="overview"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
+</html></richcontent><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="name"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Overview stratospheric heterogenous atmospheric chemistry</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.stratospheric_heterogeneous_chemistry.overview</dd>
+        <dt><b>Description</b></dt><dd>Commonly used name for the stratospheric heterogeneous chemistry in atmoschem model.</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.stratospheric_heterogeneous_chemistry.name</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Overview stratospheric heterogenous atmospheric chemistry</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.stratospheric_heterogeneous_chemistry.overview</dd>
+        <dt><b>Description</b></dt><dd>Commonly used name for the stratospheric heterogeneous chemistry in atmoschem model.</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.stratospheric_heterogeneous_chemistry.name</dd>
+    </dl>
+  </body>
+</html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="overview"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
+  <head />
+  <body>
+    <dl>
+        <dt><b>Description</b></dt><dd>Overview of atmospheric chemistry startospheric heterogeneous chemistry in atmoschem model.</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.stratospheric_heterogeneous_chemistry.overview</dd>
+    </dl>
+  </body>
+</html></richcontent><richcontent TYPE="NOTE"><html>
+  <head />
+  <body>
+    <dl>
+        <dt><b>Description</b></dt><dd>Overview of atmospheric chemistry startospheric heterogeneous chemistry in atmoschem model.</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.stratospheric_heterogeneous_chemistry.overview</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="gas_phase_species"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
@@ -1591,28 +1647,42 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Atmospheric chemistry tropospheric heterogeneous chemistry</dd><dt><b>QC status</b></dt><dd>draft</dd><dt><b>Contact</b></dt><dd>David Hassell</dd><dt><b>Authors</b></dt><dd>David Hassell</dd><dt><b>Contributors</b></dt><dd>CMIP5 version + Bill Collins (URead)</dd>
+        <dt><b>Description</b></dt><dd>Atmospheric chemistry tropospheric heterogeneous chemistry</dd><dt><b>QC status</b></dt><dd>None</dd><dt><b>Contact</b></dt><dd>None</dd><dt><b>Authors</b></dt><dd>None</dd><dt><b>Contributors</b></dt><dd>CMIP5 version + Bill Collins (URead)</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Atmospheric chemistry tropospheric heterogeneous chemistry</dd><dt><b>QC status</b></dt><dd>draft</dd><dt><b>Contact</b></dt><dd>David Hassell</dd><dt><b>Authors</b></dt><dd>David Hassell</dd><dt><b>Contributors</b></dt><dd>CMIP5 version + Bill Collins (URead)</dd>
+        <dt><b>Description</b></dt><dd>Atmospheric chemistry tropospheric heterogeneous chemistry</dd><dt><b>QC status</b></dt><dd>None</dd><dt><b>Contact</b></dt><dd>None</dd><dt><b>Authors</b></dt><dd>None</dd><dt><b>Contributors</b></dt><dd>CMIP5 version + Bill Collins (URead)</dd>
     </dl>
   </body>
-</html></richcontent><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="overview"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
+</html></richcontent><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="name"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Overview tropospheric heterogenous atmospheric chemistry</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.tropospheric_heterogeneous_chemistry.overview</dd>
+        <dt><b>Description</b></dt><dd>Commonly used name for the tropospheric heterogeneous chemistry in atmoschem model.</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.tropospheric_heterogeneous_chemistry.name</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Overview tropospheric heterogenous atmospheric chemistry</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.tropospheric_heterogeneous_chemistry.overview</dd>
+        <dt><b>Description</b></dt><dd>Commonly used name for the tropospheric heterogeneous chemistry in atmoschem model.</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.tropospheric_heterogeneous_chemistry.name</dd>
+    </dl>
+  </body>
+</html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="overview"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
+  <head />
+  <body>
+    <dl>
+        <dt><b>Description</b></dt><dd>Overview of atmospheric chemistry tropospheric heterogeneous chemistry in atmoschem model.</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.tropospheric_heterogeneous_chemistry.overview</dd>
+    </dl>
+  </body>
+</html></richcontent><richcontent TYPE="NOTE"><html>
+  <head />
+  <body>
+    <dl>
+        <dt><b>Description</b></dt><dd>Overview of atmospheric chemistry tropospheric heterogeneous chemistry in atmoschem model.</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.tropospheric_heterogeneous_chemistry.overview</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="gas_phase_species"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
@@ -1759,28 +1829,42 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Atmospheric chemistry photo chemistry</dd><dt><b>QC status</b></dt><dd>draft</dd><dt><b>Contact</b></dt><dd>Charlotte Pascoe, David Hassell</dd><dt><b>Authors</b></dt><dd>David Hassell</dd><dt><b>Contributors</b></dt><dd>CMIP5 version + Bill Collins (URead)</dd>
+        <dt><b>Description</b></dt><dd>Atmospheric chemistry photo chemistry</dd><dt><b>QC status</b></dt><dd>None</dd><dt><b>Contact</b></dt><dd>None</dd><dt><b>Authors</b></dt><dd>None</dd><dt><b>Contributors</b></dt><dd>CMIP5 version + Bill Collins (URead)</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Atmospheric chemistry photo chemistry</dd><dt><b>QC status</b></dt><dd>draft</dd><dt><b>Contact</b></dt><dd>Charlotte Pascoe, David Hassell</dd><dt><b>Authors</b></dt><dd>David Hassell</dd><dt><b>Contributors</b></dt><dd>CMIP5 version + Bill Collins (URead)</dd>
+        <dt><b>Description</b></dt><dd>Atmospheric chemistry photo chemistry</dd><dt><b>QC status</b></dt><dd>None</dd><dt><b>Contact</b></dt><dd>None</dd><dt><b>Authors</b></dt><dd>None</dd><dt><b>Contributors</b></dt><dd>CMIP5 version + Bill Collins (URead)</dd>
     </dl>
   </body>
-</html></richcontent><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="overview"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
+</html></richcontent><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="name"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Overview atmospheric photo chemistry</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.photo_chemistry.overview</dd>
+        <dt><b>Description</b></dt><dd>Commonly used name for the photo chemistry in atmoschem model.</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.photo_chemistry.name</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Overview atmospheric photo chemistry</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.photo_chemistry.overview</dd>
+        <dt><b>Description</b></dt><dd>Commonly used name for the photo chemistry in atmoschem model.</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.photo_chemistry.name</dd>
+    </dl>
+  </body>
+</html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="overview"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
+  <head />
+  <body>
+    <dl>
+        <dt><b>Description</b></dt><dd>Overview of atmospheric chemistry photo chemistry in atmoschem model.</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.photo_chemistry.overview</dd>
+    </dl>
+  </body>
+</html></richcontent><richcontent TYPE="NOTE"><html>
+  <head />
+  <body>
+    <dl>
+        <dt><b>Description</b></dt><dd>Overview of atmospheric chemistry photo chemistry in atmoschem model.</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.photo_chemistry.overview</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="number_of_reactions"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
@@ -1801,7 +1885,7 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Photolysis scheme</dd><dt><b>QC status</b></dt><dd>draft</dd><dt><b>Contact</b></dt><dd>Charlotte Pascoe, David Hassell</dd><dt><b>Authors</b></dt><dd>David Hassell</dd><dt><b>Contributors</b></dt><dd>CMIP5 version + Bill Collins (URead)</dd>
+        <dt><b>Description</b></dt><dd>Photolysis scheme</dd><dt><b>QC status</b></dt><dd>None</dd><dt><b>Contact</b></dt><dd>None</dd><dt><b>Authors</b></dt><dd>None</dd><dt><b>Contributors</b></dt><dd>CMIP5 version + Bill Collins (URead)</dd>
     </dl>
   </body>
 </html></richcontent><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="method"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>

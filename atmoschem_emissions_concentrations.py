@@ -12,35 +12,9 @@ DETAILS = OrderedDict()
 ENUMERATIONS = OrderedDict()
 
 # --------------------------------------------------------------------
-# CONTACT: Set to specialization co-ordinator.
-# --------------------------------------------------------------------
-CONTACT = 'David Hassell'
-
-# --------------------------------------------------------------------
-# AUTHORS: Set to specialization authors (comma delimited).
-# --------------------------------------------------------------------
-AUTHORS = 'David Hassell'
-
-# --------------------------------------------------------------------
-# QUALITY CONTROL STATUS: Set to 'draft' or 'complete'
-# --------------------------------------------------------------------
-QC_STATUS = 'draft'
-
-# --------------------------------------------------------------------
 # DESCRIPTION: Short description of the specialization.
 # --------------------------------------------------------------------
 DESCRIPTION = 'Atmospheric chemistry emissions'
-
-# --------------------------------------------------------------------
-# PROCESS: top level
-# --------------------------------------------------------------------
-DETAILS['toplevel'] = {
-    'description': '',
-    'properties': [
-        ('overview', 'str', '1.1',
-             'Overview atmospheric chemistry emissions'), 
-    ]
-}
 
 # --------------------------------------------------------------------
 # SUB-PROCESS: Surface emissions

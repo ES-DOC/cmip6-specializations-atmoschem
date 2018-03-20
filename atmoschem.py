@@ -19,11 +19,6 @@ AUTHORS = 'David Hassell'
 CONTRIBUTORS = 'CMIP5 version + Bill Collins (URead)'
 
 # --------------------------------------------------------------------
-# QUALITY CONTROL STATUS: Set to 'draft' or 'complete'
-# --------------------------------------------------------------------
-QC_STATUS = 'draft'
-
-# --------------------------------------------------------------------
 # CHANGE HISTORY: Set to list: (version, date, who, comment).
 # --------------------------------------------------------------------
 CHANGE_HISTORY = [
@@ -41,7 +36,7 @@ CHANGE_HISTORY = [
 # --------------------------------------------------------------------
 # DESCRIPTION: Scientific context of this specialization
 # --------------------------------------------------------------------
-DESCRIPTION = 'Atmospheric chemistry realm'
+DESCRIPTION = 'Atmospheric chemistry'
 
 # --------------------------------------------------------------------
 # KEY PROPERTIES: Key properties (differing from defaults (grid, timestep etc))
