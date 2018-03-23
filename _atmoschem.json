@@ -2,13 +2,13 @@
     "label": "Atmoschem", 
     "description": "Atmospheric chemistry", 
     "id": "cmip6.atmoschem", 
-    "contact": null, 
+    "contact": "Charlotte Pascoe, David Hassell", 
     "processes": [
         {
             "label": "Transport", 
             "description": "Atmospheric chemistry transport", 
             "id": "cmip6.atmoschem.transport", 
-            "contact": null, 
+            "contact": "Charlotte Pascoe, David Hassell", 
             "properties": [
                 {
                     "label": "Name", 
@@ -48,7 +48,7 @@
             "label": "Emissions Concentrations", 
             "description": "Atmospheric chemistry emissions", 
             "id": "cmip6.atmoschem.emissions_concentrations", 
-            "contact": null, 
+            "contact": "Charlotte Pascoe, David Hassell", 
             "properties": [
                 {
                     "label": "Name", 
@@ -72,8 +72,16 @@
                     "label": "Surface Emissions", 
                     "description": "", 
                     "id": "cmip6.atmoschem.emissions_concentrations.surface_emissions", 
-                    "contact": null, 
+                    "contact": "Charlotte Pascoe, David Hassell", 
                     "properties": [
+                        {
+                            "label": "Overview", 
+                            "description": "Overview of  in atmoschem model.", 
+                            "id": "cmip6.atmoschem.emissions_concentrations.surface_emissions.overview", 
+                            "cardinality": "0.1", 
+                            "type": "str", 
+                            "uiOrdinal": 1
+                        }, 
                         {
                             "label": "Sources", 
                             "description": "Sources of the chemical species emitted at the surface that are taken into account in the emissions scheme", 
@@ -107,7 +115,7 @@
                                     }
                                 ]
                             }, 
-                            "uiOrdinal": 1
+                            "uiOrdinal": 2
                         }, 
                         {
                             "label": "Method", 
@@ -138,7 +146,7 @@
                                     }
                                 ]
                             }, 
-                            "uiOrdinal": 2
+                            "uiOrdinal": 3
                         }, 
                         {
                             "label": "Prescribed Climatology Emitted Species", 
@@ -146,7 +154,7 @@
                             "id": "cmip6.atmoschem.emissions_concentrations.surface_emissions.prescribed_climatology_emitted_species", 
                             "cardinality": "0.1", 
                             "type": "str", 
-                            "uiOrdinal": 3
+                            "uiOrdinal": 4
                         }, 
                         {
                             "label": "Prescribed Spatially Uniform Emitted Species", 
@@ -154,7 +162,7 @@
                             "id": "cmip6.atmoschem.emissions_concentrations.surface_emissions.prescribed_spatially_uniform_emitted_species", 
                             "cardinality": "0.1", 
                             "type": "str", 
-                            "uiOrdinal": 4
+                            "uiOrdinal": 5
                         }, 
                         {
                             "label": "Interactive Emitted Species", 
@@ -162,7 +170,7 @@
                             "id": "cmip6.atmoschem.emissions_concentrations.surface_emissions.interactive_emitted_species", 
                             "cardinality": "0.1", 
                             "type": "str", 
-                            "uiOrdinal": 5
+                            "uiOrdinal": 6
                         }, 
                         {
                             "label": "Other Emitted Species", 
@@ -170,7 +178,7 @@
                             "id": "cmip6.atmoschem.emissions_concentrations.surface_emissions.other_emitted_species", 
                             "cardinality": "0.1", 
                             "type": "str", 
-                            "uiOrdinal": 6
+                            "uiOrdinal": 7
                         }
                     ]
                 }, 
@@ -178,8 +186,16 @@
                     "label": "Atmospheric Emissions", 
                     "description": "TO DO", 
                     "id": "cmip6.atmoschem.emissions_concentrations.atmospheric_emissions", 
-                    "contact": null, 
+                    "contact": "Charlotte Pascoe, David Hassell", 
                     "properties": [
+                        {
+                            "label": "Overview", 
+                            "description": "Overview of to do in atmoschem model.", 
+                            "id": "cmip6.atmoschem.emissions_concentrations.atmospheric_emissions.overview", 
+                            "cardinality": "0.1", 
+                            "type": "str", 
+                            "uiOrdinal": 1
+                        }, 
                         {
                             "label": "Sources", 
                             "description": "Sources of chemical species emitted in the atmosphere that are taken into account in the emissions scheme.", 
@@ -209,7 +225,7 @@
                                     }
                                 ]
                             }, 
-                            "uiOrdinal": 1
+                            "uiOrdinal": 2
                         }, 
                         {
                             "label": "Method", 
@@ -240,7 +256,7 @@
                                     }
                                 ]
                             }, 
-                            "uiOrdinal": 2
+                            "uiOrdinal": 3
                         }, 
                         {
                             "label": "Prescribed Climatology Emitted Species", 
@@ -248,7 +264,7 @@
                             "id": "cmip6.atmoschem.emissions_concentrations.atmospheric_emissions.prescribed_climatology_emitted_species", 
                             "cardinality": "0.1", 
                             "type": "str", 
-                            "uiOrdinal": 3
+                            "uiOrdinal": 4
                         }, 
                         {
                             "label": "Prescribed Spatially Uniform Emitted Species", 
@@ -256,7 +272,7 @@
                             "id": "cmip6.atmoschem.emissions_concentrations.atmospheric_emissions.prescribed_spatially_uniform_emitted_species", 
                             "cardinality": "0.1", 
                             "type": "str", 
-                            "uiOrdinal": 4
+                            "uiOrdinal": 5
                         }, 
                         {
                             "label": "Interactive Emitted Species", 
@@ -264,7 +280,7 @@
                             "id": "cmip6.atmoschem.emissions_concentrations.atmospheric_emissions.interactive_emitted_species", 
                             "cardinality": "0.1", 
                             "type": "str", 
-                            "uiOrdinal": 5
+                            "uiOrdinal": 6
                         }, 
                         {
                             "label": "Other Emitted Species", 
@@ -272,7 +288,7 @@
                             "id": "cmip6.atmoschem.emissions_concentrations.atmospheric_emissions.other_emitted_species", 
                             "cardinality": "0.1", 
                             "type": "str", 
-                            "uiOrdinal": 6
+                            "uiOrdinal": 7
                         }
                     ]
                 }, 
@@ -280,15 +296,23 @@
                     "label": "Concentrations", 
                     "description": "TO DO", 
                     "id": "cmip6.atmoschem.emissions_concentrations.concentrations", 
-                    "contact": null, 
+                    "contact": "Charlotte Pascoe, David Hassell", 
                     "properties": [
+                        {
+                            "label": "Overview", 
+                            "description": "Overview of to do in atmoschem model.", 
+                            "id": "cmip6.atmoschem.emissions_concentrations.concentrations.overview", 
+                            "cardinality": "0.1", 
+                            "type": "str", 
+                            "uiOrdinal": 1
+                        }, 
                         {
                             "label": "Prescribed Lower Boundary", 
                             "description": "List of species prescribed at the lower boundary.", 
                             "id": "cmip6.atmoschem.emissions_concentrations.concentrations.prescribed_lower_boundary", 
                             "cardinality": "0.1", 
                             "type": "str", 
-                            "uiOrdinal": 1
+                            "uiOrdinal": 2
                         }, 
                         {
                             "label": "Prescribed Upper Boundary", 
@@ -296,7 +320,7 @@
                             "id": "cmip6.atmoschem.emissions_concentrations.concentrations.prescribed_upper_boundary", 
                             "cardinality": "0.1", 
                             "type": "str", 
-                            "uiOrdinal": 2
+                            "uiOrdinal": 3
                         }
                     ]
                 }
@@ -306,7 +330,7 @@
             "label": "Gas Phase Chemistry", 
             "description": "Atmospheric gas phase chemistry transport", 
             "id": "cmip6.atmoschem.gas_phase_chemistry", 
-            "contact": null, 
+            "contact": "Charlotte Pascoe, David Hassell", 
             "properties": [
                 {
                     "label": "Name", 
@@ -453,7 +477,7 @@
             "label": "Stratospheric Heterogeneous Chemistry", 
             "description": "Atmospheric chemistry startospheric heterogeneous chemistry", 
             "id": "cmip6.atmoschem.stratospheric_heterogeneous_chemistry", 
-            "contact": null, 
+            "contact": "Charlotte Pascoe, David Hassell", 
             "properties": [
                 {
                     "label": "Name", 
@@ -563,7 +587,7 @@
             "label": "Tropospheric Heterogeneous Chemistry", 
             "description": "Atmospheric chemistry tropospheric heterogeneous chemistry", 
             "id": "cmip6.atmoschem.tropospheric_heterogeneous_chemistry", 
-            "contact": null, 
+            "contact": "Charlotte Pascoe, David Hassell", 
             "properties": [
                 {
                     "label": "Name", 
@@ -674,7 +698,7 @@
             "label": "Photo Chemistry", 
             "description": "Atmospheric chemistry photo chemistry", 
             "id": "cmip6.atmoschem.photo_chemistry", 
-            "contact": null, 
+            "contact": "Charlotte Pascoe, David Hassell", 
             "properties": [
                 {
                     "label": "Name", 
@@ -706,8 +730,16 @@
                     "label": "Photolysis", 
                     "description": "Photolysis scheme", 
                     "id": "cmip6.atmoschem.photo_chemistry.photolysis", 
-                    "contact": null, 
+                    "contact": "Charlotte Pascoe, David Hassell", 
                     "properties": [
+                        {
+                            "label": "Overview", 
+                            "description": "Overview of photolysis scheme in atmoschem model.", 
+                            "id": "cmip6.atmoschem.photo_chemistry.photolysis.overview", 
+                            "cardinality": "0.1", 
+                            "type": "str", 
+                            "uiOrdinal": 1
+                        }, 
                         {
                             "label": "Method", 
                             "description": "Photolysis scheme", 
@@ -733,7 +765,7 @@
                                     }
                                 ]
                             }, 
-                            "uiOrdinal": 1
+                            "uiOrdinal": 2
                         }, 
                         {
                             "label": "Environmental Conditions", 
@@ -741,7 +773,7 @@
                             "id": "cmip6.atmoschem.photo_chemistry.photolysis.environmental_conditions", 
                             "cardinality": "0.1", 
                             "type": "str", 
-                            "uiOrdinal": 2
+                            "uiOrdinal": 3
                         }
                     ]
                 }
@@ -752,15 +784,23 @@
         "label": "Grid", 
         "description": "Atmospheric chemistry grid", 
         "id": "cmip6.atmoschem.grid", 
-        "contact": null, 
+        "contact": "Charlotte Pascoe, David Hassell", 
         "properties": [
+            {
+                "label": "Name", 
+                "description": "Name of grid in atmoschem model.", 
+                "id": "cmip6.atmoschem.grid.name", 
+                "cardinality": "0.1", 
+                "type": "str", 
+                "uiOrdinal": 1
+            }, 
             {
                 "label": "Overview", 
                 "description": "Overview of grid in atmoschem model.", 
                 "id": "cmip6.atmoschem.grid.overview", 
                 "cardinality": "0.1", 
                 "type": "str", 
-                "uiOrdinal": 1
+                "uiOrdinal": 2
             }, 
             {
                 "label": "Matches Atmosphere Grid", 
@@ -768,7 +808,7 @@
                 "id": "cmip6.atmoschem.grid.matches_atmosphere_grid", 
                 "cardinality": "1.1", 
                 "type": "bool", 
-                "uiOrdinal": 2
+                "uiOrdinal": 3
             }
         ], 
         "subProcesses": [
@@ -776,15 +816,23 @@
                 "label": "Resolution", 
                 "description": "Resolution in the atmospheric chemistry grid", 
                 "id": "cmip6.atmoschem.grid.resolution", 
-                "contact": null, 
+                "contact": "Charlotte Pascoe, David Hassell", 
                 "properties": [
+                    {
+                        "label": "Overview", 
+                        "description": "Overview of resolution in the atmospheric chemistry grid in atmoschem model.", 
+                        "id": "cmip6.atmoschem.grid.resolution.overview", 
+                        "cardinality": "0.1", 
+                        "type": "str", 
+                        "uiOrdinal": 1
+                    }, 
                     {
                         "label": "Name", 
                         "description": "This is a string usually used by the modelling group to describe the resolution of this grid, e.g. ORCA025, N512L180, T512L70 etc.", 
                         "id": "cmip6.atmoschem.grid.resolution.name", 
                         "cardinality": "1.1", 
                         "type": "str", 
-                        "uiOrdinal": 1
+                        "uiOrdinal": 2
                     }, 
                     {
                         "label": "Canonical Horizontal Resolution", 
@@ -792,7 +840,7 @@
                         "id": "cmip6.atmoschem.grid.resolution.canonical_horizontal_resolution", 
                         "cardinality": "0.1", 
                         "type": "str", 
-                        "uiOrdinal": 2
+                        "uiOrdinal": 3
                     }, 
                     {
                         "label": "Number Of Horizontal Gridpoints", 
@@ -800,7 +848,7 @@
                         "id": "cmip6.atmoschem.grid.resolution.number_of_horizontal_gridpoints", 
                         "cardinality": "0.1", 
                         "type": "int", 
-                        "uiOrdinal": 3
+                        "uiOrdinal": 4
                     }, 
                     {
                         "label": "Number Of Vertical Levels", 
@@ -808,7 +856,7 @@
                         "id": "cmip6.atmoschem.grid.resolution.number_of_vertical_levels", 
                         "cardinality": "0.1", 
                         "type": "int", 
-                        "uiOrdinal": 4
+                        "uiOrdinal": 5
                     }, 
                     {
                         "label": "Is Adaptive Grid", 
@@ -816,7 +864,7 @@
                         "id": "cmip6.atmoschem.grid.resolution.is_adaptive_grid", 
                         "cardinality": "0.1", 
                         "type": "bool", 
-                        "uiOrdinal": 5
+                        "uiOrdinal": 6
                     }
                 ]
             }
@@ -826,7 +874,7 @@
         "label": "Key Properties", 
         "description": "Key properties of the atmospheric chemistry", 
         "id": "cmip6.atmoschem.key_properties", 
-        "contact": null, 
+        "contact": "Charlotte Pascoe, David Hassell", 
         "properties": [
             {
                 "label": "Name", 
@@ -969,8 +1017,16 @@
                 "label": "Timestep Framework", 
                 "description": "Timestepping in the atmospheric chemistry model", 
                 "id": "cmip6.atmoschem.key_properties.timestep_framework", 
-                "contact": null, 
+                "contact": "Charlotte Pascoe, David Hassell", 
                 "properties": [
+                    {
+                        "label": "Overview", 
+                        "description": "Overview of timestepping in the atmospheric chemistry model in atmoschem model.", 
+                        "id": "cmip6.atmoschem.key_properties.timestep_framework.overview", 
+                        "cardinality": "0.1", 
+                        "type": "str", 
+                        "uiOrdinal": 1
+                    }, 
                     {
                         "label": "Method", 
                         "description": "Mathematical method deployed to solve the evolution of a given variable", 
@@ -992,7 +1048,7 @@
                                 }
                             ]
                         }, 
-                        "uiOrdinal": 1
+                        "uiOrdinal": 2
                     }, 
                     {
                         "label": "Split Operator Advection Timestep", 
@@ -1000,7 +1056,7 @@
                         "id": "cmip6.atmoschem.key_properties.timestep_framework.split_operator_advection_timestep", 
                         "cardinality": "0.1", 
                         "type": "int", 
-                        "uiOrdinal": 2
+                        "uiOrdinal": 3
                     }, 
                     {
                         "label": "Split Operator Physical Timestep", 
@@ -1008,7 +1064,7 @@
                         "id": "cmip6.atmoschem.key_properties.timestep_framework.split_operator_physical_timestep", 
                         "cardinality": "0.1", 
                         "type": "int", 
-                        "uiOrdinal": 3
+                        "uiOrdinal": 4
                     }, 
                     {
                         "label": "Split Operator Chemistry Timestep", 
@@ -1016,7 +1072,7 @@
                         "id": "cmip6.atmoschem.key_properties.timestep_framework.split_operator_chemistry_timestep", 
                         "cardinality": "0.1", 
                         "type": "int", 
-                        "uiOrdinal": 4
+                        "uiOrdinal": 5
                     }, 
                     {
                         "label": "Split Operator Alternate Order", 
@@ -1024,7 +1080,7 @@
                         "id": "cmip6.atmoschem.key_properties.timestep_framework.split_operator_alternate_order", 
                         "cardinality": "0.1", 
                         "type": "bool", 
-                        "uiOrdinal": 5
+                        "uiOrdinal": 6
                     }, 
                     {
                         "label": "Integrated Timestep", 
@@ -1032,7 +1088,7 @@
                         "id": "cmip6.atmoschem.key_properties.timestep_framework.integrated_timestep", 
                         "cardinality": "1.1", 
                         "type": "int", 
-                        "uiOrdinal": 6
+                        "uiOrdinal": 7
                     }, 
                     {
                         "label": "Integrated Scheme Type", 
@@ -1079,7 +1135,7 @@
                                 }
                             ]
                         }, 
-                        "uiOrdinal": 7
+                        "uiOrdinal": 8
                     }
                 ], 
                 "propertySets": [
@@ -1176,15 +1232,23 @@
                 "label": "Tuning Applied", 
                 "description": "Tuning methodology for atmospheric chemistry component", 
                 "id": "cmip6.atmoschem.key_properties.tuning_applied", 
-                "contact": null, 
+                "contact": "Charlotte Pascoe, David Hassell", 
                 "properties": [
+                    {
+                        "label": "Overview", 
+                        "description": "Overview of tuning methodology for atmospheric chemistry component in atmoschem model.", 
+                        "id": "cmip6.atmoschem.key_properties.tuning_applied.overview", 
+                        "cardinality": "0.1", 
+                        "type": "str", 
+                        "uiOrdinal": 1
+                    }, 
                     {
                         "label": "Description", 
                         "description": "General overview description of tuning: explain and motivate the main targets and metrics retained. &Document the relative weight given to climate performance metrics versus process oriented metrics, &and on the possible conflicts with parameterization level tuning. In particular describe any struggle &with a parameter value that required pushing it to its limits to solve a particular model deficiency.", 
                         "id": "cmip6.atmoschem.key_properties.tuning_applied.description", 
                         "cardinality": "1.1", 
                         "type": "str", 
-                        "uiOrdinal": 1
+                        "uiOrdinal": 2
                     }, 
                     {
                         "label": "Global Mean Metrics Used", 
@@ -1192,7 +1256,7 @@
                         "id": "cmip6.atmoschem.key_properties.tuning_applied.global_mean_metrics_used", 
                         "cardinality": "0.N", 
                         "type": "str", 
-                        "uiOrdinal": 2
+                        "uiOrdinal": 3
                     }, 
                     {
                         "label": "Regional Metrics Used", 
@@ -1200,7 +1264,7 @@
                         "id": "cmip6.atmoschem.key_properties.tuning_applied.regional_metrics_used", 
                         "cardinality": "0.N", 
                         "type": "str", 
-                        "uiOrdinal": 3
+                        "uiOrdinal": 4
                     }, 
                     {
                         "label": "Trend Metrics Used", 
@@ -1208,7 +1272,7 @@
                         "id": "cmip6.atmoschem.key_properties.tuning_applied.trend_metrics_used", 
                         "cardinality": "0.N", 
                         "type": "str", 
-                        "uiOrdinal": 4
+                        "uiOrdinal": 5
                     }
                 ]
             }
