@@ -1,14 +1,4 @@
 cmip6-id, cmip6-label, cmip6-type
-cmip6.atmoschem.grid.name, Atmoschem > Grid > Name, property
-cmip6.atmoschem.grid.overview, Atmoschem > Grid > Overview, property
-cmip6.atmoschem.grid.matches_atmosphere_grid, Atmoschem > Grid > Matches Atmosphere Grid, property
-cmip6.atmoschem.grid.resolution.overview, Atmoschem > Grid > Resolution > Overview, property
-cmip6.atmoschem.grid.resolution.name, Atmoschem > Grid > Resolution > Name, property
-cmip6.atmoschem.grid.resolution.canonical_horizontal_resolution, Atmoschem > Grid > Resolution > Canonical Horizontal Resolution, property
-cmip6.atmoschem.grid.resolution.number_of_horizontal_gridpoints, Atmoschem > Grid > Resolution > Number Of Horizontal Gridpoints, property
-cmip6.atmoschem.grid.resolution.number_of_vertical_levels, Atmoschem > Grid > Resolution > Number Of Vertical Levels, property
-cmip6.atmoschem.grid.resolution.is_adaptive_grid, Atmoschem > Grid > Resolution > Is Adaptive Grid, property
-, , 
 cmip6.atmoschem.key_properties.name, Atmoschem > Key Properties > Name, property
 cmip6.atmoschem.key_properties.overview, Atmoschem > Key Properties > Overview, property
 cmip6.atmoschem.key_properties.chemistry_scheme_scope, Atmoschem > Key Properties > Chemistry Scheme Scope, property
@@ -43,6 +33,16 @@ cmip6.atmoschem.key_properties.tuning_applied.description, Atmoschem > Key Prope
 cmip6.atmoschem.key_properties.tuning_applied.global_mean_metrics_used, Atmoschem > Key Properties > Tuning Applied > Global Mean Metrics Used, property
 cmip6.atmoschem.key_properties.tuning_applied.regional_metrics_used, Atmoschem > Key Properties > Tuning Applied > Regional Metrics Used, property
 cmip6.atmoschem.key_properties.tuning_applied.trend_metrics_used, Atmoschem > Key Properties > Tuning Applied > Trend Metrics Used, property
+, , 
+cmip6.atmoschem.grid.name, Atmoschem > Grid > Name, property
+cmip6.atmoschem.grid.overview, Atmoschem > Grid > Overview, property
+cmip6.atmoschem.grid.matches_atmosphere_grid, Atmoschem > Grid > Matches Atmosphere Grid, property
+cmip6.atmoschem.grid.resolution.overview, Atmoschem > Grid > Resolution > Overview, property
+cmip6.atmoschem.grid.resolution.name, Atmoschem > Grid > Resolution > Name, property
+cmip6.atmoschem.grid.resolution.canonical_horizontal_resolution, Atmoschem > Grid > Resolution > Canonical Horizontal Resolution, property
+cmip6.atmoschem.grid.resolution.number_of_horizontal_gridpoints, Atmoschem > Grid > Resolution > Number Of Horizontal Gridpoints, property
+cmip6.atmoschem.grid.resolution.number_of_vertical_levels, Atmoschem > Grid > Resolution > Number Of Vertical Levels, property
+cmip6.atmoschem.grid.resolution.is_adaptive_grid, Atmoschem > Grid > Resolution > Is Adaptive Grid, property
 , , 
 cmip6.atmoschem.transport.name, Atmoschem > Transport > Name, property
 cmip6.atmoschem.transport.overview, Atmoschem > Transport > Overview, property
