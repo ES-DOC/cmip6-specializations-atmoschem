@@ -96,18 +96,32 @@
         <dt><b>Description</b></dt><dd>Name of atmoschem model code</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.key_properties.name</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.key_properties.name</dd>
     </dl>
   </body>
-</html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="overview"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
+</html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="keywords"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Overview of atmoschem model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.key_properties.overview</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.key_properties.overview</dd>
+        <dt><b>Description</b></dt><dd>Keywords associated with atmoschem model code</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.key_properties.keywords</dd><dt><b>Type</b></dt><dd>cs-str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.key_properties.keywords</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Overview of atmoschem model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.key_properties.overview</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.key_properties.overview</dd>
+        <dt><b>Description</b></dt><dd>Keywords associated with atmoschem model code</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.key_properties.keywords</dd><dt><b>Type</b></dt><dd>cs-str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.key_properties.keywords</dd>
+    </dl>
+  </body>
+</html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="overview"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
+  <head />
+  <body>
+    <dl>
+        <dt><b>Description</b></dt><dd>Overview of atmoschem model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.key_properties.overview</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.key_properties.overview</dd>
+    </dl>
+  </body>
+</html></richcontent><richcontent TYPE="NOTE"><html>
+  <head />
+  <body>
+    <dl>
+        <dt><b>Description</b></dt><dd>Overview of atmoschem model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.key_properties.overview</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.key_properties.overview</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="chemistry_scheme_scope"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
@@ -723,14 +737,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Overview of grid in atmoschem model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.grid.overview</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.grid.overview</dd>
+        <dt><b>Description</b></dt><dd>Overview of grid in atmoschem model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.grid.overview</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.grid.overview</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Overview of grid in atmoschem model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.grid.overview</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.grid.overview</dd>
+        <dt><b>Description</b></dt><dd>Overview of grid in atmoschem model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.grid.overview</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.grid.overview</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="matches_atmosphere_grid"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
@@ -870,14 +884,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Overview of atmospheric chemistry transport in atmoschem model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.transport.overview</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.transport.overview</dd>
+        <dt><b>Description</b></dt><dd>Overview of atmospheric chemistry transport in atmoschem model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.transport.overview</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.transport.overview</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Overview of atmospheric chemistry transport in atmoschem model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.transport.overview</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.transport.overview</dd>
+        <dt><b>Description</b></dt><dd>Overview of atmospheric chemistry transport in atmoschem model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.transport.overview</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.transport.overview</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="use_atmospheric_transport"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
@@ -940,14 +954,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Overview of atmospheric chemistry emissions in atmoschem model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.emissions_concentrations.overview</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.emissions_concentrations.overview</dd>
+        <dt><b>Description</b></dt><dd>Overview of atmospheric chemistry emissions in atmoschem model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.emissions_concentrations.overview</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.emissions_concentrations.overview</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Overview of atmospheric chemistry emissions in atmoschem model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.emissions_concentrations.overview</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.emissions_concentrations.overview</dd>
+        <dt><b>Description</b></dt><dd>Overview of atmospheric chemistry emissions in atmoschem model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.emissions_concentrations.overview</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.emissions_concentrations.overview</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#ACF0F2" COLOR="#000000" FOLDED="false" STYLE="bubble" TEXT="surface_emissions"><font BOLD="True" NAME="courier" SIZE="12" /><richcontent TYPE="NOTE"><html>
@@ -1360,14 +1374,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Overview of atmospheric gas phase chemistry transport in atmoschem model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.gas_phase_chemistry.overview</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.gas_phase_chemistry.overview</dd>
+        <dt><b>Description</b></dt><dd>Overview of atmospheric gas phase chemistry transport in atmoschem model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.gas_phase_chemistry.overview</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.gas_phase_chemistry.overview</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Overview of atmospheric gas phase chemistry transport in atmoschem model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.gas_phase_chemistry.overview</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.gas_phase_chemistry.overview</dd>
+        <dt><b>Description</b></dt><dd>Overview of atmospheric gas phase chemistry transport in atmoschem model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.gas_phase_chemistry.overview</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.gas_phase_chemistry.overview</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="species"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
@@ -1605,14 +1619,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Overview of atmospheric chemistry startospheric heterogeneous chemistry in atmoschem model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.stratospheric_heterogeneous_chemistry.overview</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.stratospheric_heterogeneous_chemistry.overview</dd>
+        <dt><b>Description</b></dt><dd>Overview of atmospheric chemistry startospheric heterogeneous chemistry in atmoschem model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.stratospheric_heterogeneous_chemistry.overview</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.stratospheric_heterogeneous_chemistry.overview</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Overview of atmospheric chemistry startospheric heterogeneous chemistry in atmoschem model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.stratospheric_heterogeneous_chemistry.overview</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.stratospheric_heterogeneous_chemistry.overview</dd>
+        <dt><b>Description</b></dt><dd>Overview of atmospheric chemistry startospheric heterogeneous chemistry in atmoschem model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.stratospheric_heterogeneous_chemistry.overview</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.stratospheric_heterogeneous_chemistry.overview</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="gas_phase_species"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
@@ -1773,14 +1787,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Overview of atmospheric chemistry tropospheric heterogeneous chemistry in atmoschem model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.tropospheric_heterogeneous_chemistry.overview</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.tropospheric_heterogeneous_chemistry.overview</dd>
+        <dt><b>Description</b></dt><dd>Overview of atmospheric chemistry tropospheric heterogeneous chemistry in atmoschem model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.tropospheric_heterogeneous_chemistry.overview</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.tropospheric_heterogeneous_chemistry.overview</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Overview of atmospheric chemistry tropospheric heterogeneous chemistry in atmoschem model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.tropospheric_heterogeneous_chemistry.overview</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.tropospheric_heterogeneous_chemistry.overview</dd>
+        <dt><b>Description</b></dt><dd>Overview of atmospheric chemistry tropospheric heterogeneous chemistry in atmoschem model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.tropospheric_heterogeneous_chemistry.overview</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.tropospheric_heterogeneous_chemistry.overview</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="gas_phase_species"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
@@ -1955,14 +1969,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Overview of atmospheric chemistry photo chemistry in atmoschem model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.photo_chemistry.overview</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.photo_chemistry.overview</dd>
+        <dt><b>Description</b></dt><dd>Overview of atmospheric chemistry photo chemistry in atmoschem model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.photo_chemistry.overview</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.photo_chemistry.overview</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Overview of atmospheric chemistry photo chemistry in atmoschem model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.photo_chemistry.overview</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.photo_chemistry.overview</dd>
+        <dt><b>Description</b></dt><dd>Overview of atmospheric chemistry photo chemistry in atmoschem model.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.photo_chemistry.overview</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.photo_chemistry.overview</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="number_of_reactions"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>

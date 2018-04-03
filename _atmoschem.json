@@ -23,7 +23,7 @@
                     "description": "Overview of atmospheric chemistry transport in atmoschem model.", 
                     "id": "cmip6.atmoschem.transport.overview", 
                     "cardinality": "0.1", 
-                    "type": "str", 
+                    "type": "l", 
                     "uiOrdinal": 2
                 }, 
                 {
@@ -63,7 +63,7 @@
                     "description": "Overview of atmospheric chemistry emissions in atmoschem model.", 
                     "id": "cmip6.atmoschem.emissions_concentrations.overview", 
                     "cardinality": "0.1", 
-                    "type": "str", 
+                    "type": "l", 
                     "uiOrdinal": 2
                 }
             ], 
@@ -345,7 +345,7 @@
                     "description": "Overview of atmospheric gas phase chemistry transport in atmoschem model.", 
                     "id": "cmip6.atmoschem.gas_phase_chemistry.overview", 
                     "cardinality": "0.1", 
-                    "type": "str", 
+                    "type": "l", 
                     "uiOrdinal": 2
                 }, 
                 {
@@ -492,7 +492,7 @@
                     "description": "Overview of atmospheric chemistry startospheric heterogeneous chemistry in atmoschem model.", 
                     "id": "cmip6.atmoschem.stratospheric_heterogeneous_chemistry.overview", 
                     "cardinality": "0.1", 
-                    "type": "str", 
+                    "type": "l", 
                     "uiOrdinal": 2
                 }, 
                 {
@@ -602,7 +602,7 @@
                     "description": "Overview of atmospheric chemistry tropospheric heterogeneous chemistry in atmoschem model.", 
                     "id": "cmip6.atmoschem.tropospheric_heterogeneous_chemistry.overview", 
                     "cardinality": "0.1", 
-                    "type": "str", 
+                    "type": "l", 
                     "uiOrdinal": 2
                 }, 
                 {
@@ -713,7 +713,7 @@
                     "description": "Overview of atmospheric chemistry photo chemistry in atmoschem model.", 
                     "id": "cmip6.atmoschem.photo_chemistry.overview", 
                     "cardinality": "0.1", 
-                    "type": "str", 
+                    "type": "l", 
                     "uiOrdinal": 2
                 }, 
                 {
@@ -799,7 +799,7 @@
                 "description": "Overview of grid in atmoschem model.", 
                 "id": "cmip6.atmoschem.grid.overview", 
                 "cardinality": "0.1", 
-                "type": "str", 
+                "type": "l", 
                 "uiOrdinal": 2
             }, 
             {
@@ -885,12 +885,20 @@
                 "uiOrdinal": 1
             }, 
             {
+                "label": "Keywords", 
+                "description": "Keywords associated with atmoschem model code", 
+                "id": "cmip6.atmoschem.key_properties.keywords", 
+                "cardinality": "1.1", 
+                "type": "cs", 
+                "uiOrdinal": 2
+            }, 
+            {
                 "label": "Overview", 
                 "description": "Overview of atmoschem model.", 
                 "id": "cmip6.atmoschem.key_properties.overview", 
                 "cardinality": "1.1", 
-                "type": "str", 
-                "uiOrdinal": 2
+                "type": "l", 
+                "uiOrdinal": 3
             }, 
             {
                 "label": "Chemistry Scheme Scope", 
@@ -925,7 +933,7 @@
                         }
                     ]
                 }, 
-                "uiOrdinal": 3
+                "uiOrdinal": 4
             }, 
             {
                 "label": "Basic Approximations", 
@@ -933,7 +941,7 @@
                 "id": "cmip6.atmoschem.key_properties.basic_approximations", 
                 "cardinality": "1.1", 
                 "type": "str", 
-                "uiOrdinal": 4
+                "uiOrdinal": 5
             }, 
             {
                 "label": "Prognostic Variables Form", 
@@ -952,7 +960,7 @@
                         }
                     ]
                 }, 
-                "uiOrdinal": 5
+                "uiOrdinal": 6
             }, 
             {
                 "label": "Number Of Tracers", 
@@ -960,7 +968,7 @@
                 "id": "cmip6.atmoschem.key_properties.number_of_tracers", 
                 "cardinality": "1.1", 
                 "type": "int", 
-                "uiOrdinal": 6
+                "uiOrdinal": 7
             }, 
             {
                 "label": "Family Approach", 
@@ -968,7 +976,7 @@
                 "id": "cmip6.atmoschem.key_properties.family_approach", 
                 "cardinality": "1.1", 
                 "type": "bool", 
-                "uiOrdinal": 7
+                "uiOrdinal": 8
             }, 
             {
                 "label": "Coupling With Chemical Reactivity", 
@@ -976,7 +984,7 @@
                 "id": "cmip6.atmoschem.key_properties.coupling_with_chemical_reactivity", 
                 "cardinality": "1.1", 
                 "type": "bool", 
-                "uiOrdinal": 8
+                "uiOrdinal": 9
             }
         ], 
         "propertySets": [

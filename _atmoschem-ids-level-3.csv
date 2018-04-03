@@ -1,5 +1,6 @@
 cmip6-id, cmip6-label, cmip6-type
 cmip6.atmoschem.key_properties.name, Atmoschem > Key Properties > Name, property
+cmip6.atmoschem.key_properties.keywords, Atmoschem > Key Properties > Keywords, property
 cmip6.atmoschem.key_properties.overview, Atmoschem > Key Properties > Overview, property
 cmip6.atmoschem.key_properties.chemistry_scheme_scope, Atmoschem > Key Properties > Chemistry Scheme Scope, property
 cmip6.atmoschem.key_properties.basic_approximations, Atmoschem > Key Properties > Basic Approximations, property
