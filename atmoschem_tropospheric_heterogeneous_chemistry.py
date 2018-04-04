@@ -22,7 +22,7 @@ DESCRIPTION = 'Atmospheric chemistry tropospheric heterogeneous chemistry'
 DETAILS['toplevel'] = {
     'description': 'Tropospheric heterogenous atmospheric chemistry',
     'properties': [ 
-        ('gas_phase_species', 'str', '0.1',
+        ('gas_phase_species', 'cs-str', '0.1',
             'List of gas phase species included in the tropospheric heterogeneous chemistry scheme.'),
         ('aerosol_species', 'ENUM:aerosol_species', '0.N',
             'Aerosol species included in the tropospheric heterogeneous chemistry scheme.'),

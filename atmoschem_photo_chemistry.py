@@ -35,7 +35,7 @@ DETAILS['photolysis'] = {
     'properties': [
         ('method', 'ENUM:photolysis_methods', '1.1',
             'Photolysis scheme'),
-        ('environmental_conditions', 'str', '0.1',
+        ('environmental_conditions', 'l-str', '0.1',
              'Describe any environmental conditions taken into account by the photolysis scheme (e.g. whether pressure- and temperature-sensitive cross-sections and quantum yields in the photolysis calculations are modified to reflect the modelled conditions.)'),
     ],
 }
