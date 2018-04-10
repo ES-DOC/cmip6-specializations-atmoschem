@@ -23,7 +23,7 @@
                     "description": "Overview of atmospheric chemistry transport in atmoschem model.", 
                     "id": "cmip6.atmoschem.transport.overview", 
                     "cardinality": "0.1", 
-                    "type": "l", 
+                    "type": "l-str", 
                     "uiOrdinal": 2
                 }, 
                 {
@@ -39,7 +39,7 @@
                     "description": "If transport is handled within the atmospheric chemistry scheme, describe it.", 
                     "id": "cmip6.atmoschem.transport.transport_details", 
                     "cardinality": "0.1", 
-                    "type": "str", 
+                    "type": "l-str", 
                     "uiOrdinal": 4
                 }
             ]
@@ -63,7 +63,7 @@
                     "description": "Overview of atmospheric chemistry emissions in atmoschem model.", 
                     "id": "cmip6.atmoschem.emissions_concentrations.overview", 
                     "cardinality": "0.1", 
-                    "type": "l", 
+                    "type": "l-str", 
                     "uiOrdinal": 2
                 }
             ], 
@@ -153,7 +153,7 @@
                             "description": "List of chemical species emitted at the surface and prescribed via a climatology, and the nature of the climatology (E.g. CO (monthly), C2H6 (constant))", 
                             "id": "cmip6.atmoschem.emissions_concentrations.surface_emissions.prescribed_climatology_emitted_species", 
                             "cardinality": "0.1", 
-                            "type": "str", 
+                            "type": "cs-str", 
                             "uiOrdinal": 4
                         }, 
                         {
@@ -161,7 +161,7 @@
                             "description": "List of chemical species emitted at the surface and prescribed as spatially uniform", 
                             "id": "cmip6.atmoschem.emissions_concentrations.surface_emissions.prescribed_spatially_uniform_emitted_species", 
                             "cardinality": "0.1", 
-                            "type": "str", 
+                            "type": "cs-str", 
                             "uiOrdinal": 5
                         }, 
                         {
@@ -169,7 +169,7 @@
                             "description": "List of chemical species emitted at the surface and specified via an interactive method", 
                             "id": "cmip6.atmoschem.emissions_concentrations.surface_emissions.interactive_emitted_species", 
                             "cardinality": "0.1", 
-                            "type": "str", 
+                            "type": "cs-str", 
                             "uiOrdinal": 6
                         }, 
                         {
@@ -177,7 +177,7 @@
                             "description": "List of chemical species emitted at the surface and specified via any other method", 
                             "id": "cmip6.atmoschem.emissions_concentrations.surface_emissions.other_emitted_species", 
                             "cardinality": "0.1", 
-                            "type": "str", 
+                            "type": "cs-str", 
                             "uiOrdinal": 7
                         }
                     ]
@@ -263,7 +263,7 @@
                             "description": "List of chemical species emitted in the atmosphere and prescribed via a climatology (E.g. CO (monthly), C2H6 (constant))", 
                             "id": "cmip6.atmoschem.emissions_concentrations.atmospheric_emissions.prescribed_climatology_emitted_species", 
                             "cardinality": "0.1", 
-                            "type": "str", 
+                            "type": "cs-str", 
                             "uiOrdinal": 4
                         }, 
                         {
@@ -271,7 +271,7 @@
                             "description": "List of chemical species emitted in the atmosphere and prescribed as spatially uniform", 
                             "id": "cmip6.atmoschem.emissions_concentrations.atmospheric_emissions.prescribed_spatially_uniform_emitted_species", 
                             "cardinality": "0.1", 
-                            "type": "str", 
+                            "type": "cs-str", 
                             "uiOrdinal": 5
                         }, 
                         {
@@ -279,7 +279,7 @@
                             "description": "List of chemical species emitted in the atmosphere and specified via an interactive method", 
                             "id": "cmip6.atmoschem.emissions_concentrations.atmospheric_emissions.interactive_emitted_species", 
                             "cardinality": "0.1", 
-                            "type": "str", 
+                            "type": "cs-str", 
                             "uiOrdinal": 6
                         }, 
                         {
@@ -287,7 +287,7 @@
                             "description": "List of chemical species emitted in the atmosphere and specified via an \"other method\"", 
                             "id": "cmip6.atmoschem.emissions_concentrations.atmospheric_emissions.other_emitted_species", 
                             "cardinality": "0.1", 
-                            "type": "str", 
+                            "type": "cs-str", 
                             "uiOrdinal": 7
                         }
                     ]
@@ -311,7 +311,7 @@
                             "description": "List of species prescribed at the lower boundary.", 
                             "id": "cmip6.atmoschem.emissions_concentrations.concentrations.prescribed_lower_boundary", 
                             "cardinality": "0.1", 
-                            "type": "str", 
+                            "type": "cs-str", 
                             "uiOrdinal": 2
                         }, 
                         {
@@ -319,7 +319,7 @@
                             "description": "List of species prescribed at the upper boundary.", 
                             "id": "cmip6.atmoschem.emissions_concentrations.concentrations.prescribed_upper_boundary", 
                             "cardinality": "0.1", 
-                            "type": "str", 
+                            "type": "cs-str", 
                             "uiOrdinal": 3
                         }
                     ]
@@ -345,7 +345,7 @@
                     "description": "Overview of atmospheric gas phase chemistry transport in atmoschem model.", 
                     "id": "cmip6.atmoschem.gas_phase_chemistry.overview", 
                     "cardinality": "0.1", 
-                    "type": "l", 
+                    "type": "l-str", 
                     "uiOrdinal": 2
                 }, 
                 {
@@ -492,7 +492,7 @@
                     "description": "Overview of atmospheric chemistry startospheric heterogeneous chemistry in atmoschem model.", 
                     "id": "cmip6.atmoschem.stratospheric_heterogeneous_chemistry.overview", 
                     "cardinality": "0.1", 
-                    "type": "l", 
+                    "type": "l-str", 
                     "uiOrdinal": 2
                 }, 
                 {
@@ -602,7 +602,7 @@
                     "description": "Overview of atmospheric chemistry tropospheric heterogeneous chemistry in atmoschem model.", 
                     "id": "cmip6.atmoschem.tropospheric_heterogeneous_chemistry.overview", 
                     "cardinality": "0.1", 
-                    "type": "l", 
+                    "type": "l-str", 
                     "uiOrdinal": 2
                 }, 
                 {
@@ -610,7 +610,7 @@
                     "description": "List of gas phase species included in the tropospheric heterogeneous chemistry scheme.", 
                     "id": "cmip6.atmoschem.tropospheric_heterogeneous_chemistry.gas_phase_species", 
                     "cardinality": "0.1", 
-                    "type": "str", 
+                    "type": "cs-str", 
                     "uiOrdinal": 3
                 }, 
                 {
@@ -713,7 +713,7 @@
                     "description": "Overview of atmospheric chemistry photo chemistry in atmoschem model.", 
                     "id": "cmip6.atmoschem.photo_chemistry.overview", 
                     "cardinality": "0.1", 
-                    "type": "l", 
+                    "type": "l-str", 
                     "uiOrdinal": 2
                 }, 
                 {
@@ -772,7 +772,7 @@
                             "description": "Describe any environmental conditions taken into account by the photolysis scheme (e.g. whether pressure- and temperature-sensitive cross-sections and quantum yields in the photolysis calculations are modified to reflect the modelled conditions.)", 
                             "id": "cmip6.atmoschem.photo_chemistry.photolysis.environmental_conditions", 
                             "cardinality": "0.1", 
-                            "type": "str", 
+                            "type": "l-str", 
                             "uiOrdinal": 3
                         }
                     ]
@@ -799,7 +799,7 @@
                 "description": "Overview of grid in atmoschem model.", 
                 "id": "cmip6.atmoschem.grid.overview", 
                 "cardinality": "0.1", 
-                "type": "l", 
+                "type": "l-str", 
                 "uiOrdinal": 2
             }, 
             {
@@ -889,7 +889,7 @@
                 "description": "Keywords associated with atmoschem model code", 
                 "id": "cmip6.atmoschem.key_properties.keywords", 
                 "cardinality": "1.1", 
-                "type": "cs", 
+                "type": "cs-str", 
                 "uiOrdinal": 2
             }, 
             {
@@ -897,7 +897,7 @@
                 "description": "Overview of atmoschem model.", 
                 "id": "cmip6.atmoschem.key_properties.overview", 
                 "cardinality": "1.1", 
-                "type": "l", 
+                "type": "l-str", 
                 "uiOrdinal": 3
             }, 
             {
@@ -940,7 +940,7 @@
                 "description": "Basic approximations made in the atmospheric chemistry model", 
                 "id": "cmip6.atmoschem.key_properties.basic_approximations", 
                 "cardinality": "1.1", 
-                "type": "str", 
+                "type": "l-str", 
                 "uiOrdinal": 5
             }, 
             {
@@ -1013,8 +1013,8 @@
                         "label": "Code Languages", 
                         "description": "Code language(s).", 
                         "id": "cmip6.atmoschem.key_properties.software_properties.code_languages", 
-                        "cardinality": "0.N", 
-                        "type": "str", 
+                        "cardinality": "0.1", 
+                        "type": "cs-str", 
                         "uiOrdinal": 3
                     }
                 ]
@@ -1255,31 +1255,31 @@
                         "description": "General overview description of tuning: explain and motivate the main targets and metrics retained. &Document the relative weight given to climate performance metrics versus process oriented metrics, &and on the possible conflicts with parameterization level tuning. In particular describe any struggle &with a parameter value that required pushing it to its limits to solve a particular model deficiency.", 
                         "id": "cmip6.atmoschem.key_properties.tuning_applied.description", 
                         "cardinality": "1.1", 
-                        "type": "str", 
+                        "type": "l-str", 
                         "uiOrdinal": 2
                     }, 
                     {
                         "label": "Global Mean Metrics Used", 
                         "description": "List set of metrics of the global mean state used in tuning model/component", 
                         "id": "cmip6.atmoschem.key_properties.tuning_applied.global_mean_metrics_used", 
-                        "cardinality": "0.N", 
-                        "type": "str", 
+                        "cardinality": "0.1", 
+                        "type": "cs-str", 
                         "uiOrdinal": 3
                     }, 
                     {
                         "label": "Regional Metrics Used", 
                         "description": "List of regional metrics of mean state used in tuning model/component", 
                         "id": "cmip6.atmoschem.key_properties.tuning_applied.regional_metrics_used", 
-                        "cardinality": "0.N", 
-                        "type": "str", 
+                        "cardinality": "0.1", 
+                        "type": "cs-str", 
                         "uiOrdinal": 4
                     }, 
                     {
                         "label": "Trend Metrics Used", 
                         "description": "List observed trend metrics used in tuning model/component", 
                         "id": "cmip6.atmoschem.key_properties.tuning_applied.trend_metrics_used", 
-                        "cardinality": "0.N", 
-                        "type": "str", 
+                        "cardinality": "0.1", 
+                        "type": "cs-str", 
                         "uiOrdinal": 5
                     }
                 ]

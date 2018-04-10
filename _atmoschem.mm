@@ -19,6 +19,13 @@
         <dt><b>Version</b></dt><dd>0.2.0</dd><dt><b>Date</b></dt><dd>2017-11-22</dd><dt><b>Person</b></dt><dd>David Hassell (NCAS)</dd><dt><b>Comment</b></dt><dd>Updated with input from Bill Collins (URead), John Scinocca (CCCma)</dd>
     </dl>
   </body>
+</html></richcontent></node><node STYLE="bubble" TEXT="0.3.0"><richcontent TYPE="NOTE"><html>
+  <head />
+  <body>
+    <dl>
+        <dt><b>Version</b></dt><dd>0.3.0</dd><dt><b>Date</b></dt><dd>2018-04-04</dd><dt><b>Person</b></dt><dd>David Hassell</dd><dt><b>Comment</b></dt><dd>Replaced some occurences of 'str' with 'cs-str' and 'l-str'</dd>
+    </dl>
+  </body>
 </html></richcontent></node></node><node FOLDED="true" POSITION="left" STYLE="bubble" TEXT="LEGEND"><node BACKGROUND_COLOR="#FFFFFF" COLOR="#000000" STYLE="bubble" TEXT="enum-choice"><richcontent TYPE="NOTE"><html>
   <head />
   <body>
@@ -177,14 +184,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Basic approximations made in the atmospheric chemistry model</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.key_properties.basic_approximations</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.key_properties.basic_approximations</dd>
+        <dt><b>Description</b></dt><dd>Basic approximations made in the atmospheric chemistry model</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.key_properties.basic_approximations</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.key_properties.basic_approximations</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Basic approximations made in the atmospheric chemistry model</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.key_properties.basic_approximations</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.key_properties.basic_approximations</dd>
+        <dt><b>Description</b></dt><dd>Basic approximations made in the atmospheric chemistry model</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.key_properties.basic_approximations</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.key_properties.basic_approximations</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="prognostic_variables_form"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
@@ -289,14 +296,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Code language(s).</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.key_properties.software_properties.code_languages</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.key_properties.software_properties.code_languages</dd>
+        <dt><b>Description</b></dt><dd>Code language(s).</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.key_properties.software_properties.code_languages</dd><dt><b>Type</b></dt><dd>cs-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.key_properties.software_properties.code_languages</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Code language(s).</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.key_properties.software_properties.code_languages</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.key_properties.software_properties.code_languages</dd>
+        <dt><b>Description</b></dt><dd>Code language(s).</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.key_properties.software_properties.code_languages</dd><dt><b>Type</b></dt><dd>cs-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.key_properties.software_properties.code_languages</dd>
     </dl>
   </body>
 </html></richcontent></node></node><node BACKGROUND_COLOR="#ACF0F2" COLOR="#000000" FOLDED="false" STYLE="bubble" TEXT="timestep_framework"><font BOLD="True" NAME="courier" SIZE="12" /><richcontent TYPE="NOTE"><html>
@@ -660,56 +667,56 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>General overview description of tuning: explain and motivate the main targets and metrics retained. andDocument the relative weight given to climate performance metrics versus process oriented metrics, andand on the possible conflicts with parameterization level tuning. In particular describe any struggle andwith a parameter value that required pushing it to its limits to solve a particular model deficiency.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.key_properties.tuning_applied.description</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.key_properties.tuning_applied.description</dd>
+        <dt><b>Description</b></dt><dd>General overview description of tuning: explain and motivate the main targets and metrics retained. andDocument the relative weight given to climate performance metrics versus process oriented metrics, andand on the possible conflicts with parameterization level tuning. In particular describe any struggle andwith a parameter value that required pushing it to its limits to solve a particular model deficiency.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.key_properties.tuning_applied.description</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.key_properties.tuning_applied.description</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>General overview description of tuning: explain and motivate the main targets and metrics retained. andDocument the relative weight given to climate performance metrics versus process oriented metrics, andand on the possible conflicts with parameterization level tuning. In particular describe any struggle andwith a parameter value that required pushing it to its limits to solve a particular model deficiency.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.key_properties.tuning_applied.description</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.key_properties.tuning_applied.description</dd>
+        <dt><b>Description</b></dt><dd>General overview description of tuning: explain and motivate the main targets and metrics retained. andDocument the relative weight given to climate performance metrics versus process oriented metrics, andand on the possible conflicts with parameterization level tuning. In particular describe any struggle andwith a parameter value that required pushing it to its limits to solve a particular model deficiency.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.key_properties.tuning_applied.description</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>1.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.key_properties.tuning_applied.description</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="global_mean_metrics_used"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>List set of metrics of the global mean state used in tuning model/component</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.key_properties.tuning_applied.global_mean_metrics_used</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.key_properties.tuning_applied.global_mean_metrics_used</dd>
+        <dt><b>Description</b></dt><dd>List set of metrics of the global mean state used in tuning model/component</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.key_properties.tuning_applied.global_mean_metrics_used</dd><dt><b>Type</b></dt><dd>cs-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.key_properties.tuning_applied.global_mean_metrics_used</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>List set of metrics of the global mean state used in tuning model/component</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.key_properties.tuning_applied.global_mean_metrics_used</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.key_properties.tuning_applied.global_mean_metrics_used</dd>
+        <dt><b>Description</b></dt><dd>List set of metrics of the global mean state used in tuning model/component</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.key_properties.tuning_applied.global_mean_metrics_used</dd><dt><b>Type</b></dt><dd>cs-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.key_properties.tuning_applied.global_mean_metrics_used</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="regional_metrics_used"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>List of regional metrics of mean state used in tuning model/component</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.key_properties.tuning_applied.regional_metrics_used</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.key_properties.tuning_applied.regional_metrics_used</dd>
+        <dt><b>Description</b></dt><dd>List of regional metrics of mean state used in tuning model/component</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.key_properties.tuning_applied.regional_metrics_used</dd><dt><b>Type</b></dt><dd>cs-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.key_properties.tuning_applied.regional_metrics_used</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>List of regional metrics of mean state used in tuning model/component</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.key_properties.tuning_applied.regional_metrics_used</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.key_properties.tuning_applied.regional_metrics_used</dd>
+        <dt><b>Description</b></dt><dd>List of regional metrics of mean state used in tuning model/component</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.key_properties.tuning_applied.regional_metrics_used</dd><dt><b>Type</b></dt><dd>cs-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.key_properties.tuning_applied.regional_metrics_used</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="trend_metrics_used"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>List observed trend metrics used in tuning model/component</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.key_properties.tuning_applied.trend_metrics_used</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.key_properties.tuning_applied.trend_metrics_used</dd>
+        <dt><b>Description</b></dt><dd>List observed trend metrics used in tuning model/component</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.key_properties.tuning_applied.trend_metrics_used</dd><dt><b>Type</b></dt><dd>cs-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.key_properties.tuning_applied.trend_metrics_used</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>List observed trend metrics used in tuning model/component</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.key_properties.tuning_applied.trend_metrics_used</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.N</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.key_properties.tuning_applied.trend_metrics_used</dd>
+        <dt><b>Description</b></dt><dd>List observed trend metrics used in tuning model/component</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.key_properties.tuning_applied.trend_metrics_used</dd><dt><b>Type</b></dt><dd>cs-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.key_properties.tuning_applied.trend_metrics_used</dd>
     </dl>
   </body>
 </html></richcontent></node></node></node><node BACKGROUND_COLOR="#ccccff" COLOR="#000000" FOLDED="false" STYLE="bubble" TEXT="grid"><font BOLD="True" NAME="courier" SIZE="12" /><richcontent TYPE="NOTE"><html>
@@ -912,14 +919,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>If transport is handled within the atmospheric chemistry scheme, describe it.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.transport.transport_details</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.transport.transport_details</dd>
+        <dt><b>Description</b></dt><dd>If transport is handled within the atmospheric chemistry scheme, describe it.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.transport.transport_details</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.transport.transport_details</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>If transport is handled within the atmospheric chemistry scheme, describe it.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.transport.transport_details</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.transport.transport_details</dd>
+        <dt><b>Description</b></dt><dd>If transport is handled within the atmospheric chemistry scheme, describe it.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.transport.transport_details</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.transport.transport_details</dd>
     </dl>
   </body>
 </html></richcontent></node></node><node BACKGROUND_COLOR="#FFFFFF" COLOR="#000000" FOLDED="false" STYLE="bubble" TEXT="emissions_concentrations"><font BOLD="True" NAME="courier" SIZE="12" /><richcontent TYPE="NOTE"><html>
@@ -1080,56 +1087,56 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>List of chemical species emitted at the surface and prescribed via a climatology, and the nature of the climatology (E.g. CO (monthly), C2H6 (constant))</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.emissions_concentrations.surface_emissions.prescribed_climatology_emitted_species</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.emissions_concentrations.surface_emissions.prescribed_climatology_emitted_species</dd>
+        <dt><b>Description</b></dt><dd>List of chemical species emitted at the surface and prescribed via a climatology, and the nature of the climatology (E.g. CO (monthly), C2H6 (constant))</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.emissions_concentrations.surface_emissions.prescribed_climatology_emitted_species</dd><dt><b>Type</b></dt><dd>cs-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.emissions_concentrations.surface_emissions.prescribed_climatology_emitted_species</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>List of chemical species emitted at the surface and prescribed via a climatology, and the nature of the climatology (E.g. CO (monthly), C2H6 (constant))</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.emissions_concentrations.surface_emissions.prescribed_climatology_emitted_species</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.emissions_concentrations.surface_emissions.prescribed_climatology_emitted_species</dd>
+        <dt><b>Description</b></dt><dd>List of chemical species emitted at the surface and prescribed via a climatology, and the nature of the climatology (E.g. CO (monthly), C2H6 (constant))</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.emissions_concentrations.surface_emissions.prescribed_climatology_emitted_species</dd><dt><b>Type</b></dt><dd>cs-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.emissions_concentrations.surface_emissions.prescribed_climatology_emitted_species</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="prescribed_spatially_uniform_emitted_species"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>List of chemical species emitted at the surface and prescribed as spatially uniform</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.emissions_concentrations.surface_emissions.prescribed_spatially_uniform_emitted_species</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.emissions_concentrations.surface_emissions.prescribed_spatially_uniform_emitted_species</dd>
+        <dt><b>Description</b></dt><dd>List of chemical species emitted at the surface and prescribed as spatially uniform</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.emissions_concentrations.surface_emissions.prescribed_spatially_uniform_emitted_species</dd><dt><b>Type</b></dt><dd>cs-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.emissions_concentrations.surface_emissions.prescribed_spatially_uniform_emitted_species</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>List of chemical species emitted at the surface and prescribed as spatially uniform</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.emissions_concentrations.surface_emissions.prescribed_spatially_uniform_emitted_species</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.emissions_concentrations.surface_emissions.prescribed_spatially_uniform_emitted_species</dd>
+        <dt><b>Description</b></dt><dd>List of chemical species emitted at the surface and prescribed as spatially uniform</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.emissions_concentrations.surface_emissions.prescribed_spatially_uniform_emitted_species</dd><dt><b>Type</b></dt><dd>cs-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.emissions_concentrations.surface_emissions.prescribed_spatially_uniform_emitted_species</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="interactive_emitted_species"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>List of chemical species emitted at the surface and specified via an interactive method</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.emissions_concentrations.surface_emissions.interactive_emitted_species</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.emissions_concentrations.surface_emissions.interactive_emitted_species</dd>
+        <dt><b>Description</b></dt><dd>List of chemical species emitted at the surface and specified via an interactive method</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.emissions_concentrations.surface_emissions.interactive_emitted_species</dd><dt><b>Type</b></dt><dd>cs-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.emissions_concentrations.surface_emissions.interactive_emitted_species</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>List of chemical species emitted at the surface and specified via an interactive method</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.emissions_concentrations.surface_emissions.interactive_emitted_species</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.emissions_concentrations.surface_emissions.interactive_emitted_species</dd>
+        <dt><b>Description</b></dt><dd>List of chemical species emitted at the surface and specified via an interactive method</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.emissions_concentrations.surface_emissions.interactive_emitted_species</dd><dt><b>Type</b></dt><dd>cs-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.emissions_concentrations.surface_emissions.interactive_emitted_species</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="other_emitted_species"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>List of chemical species emitted at the surface and specified via any other method</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.emissions_concentrations.surface_emissions.other_emitted_species</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.emissions_concentrations.surface_emissions.other_emitted_species</dd>
+        <dt><b>Description</b></dt><dd>List of chemical species emitted at the surface and specified via any other method</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.emissions_concentrations.surface_emissions.other_emitted_species</dd><dt><b>Type</b></dt><dd>cs-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.emissions_concentrations.surface_emissions.other_emitted_species</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>List of chemical species emitted at the surface and specified via any other method</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.emissions_concentrations.surface_emissions.other_emitted_species</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.emissions_concentrations.surface_emissions.other_emitted_species</dd>
+        <dt><b>Description</b></dt><dd>List of chemical species emitted at the surface and specified via any other method</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.emissions_concentrations.surface_emissions.other_emitted_species</dd><dt><b>Type</b></dt><dd>cs-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.emissions_concentrations.surface_emissions.other_emitted_species</dd>
     </dl>
   </body>
 </html></richcontent></node></node><node BACKGROUND_COLOR="#ACF0F2" COLOR="#000000" FOLDED="false" STYLE="bubble" TEXT="atmospheric_emissions"><font BOLD="True" NAME="courier" SIZE="12" /><richcontent TYPE="NOTE"><html>
@@ -1241,56 +1248,56 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>List of chemical species emitted in the atmosphere and prescribed via a climatology (E.g. CO (monthly), C2H6 (constant))</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.emissions_concentrations.atmospheric_emissions.prescribed_climatology_emitted_species</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.emissions_concentrations.atmospheric_emissions.prescribed_climatology_emitted_species</dd>
+        <dt><b>Description</b></dt><dd>List of chemical species emitted in the atmosphere and prescribed via a climatology (E.g. CO (monthly), C2H6 (constant))</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.emissions_concentrations.atmospheric_emissions.prescribed_climatology_emitted_species</dd><dt><b>Type</b></dt><dd>cs-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.emissions_concentrations.atmospheric_emissions.prescribed_climatology_emitted_species</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>List of chemical species emitted in the atmosphere and prescribed via a climatology (E.g. CO (monthly), C2H6 (constant))</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.emissions_concentrations.atmospheric_emissions.prescribed_climatology_emitted_species</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.emissions_concentrations.atmospheric_emissions.prescribed_climatology_emitted_species</dd>
+        <dt><b>Description</b></dt><dd>List of chemical species emitted in the atmosphere and prescribed via a climatology (E.g. CO (monthly), C2H6 (constant))</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.emissions_concentrations.atmospheric_emissions.prescribed_climatology_emitted_species</dd><dt><b>Type</b></dt><dd>cs-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.emissions_concentrations.atmospheric_emissions.prescribed_climatology_emitted_species</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="prescribed_spatially_uniform_emitted_species"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>List of chemical species emitted in the atmosphere and prescribed as spatially uniform</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.emissions_concentrations.atmospheric_emissions.prescribed_spatially_uniform_emitted_species</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.emissions_concentrations.atmospheric_emissions.prescribed_spatially_uniform_emitted_species</dd>
+        <dt><b>Description</b></dt><dd>List of chemical species emitted in the atmosphere and prescribed as spatially uniform</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.emissions_concentrations.atmospheric_emissions.prescribed_spatially_uniform_emitted_species</dd><dt><b>Type</b></dt><dd>cs-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.emissions_concentrations.atmospheric_emissions.prescribed_spatially_uniform_emitted_species</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>List of chemical species emitted in the atmosphere and prescribed as spatially uniform</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.emissions_concentrations.atmospheric_emissions.prescribed_spatially_uniform_emitted_species</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.emissions_concentrations.atmospheric_emissions.prescribed_spatially_uniform_emitted_species</dd>
+        <dt><b>Description</b></dt><dd>List of chemical species emitted in the atmosphere and prescribed as spatially uniform</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.emissions_concentrations.atmospheric_emissions.prescribed_spatially_uniform_emitted_species</dd><dt><b>Type</b></dt><dd>cs-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.emissions_concentrations.atmospheric_emissions.prescribed_spatially_uniform_emitted_species</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="interactive_emitted_species"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>List of chemical species emitted in the atmosphere and specified via an interactive method</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.emissions_concentrations.atmospheric_emissions.interactive_emitted_species</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.emissions_concentrations.atmospheric_emissions.interactive_emitted_species</dd>
+        <dt><b>Description</b></dt><dd>List of chemical species emitted in the atmosphere and specified via an interactive method</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.emissions_concentrations.atmospheric_emissions.interactive_emitted_species</dd><dt><b>Type</b></dt><dd>cs-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.emissions_concentrations.atmospheric_emissions.interactive_emitted_species</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>List of chemical species emitted in the atmosphere and specified via an interactive method</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.emissions_concentrations.atmospheric_emissions.interactive_emitted_species</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.emissions_concentrations.atmospheric_emissions.interactive_emitted_species</dd>
+        <dt><b>Description</b></dt><dd>List of chemical species emitted in the atmosphere and specified via an interactive method</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.emissions_concentrations.atmospheric_emissions.interactive_emitted_species</dd><dt><b>Type</b></dt><dd>cs-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.emissions_concentrations.atmospheric_emissions.interactive_emitted_species</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="other_emitted_species"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>List of chemical species emitted in the atmosphere and specified via an "other method"</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.emissions_concentrations.atmospheric_emissions.other_emitted_species</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.emissions_concentrations.atmospheric_emissions.other_emitted_species</dd>
+        <dt><b>Description</b></dt><dd>List of chemical species emitted in the atmosphere and specified via an "other method"</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.emissions_concentrations.atmospheric_emissions.other_emitted_species</dd><dt><b>Type</b></dt><dd>cs-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.emissions_concentrations.atmospheric_emissions.other_emitted_species</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>List of chemical species emitted in the atmosphere and specified via an "other method"</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.emissions_concentrations.atmospheric_emissions.other_emitted_species</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.emissions_concentrations.atmospheric_emissions.other_emitted_species</dd>
+        <dt><b>Description</b></dt><dd>List of chemical species emitted in the atmosphere and specified via an "other method"</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.emissions_concentrations.atmospheric_emissions.other_emitted_species</dd><dt><b>Type</b></dt><dd>cs-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.emissions_concentrations.atmospheric_emissions.other_emitted_species</dd>
     </dl>
   </body>
 </html></richcontent></node></node><node BACKGROUND_COLOR="#ACF0F2" COLOR="#000000" FOLDED="false" STYLE="bubble" TEXT="concentrations"><font BOLD="True" NAME="courier" SIZE="12" /><richcontent TYPE="NOTE"><html>
@@ -1318,28 +1325,28 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>List of species prescribed at the lower boundary.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.emissions_concentrations.concentrations.prescribed_lower_boundary</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.emissions_concentrations.concentrations.prescribed_lower_boundary</dd>
+        <dt><b>Description</b></dt><dd>List of species prescribed at the lower boundary.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.emissions_concentrations.concentrations.prescribed_lower_boundary</dd><dt><b>Type</b></dt><dd>cs-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.emissions_concentrations.concentrations.prescribed_lower_boundary</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>List of species prescribed at the lower boundary.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.emissions_concentrations.concentrations.prescribed_lower_boundary</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.emissions_concentrations.concentrations.prescribed_lower_boundary</dd>
+        <dt><b>Description</b></dt><dd>List of species prescribed at the lower boundary.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.emissions_concentrations.concentrations.prescribed_lower_boundary</dd><dt><b>Type</b></dt><dd>cs-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.emissions_concentrations.concentrations.prescribed_lower_boundary</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="prescribed_upper_boundary"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>List of species prescribed at the upper boundary.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.emissions_concentrations.concentrations.prescribed_upper_boundary</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.emissions_concentrations.concentrations.prescribed_upper_boundary</dd>
+        <dt><b>Description</b></dt><dd>List of species prescribed at the upper boundary.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.emissions_concentrations.concentrations.prescribed_upper_boundary</dd><dt><b>Type</b></dt><dd>cs-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.emissions_concentrations.concentrations.prescribed_upper_boundary</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>List of species prescribed at the upper boundary.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.emissions_concentrations.concentrations.prescribed_upper_boundary</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.emissions_concentrations.concentrations.prescribed_upper_boundary</dd>
+        <dt><b>Description</b></dt><dd>List of species prescribed at the upper boundary.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.emissions_concentrations.concentrations.prescribed_upper_boundary</dd><dt><b>Type</b></dt><dd>cs-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.emissions_concentrations.concentrations.prescribed_upper_boundary</dd>
     </dl>
   </body>
 </html></richcontent></node></node></node><node BACKGROUND_COLOR="#FFFFFF" COLOR="#000000" FOLDED="false" STYLE="bubble" TEXT="gas_phase_chemistry"><font BOLD="True" NAME="courier" SIZE="12" /><richcontent TYPE="NOTE"><html>
@@ -1801,14 +1808,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>List of gas phase species included in the tropospheric heterogeneous chemistry scheme.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.tropospheric_heterogeneous_chemistry.gas_phase_species</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.tropospheric_heterogeneous_chemistry.gas_phase_species</dd>
+        <dt><b>Description</b></dt><dd>List of gas phase species included in the tropospheric heterogeneous chemistry scheme.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.tropospheric_heterogeneous_chemistry.gas_phase_species</dd><dt><b>Type</b></dt><dd>cs-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.tropospheric_heterogeneous_chemistry.gas_phase_species</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>List of gas phase species included in the tropospheric heterogeneous chemistry scheme.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.tropospheric_heterogeneous_chemistry.gas_phase_species</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.tropospheric_heterogeneous_chemistry.gas_phase_species</dd>
+        <dt><b>Description</b></dt><dd>List of gas phase species included in the tropospheric heterogeneous chemistry scheme.</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.tropospheric_heterogeneous_chemistry.gas_phase_species</dd><dt><b>Type</b></dt><dd>cs-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.tropospheric_heterogeneous_chemistry.gas_phase_species</dd>
     </dl>
   </body>
 </html></richcontent></node><node BACKGROUND_COLOR="#C9D787" COLOR="#000000" FOLDED="true" STYLE="bubble" TEXT="aerosol_species"><font BOLD="True" NAME="courier" SIZE="10" /><richcontent TYPE="NOTE"><html>
@@ -2053,14 +2060,14 @@
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe any environmental conditions taken into account by the photolysis scheme (e.g. whether pressure- and temperature-sensitive cross-sections and quantum yields in the photolysis calculations are modified to reflect the modelled conditions.)</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.photo_chemistry.photolysis.environmental_conditions</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.photo_chemistry.photolysis.environmental_conditions</dd>
+        <dt><b>Description</b></dt><dd>Describe any environmental conditions taken into account by the photolysis scheme (e.g. whether pressure- and temperature-sensitive cross-sections and quantum yields in the photolysis calculations are modified to reflect the modelled conditions.)</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.photo_chemistry.photolysis.environmental_conditions</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.photo_chemistry.photolysis.environmental_conditions</dd>
     </dl>
   </body>
 </html></richcontent><richcontent TYPE="NOTE"><html>
   <head />
   <body>
     <dl>
-        <dt><b>Description</b></dt><dd>Describe any environmental conditions taken into account by the photolysis scheme (e.g. whether pressure- and temperature-sensitive cross-sections and quantum yields in the photolysis calculations are modified to reflect the modelled conditions.)</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.photo_chemistry.photolysis.environmental_conditions</dd><dt><b>Type</b></dt><dd>str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.photo_chemistry.photolysis.environmental_conditions</dd>
+        <dt><b>Description</b></dt><dd>Describe any environmental conditions taken into account by the photolysis scheme (e.g. whether pressure- and temperature-sensitive cross-sections and quantum yields in the photolysis calculations are modified to reflect the modelled conditions.)</dd><dt><b>Spec. ID</b></dt><dd>cmip6.atmoschem.photo_chemistry.photolysis.environmental_conditions</dd><dt><b>Type</b></dt><dd>l-str</dd><dt><b>Cardinality</b></dt><dd>0.1</dd><dt><b>Specialization ID</b></dt><dd>cmip6.atmoschem.photo_chemistry.photolysis.environmental_conditions</dd>
     </dl>
   </body>
 </html></richcontent></node></node></node></node></map>
