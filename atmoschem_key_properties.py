@@ -24,7 +24,7 @@ DETAILS['toplevel'] = {
     'properties': [
         ('chemistry_scheme_scope', 'ENUM:chemistry_scheme_scopes', '1.N',
             'Atmospheric domains covered by the atmospheric chemistry model'),
-        ('basic_approximations', 'l-str', '1.1',
+        ('basic_approximations', 'str', '1.1',
             'Basic approximations made in the atmospheric chemistry model',),
         ('prognostic_variables_form', 'ENUM:prognostic_vars_types', '1.N',
             'Form of prognostic variables in the atmospheric chemistry component.'),

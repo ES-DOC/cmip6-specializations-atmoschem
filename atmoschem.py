@@ -28,6 +28,9 @@ CHANGE_HISTORY = [
          "Updated with input from Bill Collins (URead), John Scinocca (CCCma)"),
     ("0.3.0", "2018-04-04", "David Hassell",
         "Replaced some occurences of 'str' with 'cs-str' and 'l-str'"),
+    ("0.3.1", "2018-04-04", "David Hassell",
+        "Removed some l-str"),
+
 ]
 
 # --------------------------------------------------------------------
