@@ -16,6 +16,7 @@
                     "id": "cmip6.atmoschem.transport.name", 
                     "cardinality": "0.1", 
                     "type": "str", 
+                    "is_cim_property": true, 
                     "uiOrdinal": 1
                 }, 
                 {
@@ -24,6 +25,7 @@
                     "id": "cmip6.atmoschem.transport.overview", 
                     "cardinality": "0.1", 
                     "type": "l-str", 
+                    "is_cim_property": true, 
                     "uiOrdinal": 2
                 }, 
                 {
@@ -32,6 +34,7 @@
                     "id": "cmip6.atmoschem.transport.use_atmospheric_transport", 
                     "cardinality": "1.1", 
                     "type": "bool", 
+                    "is_cim_property": false, 
                     "uiOrdinal": 3
                 }, 
                 {
@@ -40,6 +43,7 @@
                     "id": "cmip6.atmoschem.transport.transport_details", 
                     "cardinality": "0.1", 
                     "type": "l-str", 
+                    "is_cim_property": false, 
                     "uiOrdinal": 4
                 }
             ]
@@ -56,6 +60,7 @@
                     "id": "cmip6.atmoschem.emissions_concentrations.name", 
                     "cardinality": "0.1", 
                     "type": "str", 
+                    "is_cim_property": true, 
                     "uiOrdinal": 1
                 }, 
                 {
@@ -64,6 +69,7 @@
                     "id": "cmip6.atmoschem.emissions_concentrations.overview", 
                     "cardinality": "0.1", 
                     "type": "l-str", 
+                    "is_cim_property": true, 
                     "uiOrdinal": 2
                 }
             ], 
@@ -80,6 +86,7 @@
                             "id": "cmip6.atmoschem.emissions_concentrations.surface_emissions.overview", 
                             "cardinality": "0.1", 
                             "type": "str", 
+                            "is_cim_property": true, 
                             "uiOrdinal": 1
                         }, 
                         {
@@ -88,6 +95,7 @@
                             "id": "cmip6.atmoschem.emissions_concentrations.surface_emissions.sources", 
                             "cardinality": "0.N", 
                             "type": "enum", 
+                            "is_cim_property": false, 
                             "enum": {
                                 "label": "Surface Source Types", 
                                 "description": "Sources of the chemical species emitted at the surface that are taken into account in the emissions scheme", 
@@ -123,6 +131,7 @@
                             "id": "cmip6.atmoschem.emissions_concentrations.surface_emissions.method", 
                             "cardinality": "0.N", 
                             "type": "enum", 
+                            "is_cim_property": false, 
                             "enum": {
                                 "label": "Emissions Methods", 
                                 "description": "Method used to define chemical species emitted (several methods allowed because the different species may not use the same method).", 
@@ -154,6 +163,7 @@
                             "id": "cmip6.atmoschem.emissions_concentrations.surface_emissions.prescribed_climatology_emitted_species", 
                             "cardinality": "0.1", 
                             "type": "cs-str", 
+                            "is_cim_property": false, 
                             "uiOrdinal": 4
                         }, 
                         {
@@ -162,6 +172,7 @@
                             "id": "cmip6.atmoschem.emissions_concentrations.surface_emissions.prescribed_spatially_uniform_emitted_species", 
                             "cardinality": "0.1", 
                             "type": "cs-str", 
+                            "is_cim_property": false, 
                             "uiOrdinal": 5
                         }, 
                         {
@@ -170,6 +181,7 @@
                             "id": "cmip6.atmoschem.emissions_concentrations.surface_emissions.interactive_emitted_species", 
                             "cardinality": "0.1", 
                             "type": "cs-str", 
+                            "is_cim_property": false, 
                             "uiOrdinal": 6
                         }, 
                         {
@@ -178,6 +190,7 @@
                             "id": "cmip6.atmoschem.emissions_concentrations.surface_emissions.other_emitted_species", 
                             "cardinality": "0.1", 
                             "type": "cs-str", 
+                            "is_cim_property": false, 
                             "uiOrdinal": 7
                         }
                     ]
@@ -194,6 +207,7 @@
                             "id": "cmip6.atmoschem.emissions_concentrations.atmospheric_emissions.overview", 
                             "cardinality": "0.1", 
                             "type": "str", 
+                            "is_cim_property": true, 
                             "uiOrdinal": 1
                         }, 
                         {
@@ -202,6 +216,7 @@
                             "id": "cmip6.atmoschem.emissions_concentrations.atmospheric_emissions.sources", 
                             "cardinality": "0.N", 
                             "type": "enum", 
+                            "is_cim_property": false, 
                             "enum": {
                                 "label": "Atmospheric Source Types", 
                                 "description": "Sources of the chemical species emitted in the atmosphere that are taken into account in the emissions scheme", 
@@ -233,6 +248,7 @@
                             "id": "cmip6.atmoschem.emissions_concentrations.atmospheric_emissions.method", 
                             "cardinality": "0.N", 
                             "type": "enum", 
+                            "is_cim_property": false, 
                             "enum": {
                                 "label": "Emissions Methods", 
                                 "description": "Method used to define chemical species emitted (several methods allowed because the different species may not use the same method).", 
@@ -264,6 +280,7 @@
                             "id": "cmip6.atmoschem.emissions_concentrations.atmospheric_emissions.prescribed_climatology_emitted_species", 
                             "cardinality": "0.1", 
                             "type": "cs-str", 
+                            "is_cim_property": false, 
                             "uiOrdinal": 4
                         }, 
                         {
@@ -272,6 +289,7 @@
                             "id": "cmip6.atmoschem.emissions_concentrations.atmospheric_emissions.prescribed_spatially_uniform_emitted_species", 
                             "cardinality": "0.1", 
                             "type": "cs-str", 
+                            "is_cim_property": false, 
                             "uiOrdinal": 5
                         }, 
                         {
@@ -280,6 +298,7 @@
                             "id": "cmip6.atmoschem.emissions_concentrations.atmospheric_emissions.interactive_emitted_species", 
                             "cardinality": "0.1", 
                             "type": "cs-str", 
+                            "is_cim_property": false, 
                             "uiOrdinal": 6
                         }, 
                         {
@@ -288,6 +307,7 @@
                             "id": "cmip6.atmoschem.emissions_concentrations.atmospheric_emissions.other_emitted_species", 
                             "cardinality": "0.1", 
                             "type": "cs-str", 
+                            "is_cim_property": false, 
                             "uiOrdinal": 7
                         }
                     ]
@@ -304,6 +324,7 @@
                             "id": "cmip6.atmoschem.emissions_concentrations.concentrations.overview", 
                             "cardinality": "0.1", 
                             "type": "str", 
+                            "is_cim_property": true, 
                             "uiOrdinal": 1
                         }, 
                         {
@@ -312,6 +333,7 @@
                             "id": "cmip6.atmoschem.emissions_concentrations.concentrations.prescribed_lower_boundary", 
                             "cardinality": "0.1", 
                             "type": "cs-str", 
+                            "is_cim_property": false, 
                             "uiOrdinal": 2
                         }, 
                         {
@@ -320,6 +342,7 @@
                             "id": "cmip6.atmoschem.emissions_concentrations.concentrations.prescribed_upper_boundary", 
                             "cardinality": "0.1", 
                             "type": "cs-str", 
+                            "is_cim_property": false, 
                             "uiOrdinal": 3
                         }
                     ]
@@ -338,6 +361,7 @@
                     "id": "cmip6.atmoschem.gas_phase_chemistry.name", 
                     "cardinality": "0.1", 
                     "type": "str", 
+                    "is_cim_property": true, 
                     "uiOrdinal": 1
                 }, 
                 {
@@ -346,6 +370,7 @@
                     "id": "cmip6.atmoschem.gas_phase_chemistry.overview", 
                     "cardinality": "0.1", 
                     "type": "l-str", 
+                    "is_cim_property": true, 
                     "uiOrdinal": 2
                 }, 
                 {
@@ -354,6 +379,7 @@
                     "id": "cmip6.atmoschem.gas_phase_chemistry.species", 
                     "cardinality": "0.N", 
                     "type": "enum", 
+                    "is_cim_property": false, 
                     "enum": {
                         "label": "Species Types", 
                         "description": "Species included in the gas phase chemistry scheme.", 
@@ -405,6 +431,7 @@
                     "id": "cmip6.atmoschem.gas_phase_chemistry.number_of_bimolecular_reactions", 
                     "cardinality": "1.1", 
                     "type": "int", 
+                    "is_cim_property": false, 
                     "uiOrdinal": 4
                 }, 
                 {
@@ -413,6 +440,7 @@
                     "id": "cmip6.atmoschem.gas_phase_chemistry.number_of_termolecular_reactions", 
                     "cardinality": "1.1", 
                     "type": "int", 
+                    "is_cim_property": false, 
                     "uiOrdinal": 5
                 }, 
                 {
@@ -421,6 +449,7 @@
                     "id": "cmip6.atmoschem.gas_phase_chemistry.number_of_tropospheric_heterogenous_reactions", 
                     "cardinality": "1.1", 
                     "type": "int", 
+                    "is_cim_property": false, 
                     "uiOrdinal": 6
                 }, 
                 {
@@ -429,6 +458,7 @@
                     "id": "cmip6.atmoschem.gas_phase_chemistry.number_of_stratospheric_heterogenous_reactions", 
                     "cardinality": "1.1", 
                     "type": "int", 
+                    "is_cim_property": false, 
                     "uiOrdinal": 7
                 }, 
                 {
@@ -437,6 +467,7 @@
                     "id": "cmip6.atmoschem.gas_phase_chemistry.number_of_advected_species", 
                     "cardinality": "1.1", 
                     "type": "int", 
+                    "is_cim_property": false, 
                     "uiOrdinal": 8
                 }, 
                 {
@@ -445,6 +476,7 @@
                     "id": "cmip6.atmoschem.gas_phase_chemistry.number_of_steady_state_species", 
                     "cardinality": "1.1", 
                     "type": "int", 
+                    "is_cim_property": false, 
                     "uiOrdinal": 9
                 }, 
                 {
@@ -453,6 +485,7 @@
                     "id": "cmip6.atmoschem.gas_phase_chemistry.interactive_dry_deposition", 
                     "cardinality": "1.1", 
                     "type": "bool", 
+                    "is_cim_property": false, 
                     "uiOrdinal": 10
                 }, 
                 {
@@ -461,6 +494,7 @@
                     "id": "cmip6.atmoschem.gas_phase_chemistry.wet_deposition", 
                     "cardinality": "1.1", 
                     "type": "bool", 
+                    "is_cim_property": false, 
                     "uiOrdinal": 11
                 }, 
                 {
@@ -469,6 +503,7 @@
                     "id": "cmip6.atmoschem.gas_phase_chemistry.wet_oxidation", 
                     "cardinality": "1.1", 
                     "type": "bool", 
+                    "is_cim_property": false, 
                     "uiOrdinal": 12
                 }
             ]
@@ -485,6 +520,7 @@
                     "id": "cmip6.atmoschem.stratospheric_heterogeneous_chemistry.name", 
                     "cardinality": "0.1", 
                     "type": "str", 
+                    "is_cim_property": true, 
                     "uiOrdinal": 1
                 }, 
                 {
@@ -493,6 +529,7 @@
                     "id": "cmip6.atmoschem.stratospheric_heterogeneous_chemistry.overview", 
                     "cardinality": "0.1", 
                     "type": "l-str", 
+                    "is_cim_property": true, 
                     "uiOrdinal": 2
                 }, 
                 {
@@ -501,6 +538,7 @@
                     "id": "cmip6.atmoschem.stratospheric_heterogeneous_chemistry.gas_phase_species", 
                     "cardinality": "0.N", 
                     "type": "enum", 
+                    "is_cim_property": false, 
                     "enum": {
                         "label": "Gas Phase Species", 
                         "description": "Gas phase species included in the stratospheric heterogeneous chemistry scheme", 
@@ -528,6 +566,7 @@
                     "id": "cmip6.atmoschem.stratospheric_heterogeneous_chemistry.aerosol_species", 
                     "cardinality": "0.N", 
                     "type": "enum", 
+                    "is_cim_property": false, 
                     "enum": {
                         "label": "Aerosol Species", 
                         "description": "Aerosol species included in the stratospheric heterogeneous chemistry scheme", 
@@ -563,6 +602,7 @@
                     "id": "cmip6.atmoschem.stratospheric_heterogeneous_chemistry.number_of_steady_state_species", 
                     "cardinality": "1.1", 
                     "type": "int", 
+                    "is_cim_property": false, 
                     "uiOrdinal": 5
                 }, 
                 {
@@ -571,6 +611,7 @@
                     "id": "cmip6.atmoschem.stratospheric_heterogeneous_chemistry.sedimentation", 
                     "cardinality": "1.1", 
                     "type": "bool", 
+                    "is_cim_property": false, 
                     "uiOrdinal": 6
                 }, 
                 {
@@ -579,6 +620,7 @@
                     "id": "cmip6.atmoschem.stratospheric_heterogeneous_chemistry.coagulation", 
                     "cardinality": "1.1", 
                     "type": "bool", 
+                    "is_cim_property": false, 
                     "uiOrdinal": 7
                 }
             ]
@@ -595,6 +637,7 @@
                     "id": "cmip6.atmoschem.tropospheric_heterogeneous_chemistry.name", 
                     "cardinality": "0.1", 
                     "type": "str", 
+                    "is_cim_property": true, 
                     "uiOrdinal": 1
                 }, 
                 {
@@ -603,6 +646,7 @@
                     "id": "cmip6.atmoschem.tropospheric_heterogeneous_chemistry.overview", 
                     "cardinality": "0.1", 
                     "type": "l-str", 
+                    "is_cim_property": true, 
                     "uiOrdinal": 2
                 }, 
                 {
@@ -611,6 +655,7 @@
                     "id": "cmip6.atmoschem.tropospheric_heterogeneous_chemistry.gas_phase_species", 
                     "cardinality": "0.1", 
                     "type": "cs-str", 
+                    "is_cim_property": false, 
                     "uiOrdinal": 3
                 }, 
                 {
@@ -619,6 +664,7 @@
                     "id": "cmip6.atmoschem.tropospheric_heterogeneous_chemistry.aerosol_species", 
                     "cardinality": "0.N", 
                     "type": "enum", 
+                    "is_cim_property": false, 
                     "enum": {
                         "label": "Aerosol Species", 
                         "description": "Aerosol species included in the stratospheric heterogeneous chemistry scheme", 
@@ -674,6 +720,7 @@
                     "id": "cmip6.atmoschem.tropospheric_heterogeneous_chemistry.number_of_steady_state_species", 
                     "cardinality": "1.1", 
                     "type": "int", 
+                    "is_cim_property": false, 
                     "uiOrdinal": 5
                 }, 
                 {
@@ -682,6 +729,7 @@
                     "id": "cmip6.atmoschem.tropospheric_heterogeneous_chemistry.interactive_dry_deposition", 
                     "cardinality": "1.1", 
                     "type": "bool", 
+                    "is_cim_property": false, 
                     "uiOrdinal": 6
                 }, 
                 {
@@ -690,6 +738,7 @@
                     "id": "cmip6.atmoschem.tropospheric_heterogeneous_chemistry.coagulation", 
                     "cardinality": "1.1", 
                     "type": "bool", 
+                    "is_cim_property": false, 
                     "uiOrdinal": 7
                 }
             ]
@@ -706,6 +755,7 @@
                     "id": "cmip6.atmoschem.photo_chemistry.name", 
                     "cardinality": "0.1", 
                     "type": "str", 
+                    "is_cim_property": true, 
                     "uiOrdinal": 1
                 }, 
                 {
@@ -714,6 +764,7 @@
                     "id": "cmip6.atmoschem.photo_chemistry.overview", 
                     "cardinality": "0.1", 
                     "type": "l-str", 
+                    "is_cim_property": true, 
                     "uiOrdinal": 2
                 }, 
                 {
@@ -722,6 +773,7 @@
                     "id": "cmip6.atmoschem.photo_chemistry.number_of_reactions", 
                     "cardinality": "1.1", 
                     "type": "int", 
+                    "is_cim_property": false, 
                     "uiOrdinal": 3
                 }
             ], 
@@ -738,6 +790,7 @@
                             "id": "cmip6.atmoschem.photo_chemistry.photolysis.overview", 
                             "cardinality": "0.1", 
                             "type": "str", 
+                            "is_cim_property": true, 
                             "uiOrdinal": 1
                         }, 
                         {
@@ -746,6 +799,7 @@
                             "id": "cmip6.atmoschem.photo_chemistry.photolysis.method", 
                             "cardinality": "1.1", 
                             "type": "enum", 
+                            "is_cim_property": false, 
                             "enum": {
                                 "label": "Photolysis Methods", 
                                 "description": "Photolysis scheme", 
@@ -773,6 +827,7 @@
                             "id": "cmip6.atmoschem.photo_chemistry.photolysis.environmental_conditions", 
                             "cardinality": "0.1", 
                             "type": "l-str", 
+                            "is_cim_property": false, 
                             "uiOrdinal": 3
                         }
                     ]
@@ -792,6 +847,7 @@
                 "id": "cmip6.atmoschem.grid.name", 
                 "cardinality": "0.1", 
                 "type": "str", 
+                "is_cim_property": true, 
                 "uiOrdinal": 1
             }, 
             {
@@ -800,6 +856,7 @@
                 "id": "cmip6.atmoschem.grid.overview", 
                 "cardinality": "0.1", 
                 "type": "l-str", 
+                "is_cim_property": true, 
                 "uiOrdinal": 2
             }, 
             {
@@ -808,6 +865,7 @@
                 "id": "cmip6.atmoschem.grid.matches_atmosphere_grid", 
                 "cardinality": "1.1", 
                 "type": "bool", 
+                "is_cim_property": false, 
                 "uiOrdinal": 3
             }
         ], 
@@ -824,6 +882,7 @@
                         "id": "cmip6.atmoschem.grid.resolution.overview", 
                         "cardinality": "0.1", 
                         "type": "str", 
+                        "is_cim_property": true, 
                         "uiOrdinal": 1
                     }, 
                     {
@@ -832,6 +891,7 @@
                         "id": "cmip6.atmoschem.grid.resolution.name", 
                         "cardinality": "1.1", 
                         "type": "str", 
+                        "is_cim_property": false, 
                         "uiOrdinal": 2
                     }, 
                     {
@@ -840,6 +900,7 @@
                         "id": "cmip6.atmoschem.grid.resolution.canonical_horizontal_resolution", 
                         "cardinality": "0.1", 
                         "type": "str", 
+                        "is_cim_property": false, 
                         "uiOrdinal": 3
                     }, 
                     {
@@ -848,6 +909,7 @@
                         "id": "cmip6.atmoschem.grid.resolution.number_of_horizontal_gridpoints", 
                         "cardinality": "0.1", 
                         "type": "int", 
+                        "is_cim_property": false, 
                         "uiOrdinal": 4
                     }, 
                     {
@@ -856,6 +918,7 @@
                         "id": "cmip6.atmoschem.grid.resolution.number_of_vertical_levels", 
                         "cardinality": "0.1", 
                         "type": "int", 
+                        "is_cim_property": false, 
                         "uiOrdinal": 5
                     }, 
                     {
@@ -864,6 +927,7 @@
                         "id": "cmip6.atmoschem.grid.resolution.is_adaptive_grid", 
                         "cardinality": "0.1", 
                         "type": "bool", 
+                        "is_cim_property": false, 
                         "uiOrdinal": 6
                     }
                 ]
@@ -882,6 +946,7 @@
                 "id": "cmip6.atmoschem.key_properties.name", 
                 "cardinality": "1.1", 
                 "type": "str", 
+                "is_cim_property": true, 
                 "uiOrdinal": 1
             }, 
             {
@@ -890,6 +955,7 @@
                 "id": "cmip6.atmoschem.key_properties.keywords", 
                 "cardinality": "1.1", 
                 "type": "cs-str", 
+                "is_cim_property": true, 
                 "uiOrdinal": 2
             }, 
             {
@@ -898,6 +964,7 @@
                 "id": "cmip6.atmoschem.key_properties.overview", 
                 "cardinality": "1.1", 
                 "type": "l-str", 
+                "is_cim_property": true, 
                 "uiOrdinal": 3
             }, 
             {
@@ -906,6 +973,7 @@
                 "id": "cmip6.atmoschem.key_properties.chemistry_scheme_scope", 
                 "cardinality": "1.N", 
                 "type": "enum", 
+                "is_cim_property": false, 
                 "enum": {
                     "label": "Chemistry Scheme Scopes", 
                     "description": "Atmospheric domains covered by the atmospheric chemistry model", 
@@ -941,6 +1009,7 @@
                 "id": "cmip6.atmoschem.key_properties.basic_approximations", 
                 "cardinality": "1.1", 
                 "type": "l-str", 
+                "is_cim_property": false, 
                 "uiOrdinal": 5
             }, 
             {
@@ -949,6 +1018,7 @@
                 "id": "cmip6.atmoschem.key_properties.prognostic_variables_form", 
                 "cardinality": "1.N", 
                 "type": "enum", 
+                "is_cim_property": false, 
                 "enum": {
                     "label": "Prognostic Vars Types", 
                     "description": "Form of prognostic variables in the atmospheric chemistry component.", 
@@ -968,6 +1038,7 @@
                 "id": "cmip6.atmoschem.key_properties.number_of_tracers", 
                 "cardinality": "1.1", 
                 "type": "int", 
+                "is_cim_property": false, 
                 "uiOrdinal": 7
             }, 
             {
@@ -976,6 +1047,7 @@
                 "id": "cmip6.atmoschem.key_properties.family_approach", 
                 "cardinality": "1.1", 
                 "type": "bool", 
+                "is_cim_property": false, 
                 "uiOrdinal": 8
             }, 
             {
@@ -984,6 +1056,7 @@
                 "id": "cmip6.atmoschem.key_properties.coupling_with_chemical_reactivity", 
                 "cardinality": "1.1", 
                 "type": "bool", 
+                "is_cim_property": false, 
                 "uiOrdinal": 9
             }
         ], 
@@ -999,6 +1072,7 @@
                         "id": "cmip6.atmoschem.key_properties.software_properties.repository", 
                         "cardinality": "0.1", 
                         "type": "str", 
+                        "is_cim_property": false, 
                         "uiOrdinal": 1
                     }, 
                     {
@@ -1007,6 +1081,7 @@
                         "id": "cmip6.atmoschem.key_properties.software_properties.code_version", 
                         "cardinality": "0.1", 
                         "type": "str", 
+                        "is_cim_property": false, 
                         "uiOrdinal": 2
                     }, 
                     {
@@ -1015,6 +1090,7 @@
                         "id": "cmip6.atmoschem.key_properties.software_properties.code_languages", 
                         "cardinality": "0.1", 
                         "type": "cs-str", 
+                        "is_cim_property": false, 
                         "uiOrdinal": 3
                     }
                 ]
@@ -1033,6 +1109,7 @@
                         "id": "cmip6.atmoschem.key_properties.timestep_framework.overview", 
                         "cardinality": "0.1", 
                         "type": "str", 
+                        "is_cim_property": true, 
                         "uiOrdinal": 1
                     }, 
                     {
@@ -1041,6 +1118,7 @@
                         "id": "cmip6.atmoschem.key_properties.timestep_framework.method", 
                         "cardinality": "1.1", 
                         "type": "enum", 
+                        "is_cim_property": false, 
                         "enum": {
                             "label": "Timestepping Methods", 
                             "description": "Mathematical method deployed to solve the evolution of a given variable", 
@@ -1064,6 +1142,7 @@
                         "id": "cmip6.atmoschem.key_properties.timestep_framework.split_operator_advection_timestep", 
                         "cardinality": "0.1", 
                         "type": "int", 
+                        "is_cim_property": false, 
                         "uiOrdinal": 3
                     }, 
                     {
@@ -1072,6 +1151,7 @@
                         "id": "cmip6.atmoschem.key_properties.timestep_framework.split_operator_physical_timestep", 
                         "cardinality": "0.1", 
                         "type": "int", 
+                        "is_cim_property": false, 
                         "uiOrdinal": 4
                     }, 
                     {
@@ -1080,6 +1160,7 @@
                         "id": "cmip6.atmoschem.key_properties.timestep_framework.split_operator_chemistry_timestep", 
                         "cardinality": "0.1", 
                         "type": "int", 
+                        "is_cim_property": false, 
                         "uiOrdinal": 5
                     }, 
                     {
@@ -1088,6 +1169,7 @@
                         "id": "cmip6.atmoschem.key_properties.timestep_framework.split_operator_alternate_order", 
                         "cardinality": "0.1", 
                         "type": "bool", 
+                        "is_cim_property": false, 
                         "uiOrdinal": 6
                     }, 
                     {
@@ -1096,6 +1178,7 @@
                         "id": "cmip6.atmoschem.key_properties.timestep_framework.integrated_timestep", 
                         "cardinality": "1.1", 
                         "type": "int", 
+                        "is_cim_property": false, 
                         "uiOrdinal": 7
                     }, 
                     {
@@ -1104,6 +1187,7 @@
                         "id": "cmip6.atmoschem.key_properties.timestep_framework.integrated_scheme_type", 
                         "cardinality": "1.1", 
                         "type": "enum", 
+                        "is_cim_property": false, 
                         "enum": {
                             "label": "Integrated Scheme Types", 
                             "description": "Specify the type of timestep scheme", 
@@ -1158,6 +1242,7 @@
                                 "id": "cmip6.atmoschem.key_properties.timestep_framework.split_operator_order.turbulence", 
                                 "cardinality": "0.1", 
                                 "type": "int", 
+                                "is_cim_property": false, 
                                 "uiOrdinal": 1
                             }, 
                             {
@@ -1166,6 +1251,7 @@
                                 "id": "cmip6.atmoschem.key_properties.timestep_framework.split_operator_order.convection", 
                                 "cardinality": "0.1", 
                                 "type": "int", 
+                                "is_cim_property": false, 
                                 "uiOrdinal": 2
                             }, 
                             {
@@ -1174,6 +1260,7 @@
                                 "id": "cmip6.atmoschem.key_properties.timestep_framework.split_operator_order.precipitation", 
                                 "cardinality": "0.1", 
                                 "type": "int", 
+                                "is_cim_property": false, 
                                 "uiOrdinal": 3
                             }, 
                             {
@@ -1182,6 +1269,7 @@
                                 "id": "cmip6.atmoschem.key_properties.timestep_framework.split_operator_order.emissions", 
                                 "cardinality": "0.1", 
                                 "type": "int", 
+                                "is_cim_property": false, 
                                 "uiOrdinal": 4
                             }, 
                             {
@@ -1190,6 +1278,7 @@
                                 "id": "cmip6.atmoschem.key_properties.timestep_framework.split_operator_order.deposition", 
                                 "cardinality": "0.1", 
                                 "type": "int", 
+                                "is_cim_property": false, 
                                 "uiOrdinal": 5
                             }, 
                             {
@@ -1198,6 +1287,7 @@
                                 "id": "cmip6.atmoschem.key_properties.timestep_framework.split_operator_order.gas_phase_chemistry", 
                                 "cardinality": "0.1", 
                                 "type": "int", 
+                                "is_cim_property": false, 
                                 "uiOrdinal": 6
                             }, 
                             {
@@ -1206,6 +1296,7 @@
                                 "id": "cmip6.atmoschem.key_properties.timestep_framework.split_operator_order.tropospheric_heterogeneous_phase_chemistry", 
                                 "cardinality": "0.1", 
                                 "type": "int", 
+                                "is_cim_property": false, 
                                 "uiOrdinal": 7
                             }, 
                             {
@@ -1214,6 +1305,7 @@
                                 "id": "cmip6.atmoschem.key_properties.timestep_framework.split_operator_order.stratospheric_heterogeneous_phase_chemistry", 
                                 "cardinality": "0.1", 
                                 "type": "int", 
+                                "is_cim_property": false, 
                                 "uiOrdinal": 8
                             }, 
                             {
@@ -1222,6 +1314,7 @@
                                 "id": "cmip6.atmoschem.key_properties.timestep_framework.split_operator_order.photo_chemistry", 
                                 "cardinality": "0.1", 
                                 "type": "int", 
+                                "is_cim_property": false, 
                                 "uiOrdinal": 9
                             }, 
                             {
@@ -1230,6 +1323,7 @@
                                 "id": "cmip6.atmoschem.key_properties.timestep_framework.split_operator_order.aerosols", 
                                 "cardinality": "0.1", 
                                 "type": "int", 
+                                "is_cim_property": false, 
                                 "uiOrdinal": 10
                             }
                         ]
@@ -1248,6 +1342,7 @@
                         "id": "cmip6.atmoschem.key_properties.tuning_applied.overview", 
                         "cardinality": "0.1", 
                         "type": "str", 
+                        "is_cim_property": true, 
                         "uiOrdinal": 1
                     }, 
                     {
@@ -1256,6 +1351,7 @@
                         "id": "cmip6.atmoschem.key_properties.tuning_applied.description", 
                         "cardinality": "1.1", 
                         "type": "l-str", 
+                        "is_cim_property": false, 
                         "uiOrdinal": 2
                     }, 
                     {
@@ -1264,6 +1360,7 @@
                         "id": "cmip6.atmoschem.key_properties.tuning_applied.global_mean_metrics_used", 
                         "cardinality": "0.1", 
                         "type": "cs-str", 
+                        "is_cim_property": false, 
                         "uiOrdinal": 3
                     }, 
                     {
@@ -1272,6 +1369,7 @@
                         "id": "cmip6.atmoschem.key_properties.tuning_applied.regional_metrics_used", 
                         "cardinality": "0.1", 
                         "type": "cs-str", 
+                        "is_cim_property": false, 
                         "uiOrdinal": 4
                     }, 
                     {
@@ -1280,6 +1378,7 @@
                         "id": "cmip6.atmoschem.key_properties.tuning_applied.trend_metrics_used", 
                         "cardinality": "0.1", 
                         "type": "cs-str", 
+                        "is_cim_property": false, 
                         "uiOrdinal": 5
                     }
                 ]
